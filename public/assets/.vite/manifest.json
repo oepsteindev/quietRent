@@ -1,0 +1,194 @@
+{
+  "src/main.js": {
+    "file": "assets/main-Bn3-hvcB.js",
+    "name": "main",
+    "src": "src/main.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/views/Login.vue",
+      "src/views/Register.vue",
+      "src/views/ForgotPassword.vue",
+      "src/views/ResetPassword.vue",
+      "src/views/Dashboard.vue",
+      "src/views/Properties.vue",
+      "src/views/PropertyDetail.vue",
+      "src/views/Tenants.vue",
+      "src/views/TenantDetail.vue",
+      "src/views/Rent.vue",
+      "src/views/Appointments.vue",
+      "src/views/Jobs.vue",
+      "src/views/Invoices.vue",
+      "src/views/InvoiceBuilder.vue",
+      "src/views/InvoiceBuilder.vue",
+      "src/views/AppointmentPayments.vue",
+      "src/views/Import.vue",
+      "src/views/Settings.vue",
+      "src/views/Billing.vue"
+    ],
+    "css": [
+      "assets/main-Cdg0c8uP.css"
+    ]
+  },
+  "src/views/AppointmentPayments.vue": {
+    "file": "assets/AppointmentPayments-NNezhalb.js",
+    "name": "AppointmentPayments",
+    "src": "src/views/AppointmentPayments.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ]
+  },
+  "src/views/Appointments.vue": {
+    "file": "assets/Appointments-3Zxdqo1-.js",
+    "name": "Appointments",
+    "src": "src/views/Appointments.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ]
+  },
+  "src/views/Billing.vue": {
+    "file": "assets/Billing-WbJVbx-Y.js",
+    "name": "Billing",
+    "src": "src/views/Billing.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ]
+  },
+  "src/views/Dashboard.vue": {
+    "file": "assets/Dashboard-BfJ-RXHd.js",
+    "name": "Dashboard",
+    "src": "src/views/Dashboard.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ]
+  },
+  "src/views/ForgotPassword.vue": {
+    "file": "assets/ForgotPassword-DrcOfJ7i.js",
+    "name": "ForgotPassword",
+    "src": "src/views/ForgotPassword.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ]
+  },
+  "src/views/Import.vue": {
+    "file": "assets/Import-D5AxwYIS.js",
+    "name": "Import",
+    "src": "src/views/Import.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ]
+  },
+  "src/views/InvoiceBuilder.vue": {
+    "file": "assets/InvoiceBuilder-D-qe7SdE.js",
+    "name": "InvoiceBuilder",
+    "src": "src/views/InvoiceBuilder.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ]
+  },
+  "src/views/Invoices.vue": {
+    "file": "assets/Invoices-DV05MoE1.js",
+    "name": "Invoices",
+    "src": "src/views/Invoices.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ]
+  },
+  "src/views/Jobs.vue": {
+    "file": "assets/Jobs-BEXSeglc.js",
+    "name": "Jobs",
+    "src": "src/views/Jobs.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ]
+  },
+  "src/views/Login.vue": {
+    "file": "assets/Login-B0PmWdv6.js",
+    "name": "Login",
+    "src": "src/views/Login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ]
+  },
+  "src/views/Properties.vue": {
+    "file": "assets/Properties-CyBYA4_X.js",
+    "name": "Properties",
+    "src": "src/views/Properties.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ]
+  },
+  "src/views/PropertyDetail.vue": {
+    "file": "assets/PropertyDetail-DGBKy0Xv.js",
+    "name": "PropertyDetail",
+    "src": "src/views/PropertyDetail.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ]
+  },
+  "src/views/Register.vue": {
+    "file": "assets/Register-BDG2Zw6x.js",
+    "name": "Register",
+    "src": "src/views/Register.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ]
+  },
+  "src/views/Rent.vue": {
+    "file": "assets/Rent-CI50aiZU.js",
+    "name": "Rent",
+    "src": "src/views/Rent.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ]
+  },
+  "src/views/ResetPassword.vue": {
+    "file": "assets/ResetPassword-CQ_znCoJ.js",
+    "name": "ResetPassword",
+    "src": "src/views/ResetPassword.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ]
+  },
+  "src/views/Settings.vue": {
+    "file": "assets/Settings-s_6dJaN_.js",
+    "name": "Settings",
+    "src": "src/views/Settings.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ]
+  },
+  "src/views/TenantDetail.vue": {
+    "file": "assets/TenantDetail-om0iM4FL.js",
+    "name": "TenantDetail",
+    "src": "src/views/TenantDetail.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ]
+  },
+  "src/views/Tenants.vue": {
+    "file": "assets/Tenants-Cp-Beeum.js",
+    "name": "Tenants",
+    "src": "src/views/Tenants.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
+    ]
+  }
+}

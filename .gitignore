@@ -1,0 +1,11 @@
+.env
+.env.local
+.claude/
+.env.*.local
+node_modules/
+vendor/
+.DS_Store
+.smbdelete*
+.sessions/
+tools/unsubscribed.txt
+tools/outreach_sent*.log

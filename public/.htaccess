@@ -1,0 +1,16 @@
+Options -Indexes
+
+RewriteEngine On
+
+# Don't rewrite real files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Send everything to index.php
+RewriteRule ^ index.php [L]
+
+# Deny .env access
+<Files ".env">
+    Order allow,deny
+    Deny from all
+</Files>

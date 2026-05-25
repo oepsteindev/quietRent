@@ -1,0 +1,75 @@
+services:
+  app:
+    build: ./docker/php
+    container_name: quietrent_app
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - quietrent
+
+  web:
+    image: nginx:alpine
+    container_name: quietrent_web
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - app
+    networks:
+      - quietrent
+
+  db:
+    image: mysql:8.0
+    container_name: quietrent_db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: quietrent
+      MYSQL_USER: quietrent
+      MYSQL_PASSWORD: secret
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks:
+      - quietrent
+
+  cron:
+    build: ./docker/php
+    container_name: quietrent_cron
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - quietrent
+    command: sh -c "echo '* * * * * php /var/www/html/cron/run.php >> /var/log/quietrent-cron.log 2>&1' | crontab - && crond -f -l 8"
+
+  node:
+    image: node:20-alpine
+    container_name: quietrent_node
+    working_dir: /var/www/html/frontend
+    volumes:
+      - .:/var/www/html
+      - /var/www/html/frontend/node_modules
+    command: sh -c "npm install && npm run dev"
+    ports:
+      - "5174:5173"
+    networks:
+      - quietrent
+
+volumes:
+  db_data:
+
+networks:
+  quietrent:

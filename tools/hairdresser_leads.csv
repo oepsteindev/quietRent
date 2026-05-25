@@ -1,0 +1,686 @@
+company,address,phone,website,emails
+"Le Salon Mia","4008 Fiesta Plaza, Tampa, FL 33607, USA","(813) 353-1282",http://lesalonmia.com/,user@domain.com
+"Queenie's Hair Studio","10019 N Dale Mabry Hwy Ste 200, Tampa, FL 33618, USA","(813) 834-5762",https://queeniehairstudio.com/,queeniehairstudio@gmail.com
+"Salon Cypress","2746 N Florida Ave, Tampa, FL 33602, USA","(813) 512-2332",https://www.saloncypresstampa.com/,"saloncypresstampa@gmail.com, user@domain.com"
+"Edge By Mystic Hair","14447 N Dale Mabry Hwy, Tampa, FL 33618, USA","(813) 963-7575",https://www.edgesalontampa.com/,"%20weloveredken@gmail.com, 20weloveredken@gmail.com"
+"Sand Hair Co.","5226 N Nebraska Ave Suite 2, Tampa, FL 33603, USA","(813) 373-6121",http://sandhair.co/,"sandhairco@gmail.com, user@domain.com"
+"SALON BRAZYL","11921 N Dale Mabry Hwy Ste. 9, Tampa, FL 33618, USA","(813) 789-0960",https://salonbrazyl.com/,tish@salonbrazyl.com
+"South Tampa Salon","4020 W Kennedy Blvd suite 105, Tampa, FL 33609, USA","(813) 955-4329",https://www.southtampasalon.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 78f7996315bc402f9dcb8a2f974b82d1@sentry.wixpress.com, 5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com"
+"Haas Salon","4261 Henderson Blvd, Tampa, FL 33629, USA","(813) 892-0813",https://www.haassalon.com/,user@domain.com
+"Dania's Hair Studio","6912 N Armenia Ave, Tampa, FL 33604, USA","(813) 515-5361",http://www.daniashairstudio.com/,daniahairstudio@icloud.com
+"The Study Salon","4705 N Florida Ave, Tampa, FL 33603, USA","(813) 538-3648",https://thestudysalon.com/,"thestudyextensions@gmail.com, thestudyextensions@yahoo.com"
+"Heavenly Hair and Beauty","10005 N Dale Mabry Hwy Suite 159, Tampa, FL 33618, USA","(813) 638-2139",http://www.heavenlyhairtampa.com/,"jonpinhorn.typedesign@gmail.com, filler@godaddy.com"
+"Monaco Hair Salon Tampa","143 S Dale Mabry Hwy, Tampa, FL 33609, USA","(813) 870-1709",https://www.monacosalon.com/contact/hair-salon-tampa-map-and-info/?utm_source=google&utm_medium=organic&utm_campaign=gbp1_DM,baytobay@monacosalon.com
+"Tribeca Salon Seminole Heights","6008 N Florida Ave, Tampa, FL 33604, USA","(813) 242-4080",https://tribeca-colorsalons.insightencore.online/,
+"Tampa's Beauty Lounge","109 N Armenia Ave, Tampa, FL 33609, USA","(813) 443-6598",http://www.tampasbeautylounge.com/,user@domain.com
+"Salon Halo South Tampa","4110 Henderson Blvd A, Tampa, FL 33629, USA","(813) 686-6993",http://www.salon-halo.com/,
+"Salon Halo Carrollwood","11608 N Dale Mabry Hwy, Tampa, FL 33618, USA","(813) 968-4202",http://www.salon-halo.com/,
+"The Salon and Spa at Mystic Hair","13801 N Dale Mabry Hwy, Tampa, FL 33618, USA","(813) 264-2215",https://mystichair.com/,"%20welovepureology@gmail.com, 20welovepureology@gmail.com"
+"Shampoo the salon","210 E Bearss Ave, Tampa, FL 33613, USA","(813) 908-6575",https://www.shampoo-thesalon.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 463991d7bca24f02a0baf16f9e6eda73@sentry.wixpress.com, 18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 1eeb89147c984dc6bc3ffafd9e6cd089@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com, bfb679c754744c58a7374ee6e25cfc13@sentry.wixpress.com, shampoothesalon@gmail.com"
+"AVEDA Salon Norrell - Carrollwood","10320 N Dale Mabry Hwy, Tampa, FL 33618, USA","(813) 265-2000",http://www.tampaaveda.com/,"concierge@salonnorrell.com, user@domain.com"
+"Tribeca Salon South Tampa","920 W Kennedy Blvd, Tampa, FL 33606, USA","(813) 250-0208",http://www.tribecasalon.com/,
+"Mooi Salon and Spa","2307 S Dale Mabry Hwy Suite E, Tampa, FL 33629, USA","(813) 409-4900",https://www.mooisalonandspa.com/,"frontdeskmooi@gmail.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"Favorite Salon Tampa","4308 N Florida Ave, Tampa, FL 33603, USA",,http://www.favoritesalon.com/,"user@domain.com, favoritesalontampa@gmail.com"
+"Gossip Curl","10005 N Dale Mabry Hwy, Tampa, FL 33618, USA",,http://gossipcurl.glossgenius.com/,
+"MATERIAL - Tampa","2502 N Howard Ave suite a, Tampa, FL 33607, USA","(813) 280-1356",http://www.materialtampa.com/,
+"Salon Hyde Park","533 S Howard Ave #9, Tampa, FL 33606, USA","(813) 253-0200",http://www.salonhydepark.com/,
+"Adora Salon","2501 N Armenia Ave, Tampa, FL 33607, USA","(813) 862-5662",https://adorasalonfl.com/,
+"Hair Bar Experts","1018 W Hillsborough Ave, Tampa, FL 33603, USA","(813) 235-3718",,
+"Hair Cuts Salon","4127 W Waters Ave, Tampa, FL 33614, USA","(813) 901-5413",,
+"Hair Lab Tampa","4111 Henderson Blvd STE B, Tampa, FL 33629, USA","(813) 368-6321",http://www.hairlabtampa.com/,"info@hairlabtampa.com, email@example.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 88170cb0c9d64f94b5821ca7fd2d55a4@sentry-next.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com"
+"U.B.U. Color Salon","2511 W Swann Ave # 101, Tampa, FL 33609, USA","(813) 801-9700",http://www.ubucolorsalon.com/,
+"Hair and Co. Tampa","14849 N Dale Mabry Hwy, Tampa, FL 33618, USA","(813) 269-7682",http://www.hairandco.co/,"hairandcotampa@gmail.com, hairandco@gmail.com"
+"Haute Hair Studio Tampa","150 S Dale Mabry Hwy, Tampa, FL 33609, USA","(813) 683-1727",http://www.hautehairtampa.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, baf30a2b91654c5a840931f0137bed30@sentry.wixpress.com, 0e6a29e4756740a8a63493e912ba2174@sentry.wixpress.com, ed436f5053144538958ad06a5005e99a@sentry.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com, hautehairtampa@gmail.com"
+"Salon Divinty 83","2110 W Busch Blvd, Tampa, FL 33612, USA","(813) 443-3502",http://www.stylemescato.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, questions@stylemescato.com"
+"Rejuv Aveda Salon & Barbershop","315 W Palm Ave, Tampa, FL 33602, USA","(813) 442-8767",http://www.rejuvsalonbarber.com/,rejuvsalonbarber@gmail.com
+"Salon Lofts","1193 Gramercy Ln, Tampa, FL 33607, USA","(941) 739-6880",https://salonlofts.com/salons/midtown_tampa?utm_source=apple_maps&utm_medium=organic&utm_campaign=yext,
+"Madison Reed Hair Color Bar Midtown Tampa","1105 Assembly Dr, Tampa, FL 33607, USA","(813) 212-8472",https://www.madison-reed.com/colorbar/locations/fl-midtown-tampa,"hcbmidtowmtampafl@madison-reed.com, hcb0073_mgmt@madison-reed.com"
+"Monaco Hair Extensions Salon South Tampa","3401 W Bay to Bay Blvd, Tampa, FL 33629, USA","(813) 259-7555",https://www.monacosalon.com/contact/monaco-hair-extensions-salon-south-tampa/?utm_source=google&utm_medium=organic&utm_campaign=gbp_B2B,baytobay@monacosalon.com
+"The Shop Salon","3638 W Kennedy Blvd, Tampa, FL 33609, USA","(813) 872-7467",,
+"Naara Dominican Hair Studio (Dominican Salon)","4002 W Waters Ave, Tampa, FL 33614, USA","(813) 450-1078",,
+"Salon Inga'","11722 N Dale Mabry Hwy, Tampa, FL 33618, USA","(813) 963-1313",http://www.saloninga.com/,
+"CH1 Luxury Hair","3435 S Westshore Blvd, Tampa, FL 33629, USA","(813) 428-3634",http://www.ch1luxuryhair.com/,"user@domain.com, jordan@ch1luxuryhair.com"
+"Meilings Chair","2901 W Busch Blvd, Tampa, FL 33618, USA","(813) 650-7767",http://www.meilingschair.com/,info@indiantypefoundry.com
+"Bubbles and Blowouts Beauty Lounge","808 S Dale Mabry Hwy, Tampa, FL 33609, USA","(813) 871-2822",http://www.bubblesandblowouts.com/,hello@bubblesandblowouts.com
+"The Rose Room Salon","3301 S Westshore Blvd, Tampa, FL 33629, USA","(813) 992-8081",https://www.theroseroomsalontampa.com/,"user@domain.com, email@example.com"
+"K Soho salon","715 S Howard Ave, Tampa, FL 33606, USA","(813) 254-1091",https://ksohosalon.com/,
+"Elevate Hair Salon","301 S MacDill Ave, Tampa, FL 33609, USA","(813) 832-1115",https://barbaraforgione.com/,
+"Eyes On You Salon - Color, Hair & Lash Extension Experts","1902 W Kennedy Blvd Unit 3, Tampa, FL 33606, USA","(813) 434-0234",http://www.eyesonyoutampa.com/,
+"LETTY'S HAIR STUDIO SALON","9729 N Armenia Ave, Tampa, FL 33612, USA","(954) 740-3845",,
+"Hair by Carlos","8850 N Himes Ave, Tampa, FL 33614, USA","(813) 728-8397",,
+"Impressions Hair Salon","2724 W Waters Ave, Tampa, FL 33614, USA","(813) 935-9289",,
+"Extended Beauty Hair and Spa @Salon Loft Carrollwood","13145 North Dale Mabry Highway #D, Studio 27, Tampa, FL 33618, USA","(813) 557-4673",https://linktr.ee/Extended_beauty,
+"Midtown Salon - Tampa Beauty & Hair","1193 Gramercy Ln Loft Suite #5, Tampa, FL 33607, USA","(813) 408-2954",https://salonlofts.com/jessika_hatter/schedule,
+"Natalia Hair Salon","4023 W Waters Ave UNIT 13, Tampa, FL 33614, USA","(813) 885-4839",,
+"Phenix Salon Suites Tampa","10005 N Dale Mabry Hwy, Tampa, FL 33618, USA","(813) 755-3008",https://phenixsalonstampa.com/,info.tampa@phenixsalonsuites.com
+"Lola's Beauty Salon","7901 N Armenia Ave # E, Tampa, FL 33604, USA","(813) 724-5273",,
+"Salon Lofts","1108 S Dale Mabry Hwy, Tampa, FL 33629, USA","(813) 254-3400",https://salonlofts.com/salons/s_dale_mabry?utm_source=apple_maps&utm_medium=organic&utm_campaign=yext,
+"Salon Kym Belle","308 E M.L.K. Jr Blvd Suite F, Tampa, FL 33603, USA","(813) 221-2355",http://salonkymbelle.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com, ed436f5053144538958ad06a5005e99a@sentry.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8c30b2581acc426badc414e8a5dc04ef@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com, 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com, salonkymbelle@yahoo.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com"
+"Fame & Foils Color Bar","3401 Henderson Blvd #3988, Tampa, FL 33609, USA","(813) 353-3263",http://www.fameandfoilscolorbar.com/,user@domain.com
+"Hair and Beauty Lab","6754 Memorial Hwy, Tampa, FL 33615, USA","(813) 797-2248",,
+"Village Hair","5370 W Village Dr, Tampa, FL 33624, USA","(813) 962-0976",,
+"Salon Swank","2253 Central Ave #103, St. Petersburg, FL 33713, USA","(727) 800-5047",http://www.salonswankstpete.com/,
+"Euphoria Salon and Day Spa","6120 Central Ave, St. Petersburg, FL 33707, USA","(727) 384-6600",http://www.euphoriasalonanddayspa.com/,
+"Salon Pearl","3100 49th Street N, St. Petersburg, FL 33710, USA","(727) 343-4000",https://www.salonpearl.com/,"info@salonpearl.com, customerservice@salonpearl.com, webmaster@salonpearl-com.office-art.biz"
+"Salon Volo Inc.","5848 54th Ave N, St. Petersburg, FL 33709, USA","(727) 545-1905",http://www.salonvolo.com/,myhair@salonvolo.com
+"Salty Roots Salon","3658 Central Ave, St. Petersburg, FL 33711, USA","(727) 954-4786",http://www.saltyrootssalon.com/,
+"Olivia Poppy Salon","1800 4th St N, St. Petersburg, FL 33704, USA","(727) 290-9350",http://www.oliviapoppysalon.com/,"hello@oliviapoppysalon.com, user@domain.com"
+"Roots Salon","6299 Central Ave, St. Petersburg, FL 33710, USA","(727) 347-0400",https://www.rootsoncentral.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c30b2581acc426badc414e8a5dc04ef@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"DRIFT Salon - UPTOWN - Blonding & Balayage","2930 Dr M.L.K. Jr St N Unit A, St. Petersburg, FL 33704, USA","(727) 220-6746",https://www.driftblondingandbalayagesalon.com/,"user@domain.com, salon.drift@gmail.com"
+"The Palm Hair Co.","1411 16th St N, St. Petersburg, FL 33704, USA","(727) 371-6295",http://www.thepalmhairco.com/,"info@thepalmhairco.com, user@domain.com, info@manegrovesalon.com"
+"J.Con Salon and Spa Aveda","5811 4th St N, St. Petersburg, FL 33703, USA","(727) 525-9119",http://www.jconsalon.com/,reachus@jconsalon.com
+"Salon Elements","1592 Central Ave Suite 113, St. Petersburg, FL 33705, USA","(727) 490-9136",http://www.salonelements113.com/,"info@salonelements113.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, f36cc48fb72b4d298c835f2793cf3b84@sentry-next.wixpress.com, 88170cb0c9d64f94b5821ca7fd2d55a4@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, ed436f5053144538958ad06a5005e99a@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com"
+"Salon Swank","6649 Central Ave, St. Petersburg, FL 33710, USA","(727) 343-0798",http://www.salonswankstpete.com/,
+"Thairapy & Co. Hair Lounge","3801 Park St N #2, St. Petersburg, FL 33709, USA","(727) 343-8783",https://www.thairapyhairlounge.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"Aacardi the Salon","4046 Park St N, St. Petersburg, FL 33709, USA","(727) 343-1234",https://www.aacardithesalon.com/,"info@aacardithesalon.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com, 18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 1eeb89147c984dc6bc3ffafd9e6cd089@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com"
+"Maven & Mane Salon","511 Dr M.L.K. Jr St N, St. Petersburg, FL 33701, USA","(941) 404-5599",https://www.mavenandmane.com/,your-email@example.com
+"Hair by MJ - Salon","406 11th Ave N, St. Petersburg, FL 33701, USA",,http://mjmua.com/,mjhairmakeup@gmail.com
+"The Hive Salon","4605 4th St N, St. Petersburg, FL 33703, USA","(727) 202-7135",https://hivesalonstpete.com/,
+Empower,"1506 4th St N, St. Petersburg, FL 33704, USA","(727) 316-2609",http://www.empowerstpete.com/,"empowerstpete@yahoo.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, ed436f5053144538958ad06a5005e99a@sentry.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, 79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com"
+"MELT Salon","2845 Central Ave, St. Petersburg, FL 33713, USA","(727) 619-4160",http://www.melthair.com/,"info@melthair.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"Boho Beauty Bar","11 7th St N, St. Petersburg, FL 33701, USA","(727) 643-4577",https://www.bohobeauty616.com/,
+"Nourish Salon and Spa","9059 4th St N, St. Petersburg, FL 33702, USA","(727) 954-5260",https://nourishstpete.com/,info@ndiscovered.com
+"The Haus Salon + Studios","244 Dr M.L.K. Jr St N, St. Petersburg, FL 33705, USA","(727) 463-7598",https://hausofchantelsalon.com/,
+"Ann's Salon","2040 16th St N, St. Petersburg, FL 33704, USA","(727) 822-1383",,
+"Practically Frivolous Salon and Spa","4140 16th St N, St. Petersburg, FL 33703, USA","(727) 528-2702",http://www.practicallyfrivolous.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 88170cb0c9d64f94b5821ca7fd2d55a4@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"Velvet Edge Salon & Barbershop","538 Central Ave, St. Petersburg, FL 33701, USA","(727) 209-8588",https://www.velvetedgesalon.com/,"velvetedgesalon@gmail.com, user@domain.com"
+"Pretty in Punk","415 3rd St S Suite 209, St. Petersburg, FL 33701, USA",,http://prettyinpunk.glossgenius.com/,prettyinpunkhairstudio@gmail.com
+"Finley & Philip Hair Salon","1125 4th St N, St. Petersburg, FL 33701, USA","(727) 826-6583",http://finleyandphillips.com/,
+"REVOLUTION9 Salon","321 10th Ave N, St. Petersburg, FL 33701, USA","(727) 822-6463",http://www.revolution9salon.com/,"info@revolution9salon.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com"
+"Hair on Central","574 1st Ave N, St. Petersburg, FL 33701, USA","(727) 827-2883",https://haironcentral.com/,
+"DBK Hair Studio","10464 Roosevelt Blvd N, St. Petersburg, FL 33716, USA","(727) 576-2111",https://www.dbkhairstudio.com/,info@dbkhairstudio.com
+"Cohesion Hair Studio","1120 Pinellas Bayway S STE 104, Tierra Verde, FL 33715, USA","(727) 864-0280",https://www.cohesionhairstudio.com/,"user@domain.com, cohesionhairstudio@gmail.com"
+"Truvy Salon","8908 4th St N, St. Petersburg, FL 33702, USA","(727) 329-9751",http://www.truvysalon.com/,"truvysalonandspa@gmail.com, your.email@example.com"
+"Deco Salon & Boutique (fka London)","7085 30th Ave N, St. Petersburg, FL 33710, USA","(727) 360-3503",http://decosalonstpetebeach.com/,londonhairandspa346@gmail.com
+"Tabatha Exquisite Touch Beauty Salon","1614 Central Ave, St. Petersburg, FL 33712, USA","(727) 321-2255",http://www.tetsalon.com/,
+"BLOND STUDIO","3050 1st Ave N, St. Petersburg, FL 33713, USA","(727) 460-1774",https://www.blondstudios.com/,"contact.blond.studio@gmail.com, user@domain.com"
+"DRIFT Salon - PASADENA - Independent Stylist Salon","6709 1st Ave S, St. Petersburg, FL 33707, USA","(727) 220-6746",https://www.driftblondingandbalayagesalon.com/,"user@domain.com, salon.drift@gmail.com"
+"Balayage Blonde Salon","6416 Dr M.L.K. Jr St N, St. Petersburg, FL 33702, USA","(727) 954-6016",https://www.balayageblonde.com/new-guest,"hello@balayageblonde.com, user@domain.com"
+"Salon Color Bar","300 Beach Dr NE #121, St. Petersburg, FL 33701, USA","(727) 851-9933",http://www.salon-colorbar.com/,hello@salon-colorbar.com
+"Cam Hair Designs","9315 4th St N, St. Petersburg, FL 33702, USA","(727) 827-2065",https://camhairdesigns.com/,typesetit@att.net
+"The Island Salon","5901 Sun Blvd # 118, St. Petersburg, FL 33715, USA","(727) 866-8915",https://www.theislandsalon.com/,mymail@mailservice.com
+"Shannon Noelle Styles","3615 S Dale Mabry Hwy, Tampa, FL 33629, USA","(718) 873-4672",https://sns.glossgenius.com/,shannonnoellestylesllc@gmail.com
+"Sip & Dry - A Blow Dry Bar","2210 4th St N, St. Petersburg, FL 33704, USA","(727) 800-2409",https://sipanddryblowbar.com/,sipanddryblowbar@gmail.com
+"Salon Society Boutiques St. Petersburg","215 2nd Ave N, St. Petersburg, FL 33701, USA","(727) 453-0619",https://salonsocietyboutiques.com/,
+"Salon Lofts","1068 4th St N, St. Petersburg, FL 33701, USA","(727) 202-6967",https://salonlofts.com/salons/4th_and_11th?utm_source=apple_maps&utm_medium=organic&utm_campaign=yext,
+"Luxe By Adriana","415 3rd St S Suite 202, St. Petersburg, FL 33701, USA","(813) 391-4005",https://squareup.com/appointments/book/4A7ZYGD1Z5Q64,"hi@mystore.com, 13e49d785d8d4f828038b6136f3b48ba@sentry.io, apaola0530@gmail.com"
+"Saturn Salon St. Pete","911 32nd Ave N, St. Petersburg, FL 33704, USA","(727) 589-8413",https://www.saturnsalons.com/,"user@domain.com, saturnsalons@gmail.com"
+"Leaf Aveda Salon Spa (St. Pete)","2582 22nd Ave N, St. Petersburg, FL 33713, USA","(727) 290-6677",https://leafavedasalonspa.com/,
+"Boss Bay Beauty by Curls and Swirls LLC","4156 5th Ave N, St. Petersburg, FL 33713, USA","(630) 674-2912",http://www.bossbaybeauty.com/,user@domain.com
+"Salon Sequence Studios | St Pete - Central Ave.","1592 Central Ave, St. Petersburg, FL 33705, USA","(727) 388-6788",http://salonsequence.com/,leasing@salonsequence.com
+"Salon Luxe","3222 Dr M.L.K. Jr St N, St. Petersburg, FL 33704, USA","(727) 647-3277",http://www.salonluxestpete.com/,"salonluxe22@yahoo.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"LUXE Hair Concierge","334 2nd Ave S Ste 1209, St. Petersburg, FL 33701, USA","(727) 610-8373",https://luxehairconcierge.com/,"ceara@luxehairconcierge.com, jane@example.com"
+"Lisa Willaert BLONDE HAIR Color Specialist","6299 Central Ave, St. Petersburg, FL 33710, USA","(727) 678-1222",https://salonstylesbylisa.com/,luciano@latinotype.com
+"FS Cut & Color (22nd Ave. St. Petersburg, FL)","2290 4th St N, St. Petersburg, FL 33704, USA","(727) 823-6206",https://www.fantasticsams.com/salons/fantastic-sams-st-petersburg-fl?utm_source=google&utm_medium=organic&utm_campaign=gbp-website,
+Supercuts,"3059 4th St N, St. Petersburg, FL 33704, USA","(727) 821-1972",https://www.supercuts.com/locations/nearme/haircut/fl/saint-petersburg/3059-4th-st-n/80740,
+"International Hair Design","6175 54th Ave N, St. Petersburg, FL 33709, USA","(727) 548-0807",https://hairredesign.com/?utm_source=GBP&utm_medium=Organic,
+Supercuts,"4949 4th St N, St. Petersburg, FL 33703, USA","(727) 528-2300",https://www.supercuts.com/locations/nearme/haircut/fl/saint-petersburg/4949-4th-st-n/80722,
+"Cashmere Hair Salon","415 3rd St S Suite 105, St. Petersburg, FL 33701, USA","(217) 260-9247",http://www.cashmerehairbar.com/,info@indiantypefoundry.com
+"Parlour 727","3030 Central Ave, St. Petersburg, FL 33712, USA","(727) 767-0014",http://www.parlour727.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 88170cb0c9d64f94b5821ca7fd2d55a4@sentry-next.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, ed436f5053144538958ad06a5005e99a@sentry.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, 18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com, 5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com, example@mysite.com"
+"Drop Dead Hair Studio","415 3rd St S, St. Petersburg, FL 33701, USA","(727) 280-5673",https://dropdeadhair.square.site/?fbclid=PAAaYvnx8PP9OUujaFPmO2oxpKHT1Iwqj-vq20IRAh461OwfLynyd5utRErj0_aem_AT50cRMpaKECO_Zs57Fk1exENGmckwbjp1Y0awS5_62SY68JM0_yrSk-79tvaWuKdHg,"chelseahillegass1@gmail.com, hi@mystore.com, helseahillegass1@gmail.com, 13e49d785d8d4f828038b6136f3b48ba@sentry.io"
+"The Chair Salon Studio","1592 Central Ave STE #110, St. Petersburg, FL 33705, USA","(727) 266-2523",http://www.thechairhair.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"Shear Joy Salon","2519 McMullen Booth Rd # 204, Clearwater, FL 33761, USA","(727) 330-7712",http://www.shearjoyexperience.com/,
+"Bella's Beauty Salon & Spa","914 McMullen Booth Rd, Clearwater, FL 33759, USA","(727) 222-6374",https://bellasbeautysalonfl.com/,bellasbeautysalonandspa@gmail.com
+"White Sand Salon","517 S Ft Harrison Ave, Clearwater, FL 33756, USA","(727) 447-2025",https://whitesandsalon.com/,
+"Salon Allure","26133 US Hwy 19 N, Clearwater, FL 33763, USA","(727) 791-0070",https://salonallureclearwater.com/,nbspstevemnightowl@yahoo.com
+"Salon Gaboa Aveda","812 S Ft Harrison Ave, Clearwater, FL 33756, USA","(727) 466-9598",https://salongaboausa.com/,
+"Dolled Up Salon & Blow Out Bar","504 N Fort Harrison Ave Unit A, Clearwater, FL 33755, USA","(727) 513-1853",https://www.dolledupsalons.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, ed436f5053144538958ad06a5005e99a@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com"
+"SALON RAMAD","2198 NE Coachman Rd UNIT ,G, Clearwater, FL 33765, USA","(727) 441-2602",https://www.ramadsalon.com/,"info@ramadsalon.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, baf30a2b91654c5a840931f0137bed30@sentry.wixpress.com, 0e6a29e4756740a8a63493e912ba2174@sentry.wixpress.com, f36cc48fb72b4d298c835f2793cf3b84@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"FS Cut & Color (Clearwater, FL)","2237 Gulf to Bay Blvd, Clearwater, FL 33765, USA","(727) 466-0400",https://www.fantasticsams.com/salons/fantastic-sams-clearwater-fl?utm_source=google&utm_medium=organic&utm_campaign=gbp-website,
+"Salon Lofts","2530 FL-580 D, Clearwater, FL 33761, USA","(727) 303-3973",https://salonlofts.com/salons/courtyard_at_countryside/?utm_source=apple_maps&utm_medium=organic&utm_campaign=yext,
+"Ciao Bella salon","1521 Sunset Point Rd, Clearwater, FL 33755, USA","(727) 333-7520",,
+"La Bella Hair Studio","425 Cleveland St, Clearwater, FL 33755, USA","(727) 446-4959",,
+"FLoK by Bekim","609 S Ft Harrison Ave, Clearwater, FL 33756, USA","(727) 223-8998",https://www.flokbybekim.com/,sublime@flokbybekim.com
+"Salon Rio","2679 Gulf to Bay Blvd Suite 510, Clearwater, FL 33759, USA","(727) 295-9851",https://www.instagram.com/riodoesmyhair/,
+"Hair Design by Tiffany Rafalko","25973 US Hwy 19 N Suite #101, Clearwater, FL 33763, USA","(717) 650-5372",https://hairextensionsclearwater.com/,rafalkotiffany5@gmail.com
+"Salon Blu","1969 Drew St # A, Clearwater, FL 33765, USA","(727) 443-3625",http://www.salonblufl.com/,
+"LaPosh Salon","2566 McMullen Booth Rd D, Clearwater, FL 33761, USA","(727) 726-1600",,
+"Avalon Salon_by Erica Fonseca","2679 Gulf to Bay Blvd Suite 510, Clearwater, FL 33759, USA","(727) 348-6558",http://avalon-salon.square.site/,"hi@mystore.com, 13e49d785d8d4f828038b6136f3b48ba@sentry.io"
+"Sofia Hair Studio & Salon","2522 McMullen Booth Rd C, Clearwater, FL 33761, USA","(727) 504-3878",http://www.facebook.com/SofiaHairStudioClearwater,
+"Pink Hair Salon","1467 S Belcher Rd, Clearwater, FL 33764, USA","(727) 536-2459",https://www.pinkhairsalon.net/,contact@pinkhairsalon.net
+"Moda Milano Salon","2510 McMullen Booth Rd # E, Clearwater, FL 33761, USA","(727) 799-6989",http://www.modamilanohair.com/,"milanohair4u@gmail.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"r. salon","2454 McMullen Booth Rd, Clearwater, FL 33759, USA","(727) 799-9400",http://www.rsalonclearwater.com/,salonbellaflora@verizon.net
+"Salon Lofts","2522 McMullen Booth Rd C, Clearwater, FL 33761, USA","(888) 295-6073",https://salonlofts.com/salons/northwood_plaza?utm_source=apple_maps&utm_medium=organic&utm_campaign=yext,
+"Salon South Beach","781 Bayway Blvd, Clearwater Beach, FL 33767, USA","(727) 444-4551",https://salonsouthbeach.com/,info@salonsouthbeach.com
+"Salon West","1530 McMullen Booth Rd, Clearwater, FL 33759, USA","(727) 726-8181",http://salonwest.com/,
+"HairbyJuliana_Cifligu (Located at Monarch salon)","1701 Drew St Unit 4, Clearwater, FL 33755, USA","(727) 666-2917",,
+"Amaryllis The Color Bar","1868 Drew St, Clearwater, FL 33765, USA","(727) 446-2007",http://amaryllis-salon.keeq.io/,
+"Sharp Image Hair Salon","1486 Belleair Rd, Clearwater, FL 33756, USA","(727) 480-6941",https://www.vagaro.com/sharpimagesalon,
+"Mira Bella Salon","1211 Court St Suite #2, Clearwater, FL 33756, USA","(727) 454-6530",http://www.mira-bella.us/,13e49d785d8d4f828038b6136f3b48ba@sentry.io
+"SAGE SALON","5160 E Bay Dr suite 39, Clearwater, FL 33764, USA","(813) 444-8245",https://square.site/book/91WWB82W4PX7B/sage-salon-clearwater-fl,cindy@mysagesalon.com
+"Vividly Wicked Hair","2679 Gulf to Bay Blvd Unit 510, Suite 104, Clearwater, FL 33759, USA","(786) 508-1468",http://www.vividlywickedhair.com/,
+Supercuts,"2045 Gulf to Bay Blvd Suite B, Clearwater, FL 33765, USA","(727) 449-8844",https://www.supercuts.com/locations/nearme/haircut/fl/clearwater/2045-gulf-to-bay-blvd-ste-b/82538,
+"Simply Hair by Fior","2015 Gulf to Bay Blvd, Clearwater, FL 33765, USA","(727) 286-6198",,
+"Shear Joy Salon Clearwater Beach","483 Mandalay Ave #206, Clearwater, FL 33767, USA","(727) 221-9625",https://www.shearjoyexperience.com/,
+"Julissa's Blow Dry Bar","14100 US Hwy 19 N #111, Clearwater, FL 33764, USA","(727) 648-4622",https://facebook.com/julissablowdrybar/,
+"Defining Edge Salon","26240 US Hwy 19 N, Clearwater, FL 33761, USA","(727) 442-3343",http://www.definingedge.info/,
+"Eminent Hair Salon by Jelena","29605 US Hwy 19 N STE 340, Clearwater, FL 33761, USA","(727) 238-0995",https://www.eminent-hair-salon.com/,
+"Simply Hair","3749 Ulmerton Rd, Clearwater, FL 33762, USA","(727) 573-9580",https://mysimplyhair.com/,
+"Glamour Salon by Elma","1557 S Highland Ave, Clearwater, FL 33756, USA","(727) 276-6078",http://www.glamourbyelma.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com"
+"JCPenney Salon","27001 US Hwy 19 N, Clearwater, FL 33761, USA","(727) 796-2191",https://www.jcpenney.com/locations/fl/clearwater/salon-clearwater-fl-1475.html,
+"A La Mode Salon","27376 US Hwy 19 N, Clearwater, FL 33761, USA","(727) 216-6491",https://www.instagram.com/alamodesalon_/,
+"Studio 1529","2116 Gulf to Bay Blvd suite 119, Clearwater, FL 33765, USA","(239) 628-2669",http://studio1529.glossgenius.com/,
+"Great Clips","2663 Gulf to Bay Blvd, Clearwater, FL 33759, USA","(727) 796-4200",https://salons.greatclips.com/us/fl/clearwater/2663-gulf-to-bay-blvd?utm_source=google&utm_medium=organic&utm_campaign=gmb,
+"Lady Jane's Haircuts for Men- Clearwater (Gulf to Bay Blvd)","2084 Gulf to Bay Blvd, Clearwater, FL 33765, USA","(727) 200-3149",https://www.ladyjanes.com/,
+"My Salon Suite","2679 Gulf to Bay Blvd Suite 510, Clearwater, FL 33759, USA","(813) 602-1677",https://www.mysalonsuite.com/clearwater?utm_source=google_business&utm_medium=search&utm_campaign=profile,info.clearwater@mysalonsuite.com
+"iamoxxi. Salon & Spa - Clearwater","5395 E Bay Dr Suite 106, Clearwater, FL 33764, USA","(727) 353-3350",https://iamoxxi.com/,info@iamoxxi.com
+"Tones Salon","2679 Gulf to Bay Blvd Ste 510 - Suite 306, Clearwater, FL 33759, USA","(727) 342-0566",http://www.tonessalon.com/,"info@indiantypefoundry.com, tony@tonessalon.com"
+"Cookie Cutters Haircuts for Kids - Clearwater","2723 Gulf to Bay Blvd #400, Clearwater, FL 33759, USA","(727) 330-6155",https://www.haircutsarefun.com/location/clearwater-fl,"clearwater@haircutsarefun.com, christie@haircutsarefun.com"
+"Blew Chocolate Salon","701 N Fort Harrison Ave, Clearwater, FL 33755, USA","(727) 953-5742",http://www.blewchocolatesalonclearwater.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com"
+"Wendy Hair Salon","2140 Drew St N, Clearwater, FL 33765, USA","(727) 216-6790",https://unly.top/wendy-hair-salon,
+"Thomas McPherson Salon","202 9th Ave S, Safety Harbor, FL 34695, USA","(727) 669-4699",http://thomasmcpherson.com/,thomasmcphersonsalon@gmail.com
+"Great Clips","23690 US Hwy 19 N, Clearwater, FL 33765, USA","(727) 797-6611",https://salons.greatclips.com/us/fl/clearwater/23690-us-hwy-19-n?utm_source=google&utm_medium=organic&utm_campaign=gmb,
+"Hair Peace Studio at Sola Salons","25973 US Hwy 19 N Studio 122, Clearwater, FL 33763, USA","(727) 456-8090",http://www.hairpeacestudio.com/,"libbyduncan@hairpeacestudio.com, user@domain.com"
+"Salon 2140","2140 Drew St #A, Clearwater, FL 33765, USA",,https://missjamiebonner1.wixsite.com/beyondbeautifulbrows,
+"Ana Esposito Dominican Salon","1932 Drew St # 10, Clearwater, FL 33765, USA","(727) 366-6005",,
+"C & C Hair Design Studio of Tampa Bay","702 Martin Luther King Dr, Clearwater, FL 33755, USA","(727) 447-3090",http://ccbarber.booksy.com/,"info.us@booksy.com, help.us@booksy.com"
+"Hair Du Soleil Inc | Organic Salon","805 Turner St, Clearwater, FL 33756, USA","(727) 441-8586",http://www.facebook.com/hairdusoleilsalon,
+"Botanica Day Spa","700 Court St, Clearwater, FL 33756, USA","(727) 441-1711",http://www.botanicadayspa.com/,relax@botanicadayspa.com
+"Salwa'z Beauty Salon","2114 Drew St Ste H&I, Clearwater, FL 33765, USA","(727) 250-2402",https://salwazbeauty.com/,"info@salwazbeauty.net, info@salwazbeauty.com"
+"Backstreet Hair Salon","401 S Mercury Ave, Clearwater, FL 33765, USA",,,
+"Create You Salon","1433 S Ft Harrison Ave A, Clearwater, FL 33756, USA","(727) 417-2470",https://www.createyousalon.com/,info@createyousalon.com
+"Hair by Kimmie in Brandon, Florida","Commons Shopping Center, 1943 FL-60 Suite 105, Valrico, FL 33594, USA","(813) 848-7788",http://www.hairbykimmie.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, f36cc48fb72b4d298c835f2793cf3b84@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, ed436f5053144538958ad06a5005e99a@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com"
+"Swank & Co.","608 Limona Woods Dr, Brandon, FL 33510, USA","(813) 417-9727",http://tinabrownswank.glossgenius.com/,swankhairsalon@aol.com
+"Divine Designs Salon & Spa","1606 Oakfield Dr, Brandon, FL 33511, USA","(813) 661-3737",https://www.divinesalon.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com, managers@divinesalon.com, example@mysite.com"
+"Hair by Jamie Seymour - Private Salon Suites","1105 Nikki View Dr Suite K, Brandon, FL 33511, USA","(440) 622-8260",http://hairbyjamieseymour.glossgenius.com/,
+"Stunning Styles","121 Lithia Pinecrest Rd STE B, Brandon, FL 33511, USA","(813) 444-4438",https://www.mystunningstyles.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, ed436f5053144538958ad06a5005e99a@sentry.wixpress.com, 463991d7bca24f02a0baf16f9e6eda73@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, a18507e8883842d8a1ba47257fee81ac@sentry.wixpress.com, 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com"
+"Salon 705","125 W Bloomingdale Ave, Brandon, FL 33511, USA","(813) 993-9705",https://salon705.com/,
+"Studio 210 Salon","210 Oakfield Dr, Brandon, FL 33511, USA","(813) 382-5097",http://www.studio210salon.com/,"user@domain.com, studio210salon@gmail.com"
+"Rock Your Locks Hair Salon - 10% off New Clients","904 Lithia Pinecrest Rd, Brandon, FL 33511, USA","(813) 689-4249",http://www.rockyourlocksfl.com/,
+"Salons by JC Brandon","1534 W Brandon Blvd, Brandon, FL 33511, USA","(813) 576-0111",https://salonsbyjc.com/location/florida-brandon/,"contact@salonsbyjc.com, info@salonsbyjcnashville.com, sbjc.mobile@gmail.com, scottsdale@salonsbyjc.com, pacificcommons@salonsbyjc.com, huntingtonbeachconcierge@salonsbyjc.com, nelson.chan@salonsbyjc.com, darin.mcghee@gmail.com, ingrid@courtstonemgmt.com, sbjc.sanramon@gmail.com, admin@salonsbyjc.com, sbjc.walnutcreek@gmail.com, sbjc.sherway@salonsbyjc.com, k.hochart@salonsbyjc.com, greenwoodvillage@salonsbyjc.com, scott@salonsbyjc.com, jimmcguiness@salonsbyjc.com, dcorreia@salonsbyjc.com, gary@salonsbyjc.com, cyndi@salonsbyjc.com, sbjc.boyntonbeach@gmail.com, dcooke@salonsbyjc.com, sbjchollywood@gmail.com, sbjckendalelakes@gmail.com, sbjc.lhp@gmail.com, lisa@salonsbyjc.com, urjeet.patel@salonsbyjc.com, gsbedrin@salonsbyjc.com, sbjc.flamingopines@gmail.com, davelong@salonsbyjc.com, sbjc.sarasotatc@gmail.com, a.molano@salonsbyjc.com, sbjc.haynes.bridge@gmail.com, jmurphy@salonsbyjc.com, sbjc.buford@gmail.com, chad.oldweiler@salonsbyjc.com, roswell@salonsbyjc.com, sbjc.roswellga@gmail.com, kent.petzold@salonsbyjc.com, elizabeth.mccarthy@salonsbyjc.com, jmlang@salonsbyjc.com, concierge.highlandpark@salonsbyjc.com, sbjc.lochraven@gmail.com, sbjc.burlex@gmail.com, sbjc.stoneham@gmail.com, novi.sbjc@gmail.com, applevalley@salonsbyjc.com, brent@salonsbyjc.com, bloomington@salonsbyjc.com, diana@salonsbyjc.com, coonrapids@salonsbyjc.com, cottagegrove@salonsbyjc.com, asimek@salonsbyjc.com, dean@salonsbyjc.com, saintlouisgalleria@salonsbyjc.com, townandcountry@salonsbyjc.com, angie@salonsbyjc.com, eagleplaza@salonsbyjc.com, sbjc.middletown@gmail.com, salonsbyjcnnj@gmail.com, abraham.ezekiel@salonsbyjc.com, scott.penza@salonsbyjc.com, janice@courtstonemgmt.com, maya@courtstonemgmt.com, sbjc.carycrossroads@gmail.com, carmel.park@salonsbyjc.com, luis.c.moreno@salonsbyjc.com, south.park@salonsbyjc.com, huntersville@salonsbyjc.com, raleigh@salonsbyjc.com, wakefield@salonsbyjc.com, gsmyers@salonsbyjc.com, adgriesmyer@salonsbyjc.com, s.patel@salonsbyjc.com, karen.ingram@salonsbyjc.com, sbjc.northwales@gmail.com, sbjc.warrington@gmail.com, wayne@salonsbyjc.com, dagney.helms@salonsbyjc.com, jansco@salonsbyjc.com, shawn@salonsbyjcnashville.com, allen.tx@salonsbyjc.com, arlington.tx@salonsbyjc.com, sbjc.davenport@gmail.com, mjjmratcliff@salonsbyjc.com, contact@salonsbyjcaustin.com, salonsbyjc.cc@gmail.com, casalinda@salonsbyjc.com, g.shaibeh@salonsbyjc.com, dallas.campbell@salonsbyjc.com, southlake@salonsbyjc.com, l.katz@salonsbyjc.com, vipsalonsuites@gmail.com, meyerland@salonsbyjc.com, westumanager@salonsbyjc.com, margaritasalonsbyjc@gmail.com, sbjc.katy@gmail.com, john.burgtorf@salonsbyjc.com, sbjc.lewisville@gmail.com, b.cassel@salonsbyjc.com, creekside@salonsbyjc.com, sbjc.pearland@gmail.com, sjcpearland@gmail.com, plano.sbjc@gmail.com, sbjc.richmond@gmail.com, sbjc.rosenberg@gmail.com, dominion.ridge@salonsbyjc.com, huebner@salonsbyjc.com, legacy@salonsbyjc.com, quarry@salonsbyjc.com, forum@salonsbyjc.com, westwood@salonsbyjc.com, scott.mckinney@salonsbyjc.com, sbjc.birnhamwoods@gmail.com, glcrossing@salonsbyjc.com, sbjc.grandparkway@gmail.com, trophyclub@salonsbyjc.com, waco@salonsbyjc.com, sbjc.webster@gmail.com, deanc@aol.com, seattle@salonsbyjc.com"
+"Fantastic Sams Cut & Color","2480 W Brandon Blvd, Brandon, FL 33511, USA","(813) 681-7267",https://www.fantasticsams.com/salons/fantastic-sams-brandon-fl?utm_source=google&utm_medium=organic&utm_campaign=gbp-website,
+"Salon Lofts","105 Brandon Town Center Dr, Brandon, FL 33511, USA","(813) 324-8836",https://salonlofts.com/salons/brandon_town_center/?utm_source=apple_maps&utm_medium=organic&utm_campaign=yext,
+"Talo Hair Studio","1534 W Brandon Blvd Suite 23, Brandon, FL 33511, USA","(813) 568-0597",https://talohairstudio.com/,"talohairstudio@gmail.com, hi@mystore.com, 13e49d785d8d4f828038b6136f3b48ba@sentry.io"
+"Riio Hair Salon","1534 W Brandon Blvd Suite 5, Brandon, FL 33511, USA","(407) 953-9754",https://mysite.vagaro.com/riiohairsalon/,
+"Hair by Laura Collins","1534 W Brandon Blvd #3, Brandon, FL 33511, USA",,,
+"Citrine Salon & Well-Being","1336 Oakfield Dr, Brandon, FL 33511, USA","(352) 451-7192",http://jamiesaeltz.glossgenius.com/,citrinesalonbyjamielyn@gmail.com
+"OMA Bella Salon","618 Oakfield Dr, Brandon, FL 33511, USA","(813) 462-6954",,
+"Alicia's Curls @Brandon Hairstyling","113 E Brandon Blvd, Brandon, FL 33511, USA","(813) 458-4565",https://www.brandonhairstyling.com/services-booking,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, f36cc48fb72b4d298c835f2793cf3b84@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, ed436f5053144538958ad06a5005e99a@sentry.wixpress.com, 79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com"
+"Vibe Salon and Co","1038 E Bloomingdale Ave, Valrico, FL 33596, USA","(813) 654-2440",,
+"Haircut N Beyond LLC","155 E Bloomingdale Ave, Brandon, FL 33511, USA","(813) 571-9900",https://www.haircutnbeyond.com/,haircutnbeyond@ymail.com
+"Women of virtue Hair salon","2064 Badlands Dr, Brandon, FL 33511, USA","(813) 230-7746",,
+"Dominican Cabello Hair salon","2064 Badlands Dr Suite #14, Brandon, FL 33511, USA","(813) 817-0743",https://dominicancabello.com/,13e49d785d8d4f828038b6136f3b48ba@sentry.io
+"Cherry Rose Beauty","105 Brandon Town Center Dr Suite 8, Brandon, FL 33511, USA","(813) 503-8996",https://www.vagaro.com/cherryrosebeauty,
+"Hair Palace by Cesar and Associates","Hair Palace By Cesar And Associates, 744 W Brandon Blvd, Brandon, FL 33511, USA","(813) 731-2420",https://facebook.com/pages/category/hair-salon/hair-palace-by-cesar-associates-llc,
+"Curly Hair Alchemist","1943 FL-60 #102, Valrico, FL 33594, USA","(656) 233-4717",http://www.megconkling.com/,"info@megconkling.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"Shear Impressions Salon & Hair Extension Bar","5916 Providence Rd, Riverview, FL 33578, USA","(813) 685-6777",http://sisalon.net/,shearimpressionssalon@gmail.com
+"Lissy's Beauty Salon","1115 N Parsons Ave #1, Brandon, FL 33510, USA","(813) 681-9559",https://beorndir.top/lissy-s-beauty-salon-quief7s.html,info@example.com
+"Forever Young Luxury Beauty","1002 N Parsons Ave, Brandon, FL 33510, USA","(813) 433-0599",https://eternaforever.comb.works/,
+"Salon B3","131 N Moon Ave Suite 1, Brandon, FL 33511, USA",,http://salonb3.glossgenius.com/,
+"Angel's Dominican beauty salon","2104 W Brandon Blvd, Brandon, FL 33511, USA","(813) 846-4737",https://biryo.top/angel-s-dominican-beauty-salon-wvbkg4i,info@example.com
+"Haus of Charm Salon Studio","1534 W Brandon Blvd Suite 14, Brandon, FL 33511, USA","(813) 856-6195",https://www.hausofcharm.co/,
+"Salon Slate","1534 W Brandon Blvd, Brandon, FL 33511, USA","(443) 962-0464",https://salonslate.glossgenius.com/,contactsalonslate@gmail.com
+"A. Anderson Hair @ The Chalet","1530 Oakfield Dr, Brandon, FL 33511, USA","(813) 966-1376",http://www.aandersonhair.com/,
+"Salon Sequence Studios | Brandon","2064 Badlands Dr, Brandon, FL 33511, USA","(813) 755-1750",http://salonsequence.com/,leasing@salonsequence.com
+"A.D.S Hair Studio","107 Glendale Dr, Brandon, FL 33511, USA","(813) 530-0400",http://angiedastylist.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+SmartStyle,"1208 E Brandon Blvd, Brandon, FL 33511, USA","(813) 681-5087",https://www.smartstyle.com/locations/nearme/haircut/fl/brandon/1208-e-brandon-blvd/17664,
+"Joanna Stylo","1534 W Brandon Blvd suite 12, Brandon, FL 33511, USA","(787) 629-0486",https://joannastylobeautys.wixsite.com/joannastylo,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 463991d7bca24f02a0baf16f9e6eda73@sentry.wixpress.com, 18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com"
+"Bliss Blo Bar","935 E Bloomingdale Ave, Brandon, FL 33511, USA","(813) 502-6252",https://www.blissblobar.com/,hair@blissblobar.com
+"Bella Bella Dominican Hair Salon","932 W Brandon Blvd, Brandon, FL 33511, USA","(813) 508-9497",,
+"EMG Salons","324 S Falkenburg Rd, Tampa, FL 33619, USA","(813) 643-1426",http://emgsalons.com/,info@emgsalons.com
+"Bloom Salon & Spa","1903 FL-60 Suite D, Valrico, FL 33594, USA","(813) 681-8020",,
+"Salon Lucent","1017 E Bloomingdale Ave, Valrico, FL 33596, USA","(813) 324-7393",https://www.salonlucent.com/locations/valrico/,info@salonlucent.com
+HairGurubyAna,"1943 FL-60, Valrico, FL 33594, USA","(813) 834-2728",http://www.hairgurubyana.com/,"impallari@gmail.com, mail@iginomarini.com, team@latofonts.com, filler@godaddy.com"
+"Hair by Nelly","1933 W Brandon Blvd, Brandon, FL 33511, USA","(813) 661-8919",,
+"Milka's Unisex Salon","210 W Brandon Blvd, Brandon, FL 33511, USA","(813) 530-0913",,
+"ILONA MIKA SALON","3421 Forest Bridge Cir, Brandon, FL 33511, USA","(813) 997-5100",http://ilonamikasalon.com/,
+"EthnicHairCare Salon /Natural hair care Salon...WE HAVE THE SHINE. salon","210 S Kings Ave Suite P, Brandon, FL 33511, USA","(813) 758-7758",http://ethnichaircaresalon.com/,ethnichaircaresalon@gmail.com
+"HAIRAPY 101","113 E Brandon Blvd Suite G, Brandon, FL 33511, USA","(813) 438-8212",,
+"Beauty & Grace Salon Suites","1836 W Lumsden Rd, Brandon, FL 33511, USA","(813) 324-7833",,
+"Green Door Salon Studios","1147 Professional Park Dr, Brandon, FL 33511, USA","(941) 518-5951",http://greendoorsalons.com/,info@greendoorsalons.com
+"Ireny Dominican Hair Salon","103 W Morgan St, Brandon, FL 33510, USA","(813) 485-3559",https://www.irenyhairsalon.com/,
+"Sola Salon Studios","1941 W Lumsden Rd, Brandon, FL 33511, USA","(813) 743-7247",https://www.solasalonstudios.com/locations/brandon-centre-south?utm_source=gmb&utm_medium=organic,"anisa@solatampa.com, u003eanisa@solatampa.com"
+"KWE Hair Studio","710 Oakfield Dr, Brandon, FL 33511, USA","(813) 470-0848",http://kwehairstudio.com/,user@domain.com
+SmartStyle,"11110 Causeway Blvd, Brandon, FL 33511, USA","(813) 654-8448",https://www.smartstyle.com/locations/nearme/haircut/fl/brandon/11110-causeway-blvd/18908,
+"Styles by Shaynah","210 Oakfield Dr, Brandon, FL 33511, USA","(813) 808-3869",https://stylesbyshaynah.com/,"hi@mystore.com, stylesbyshaynah@gmail.com, 13e49d785d8d4f828038b6136f3b48ba@sentry.io"
+"Boulevard Salon","210 E Brandon Blvd, Brandon, FL 33511, USA","(813) 571-5800",https://boulevardsalon210.com/,
+"6ixthElement Barbershop","911 W Brandon Blvd, Brandon, FL 33511, USA","(813) 689-1045",https://6ixthelement.com/brandon/,
+"Berry Sweet Salon & Spa","203 S Parsons Ave, Brandon, FL 33511, USA",,,
+"The Groom Lounge, Brandon, Barbershop","732 W Brandon Blvd, Brandon, FL 33511, USA",,https://www.brandongl.com/book-your-barber,"info@mysite.com, docbarnes@icloud.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, ed436f5053144538958ad06a5005e99a@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com"
+"Knockout Hair Co.","426 W Brandon Blvd Suite 3, Brandon, FL 33511, USA","(321) 663-9382",http://knockouthairco.glossgenius.com/,knockout.fades23@gmail.com
+"Studio 22 Salon & Spa","1308 E Lumsden Rd, Brandon, FL 33511, USA","(813) 571-2212",,
+"Haas Salon","4853 Bruce B Downs Blvd, Wesley Chapel, FL 33544, USA","(813) 574-2540",https://www.haassalon.com/,user@domain.com
+"J. Joseph Salon","1738 Bruce B Downs Blvd, Wesley Chapel, FL 33544, USA","(813) 235-6848",https://www.jjosephsalon.com/,
+"Grandeur Hair Design in Wesley Chapel","27511 Cashford Cir STE 102, Wesley Chapel, FL 33544, USA","(813) 994-9455",https://www.grandeurhd.com/,grandeurhairdesign@gmail.com
+"Lety Vibes Curly Hair Studio","3830 Turman Loop, Wesley Chapel, FL 33544, USA","(813) 361-5345",https://letyvibescurlyhairstudio.booksy.com/,"info.us@booksy.com, help.us@booksy.com"
+"Foil & Tone","1265 Bruce B Downs Blvd, Wesley Chapel, FL 33544, USA","(813) 591-1500",https://www.vagaro.com/foilandtone?fbclid=PAAaYbZEo9iDiMSMoHUHixSEnq0ql8SZZ2NsvoWqVIbcZvuyGxfeFMohbdZL8,
+"Salon Lofts","1249 Bruce B Downs Blvd Suite 23, Wesley Chapel, FL 33543, USA","(813) 345-8502",https://salonlofts.com/salons/wesley_chapel?utm_source=apple_maps&utm_medium=organic&utm_campaign=yext,
+"Platinum Salon","20304 Trout Creek Dr, Tampa, FL 33647, USA","(813) 973-2400",,
+"iStyle Salon","24406 FL-54, Land O' Lakes, FL 33559, USA","(813) 428-4607",,
+"Pulse Salon and Spa","3756 Turman Loop STE 101, Wesley Chapel, FL 33544, USA","(813) 428-6917",http://pulsesalonandspa.com/,"pulsesalonandspa@gmail.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"HAVEN hair studio","28100 Willet Way Suite 14, Wesley Chapel, FL 33543, USA","(813) 928-2984",http://havenhairfl.com/,"user@domain.com, hello@havenhairfl.com"
+"Elysium Beauty Salon","1821 Bruce B Downs Blvd STE 113, Wesley Chapel, FL 33544, USA","(813) 994-4604",http://www.elysiumbeautysalon.com/,
+"hq Salon Aveda","28329 Paseo Drive #140, Wesley Chapel, FL 33543, USA","(813) 527-0448",http://www.hqsalonspa.com/,
+Ultracuts,"1710 Bruce B Downs Blvd, Wesley Chapel, FL 33544, USA","(813) 994-9200",http://ultracutshairsalon.com/,
+"Drybar Wesley Chapel","28163 Paseo Drive Suite 135, Wesley Chapel, FL 33543, USA","(813) 702-1066",https://www.drybarshops.com/service/locator/detail/?slug=wesley-chapel-fl,
+"Simply Colour Hair Salon Studio by Dean Downing","24738 FL-54, Lutz, FL 33559, USA","(813) 213-0959",https://simply-colour.com/,dean@simply-colour.com
+"Glam Studios","27724 Cashford Cir Suite 101, Wesley Chapel, FL 33544, USA","(813) 907-7201",http://myglamstudios.com/,glamstudiosinc@gmail.com
+"Hair by Wyss Salon | Blonde and Extension Specialist in Wesley Chapel","3820 Maryweather Ln Ste 102, Wesley Chapel, FL 33544, USA","(813) 364-4485",http://hairbywyss.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=4628732337414525884,"info@hairbywyss.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, ed436f5053144538958ad06a5005e99a@sentry.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com"
+"Hair Studio by Rosalba","26847 Foggy Creek Rd STE 102, Wesley Chapel, FL 33544, USA","(813) 591-9222",https://www.instagram.com/hairby_rosalba/,
+"Cristina Dominican Hair Studio LLC","3902 Flatiron Loop #102, Wesley Chapel, FL 33544, USA","(848) 203-0910",,
+Raquel.Does.Hair.,"2405 Creel Ln Suite 101, Room 1, Wesley Chapel, FL 33544, USA","(656) 238-8832",,
+"Salon Loft Suites","27223 FL-56, Wesley Chapel, FL 33544, USA","(813) 841-0576",https://www.salonloftsuites.com/,"info@salonloftsuites.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 78f7996315bc402f9dcb8a2f974b82d1@sentry.wixpress.com, salonloftsuites@gmail.com"
+"Sola Salons","18061 Highwoods Preserve Pkwy Unit 8A, Tampa, FL 33647, USA","(813) 373-4907",https://www.solasalonstudios.com/locations/new-tampa-wesley-chapel?utm_source=gmb&utm_medium=organic,rich@solasalons.com
+"Nirfa's Beauty Salon","27607 FL-56, Wesley Chapel, FL 33544, USA","(813) 527-6977",https://nirfas-beauty-salon.edan.io/,
+Supercuts,"1924 Bruce B Downs Blvd #111, Wesley Chapel, FL 33544, USA","(813) 510-5200",https://www.supercuts.com/locations/nearme/haircut/fl/wesley-chapel/1924-bruce-b-downs-blvd--111/82390,
+"Crew Hair LLC","3854 Flatiron Loop Suite 203, Wesley Chapel, FL 33544, USA","(813) 751-5223",https://instagram.com/ccrewhair,
+"HAIR WITH JEN","3756 Turman Loop STE 101, Wesley Chapel, FL 33543, USA","(813) 310-3729",http://facebook.com/hairwithjen1,
+"Salon Melisa Hair Studio","23912 FL-54, Lutz, FL 33559, USA","(813) 528-8786",http://salonmelisahairstudio.booksy.com/a,"info.us@booksy.com, help.us@booksy.com"
+"Stella's Design","28100 Willet Way, Wesley Chapel, FL 33543, USA","(425) 737-7342",http://stellas-design.web.app/,
+SmartStyle,"28500 State Rd 54, Wesley Chapel, FL 33543, USA","(813) 973-1913",https://www.smartstyle.com/locations/nearme/haircut/fl/wesley-chapel/28500-state-road-54/17920,
+"A&M Hair Lounge","27658 Cashford Cir #102, Wesley Chapel, FL 33544, USA","(913) 850-3919",,
+"Salon Sequence Studios","3854 Flatiron Loop, Wesley Chapel, FL 33544, USA","(813) 540-8808",http://salonsequence.com/,leasing@salonsequence.com
+"J. Joseph Salon","5132 Land O' Lakes Blvd Suite 103, Land O' Lakes, FL 34639, USA","(813) 235-6848",http://www.jjosephsalon.com/,
+"Blush Hair Studio","2816 Windguard Cir STE 102, Wesley Chapel, FL 33544, USA","(813) 906-8360",https://www.facebook.com/BlushHS/,
+"Crystal Prince Salon","28100 Willet Way Loft 17, Wesley Chapel, FL 33543, USA","(813) 340-9038",http://crystalprincesalon.com/,contact@sansoxygen.com
+"Sharkey's Cuts For Kids - Wesley,Chapel, FL","2653 Bruce B Downs Blvd #103, Wesley Chapel, FL 33544, USA","(813) 345-8424",https://www.sharkeyscutsforkidswesleychapel.com/,
+"Prime Barbershop","6027 Wesley Grove Blvd Unit 206, Wesley Chapel, FL 33544, USA","(813) 527-6844",https://primebarberswc.com/,user@domain.com
+"Londonspecial_Carla Black hair /Stylist","3820 Maryweather Ln suite 102, Wesley Chapel, FL 33544, USA","(410) 808-3705",,
+"Exclusive Clientel Salon","3830 Turman Loop, Wesley Chapel, FL 33544, USA","(813) 994-2393",,
+"Cameo Salon & Spa","1817 Collier Pkwy, Lutz, FL 33549, USA","(813) 948-7411",https://www.cameosalonspa.com/,frontdesk@cameo-salon.com
+"Transcend Hair Studio","2241 Twelve Oaks Way #4, Wesley Chapel, FL 33544, USA","(813) 727-7339",,
+"Badar's Hair N All","1820 Bruce B Downs Blvd, Wesley Chapel, FL 33543, USA","(813) 973-8819",http://www.badarshairandall.com/,hairandallinc@outlook.com
+"J. Joseph Salon","18861 FL-54, Lutz, FL 33558, USA","(813) 235-6848",http://www.jjosephsalon.com/,
+"23 Roses Hair Studio","27417 Cashford Cir #101, Wesley Chapel, FL 33544, USA","(813) 470-6347",https://23roseshairstudio.glossgenius.com/,23roseshairstudio@gmail.com
+JkHair,"2253 Twelve Oaks Way #102, Wesley Chapel, FL 33544, USA","(813) 482-2969",https://jkhair7.square.site/,13e49d785d8d4f828038b6136f3b48ba@sentry.io
+"THE CURL SPECIALIST STUDIO 22","18061 Highwoods Preserve Pkwy, Tampa, FL 33647, USA","(813) 408-9177",https://www.schedulicity.com/scheduling/tcs3wf,
+"BloNgo Tampa Blowdry Bar Salon & Suites","2241 Twelve Oaks Way, Wesley Chapel, FL 33544, USA","(813) 440-3560",https://placeyard.top/blongo-tampa-blowdry-bar-salon-suites-gxq2nyy,info@example.com
+"Refresh Enterprise","6027 Wesley Grove Blvd Unit 206B, Wesley Chapel, FL 33544, USA","(727) 366-3294",,
+"Salon Lofts","28100 Willet Way, Wesley Chapel, FL 33543, USA","(813) 586-1905",https://salonlofts.com/salons/wiregrass?utm_source=apple_maps&utm_medium=organic&utm_campaign=yext,
+"Visionary Hair Co","2405 Creel Ln Suite 101, Room 1, Wesley Chapel, FL 33544, USA","(813) 991-0293",,
+"Nessa Beauty","28100 Willet Way, Wesley Chapel, FL 33543, USA","(813) 998-5785",https://nessa-beauty.com/,vcallehairstudio@gmail.com
+"Shear Blonde Salon","28100 Willet Way #4, Wesley Chapel, FL 33543, USA","(813) 512-9716",http://www.shearblondesalon.com/,
+"@ Hair Studio Be","18101 Highwoods Preserve Pkwy, Tampa, FL 33647, USA","(248) 796-1083",http://www.styleseat.com/sherecelanae,
+"Hair Revival llc","2312 Cypress Cove, Wesley Chapel, FL 33544, USA","(352) 584-3103",https://usmapiz.org/details/hair-revival-llc-ChIJa5P,
+"Nadia J. Doura Salon","28100 Willet Way Studio 11, Wesley Chapel, FL 33543, USA","(646) 387-7295",http://nadiajdoura.glossgenius.com/,nadiadoura@gmail.com
+"Salon Tre' Anne","26606 Wesley Chapel Blvd, Lutz, FL 33559, USA","(813) 994-3553",https://www.facebook.com/salontreanne,
+"Perfect Haircut Inc","30030 County Line Rd, Wesley Chapel, FL 33543, USA","(813) 907-0003",,
+"Star's Organic Spa","27551 Cashford Cir #101, Wesley Chapel, FL 33544, USA","(813) 973-8787",http://www.starsorganicspa.com/,contact@youroceanwpwebsite.com
+"Musart Salon","5859 Fruitville Rd, Sarasota, FL 34232, USA","(941) 377-4900",http://www.musartsalon.com/?y_source=1_NTYxMzU2NTEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D,contact@musartsalon.com
+"BT on the Blvd","1442 Boulevard of the Arts, Sarasota, FL 34236, USA","(941) 706-4646",http://www.btontheblvd.com/,info@btontheblvd.com
+"Inspirations Salon And Day SPA","126 N Orange Ave, Sarasota, FL 34236, USA","(941) 906-8686",https://inspirationssalon.net/,info@inspirationssalon.net
+"The Little Salon","1776 Main St, Sarasota, FL 34236, USA","(941) 955-4691",http://www.thelittlesalon.co/,"user@domain.com, guest@thelittlesalon.com"
+"Fresh Salon Co.","1819 Main St #118, Sarasota, FL 34236, USA","(941) 906-7709",http://www.freshsalonco.com/,
+"The Stylists by HB","5433 Fruitville Rd, Sarasota, FL 34232, USA","(941) 600-8707",http://www.thestylistsbyhb.com/,"team@latofonts.com, anapbm@gmail.com, filler@godaddy.com, hello@thestylistsbyhb.com"
+"Nuovo Salons","4952 S Tamiami Trl, Sarasota, FL 34231, USA","(941) 684-9000 ext. 4",http://nuovosalongroup.com/,
+"Les Ciseaux Salon and Spa","6 N Boulevard of the Presidents, Sarasota, FL 34236, USA","(941) 388-2176",https://lesciseauxsarasota.zoca.com/?utm_source=googlemaps&utm_medium=googlemaps&utm_campaign=googlemaps,lesciseaux@gmail.com
+"Emily Vo Hairstylist | Sarasota","3671 Webber St, Sarasota, FL 34232, USA","(941) 350-2885",https://emilyvo1.glossgenius.com/services,emilyvo2230@yahoo.com
+"Orla Hair Salon","1471 Main St, Sarasota, FL 34236, USA","(941) 822-0421",http://orlahair.salon/,contact@orlahair.salon
+"Soultuary Salon","4141 S Tamiami Trl Suite 1, Sarasota, FL 34231, USA","(336) 345-4713",http://www.soultuarysalon.com/,"rachel@soultuarysalon.com, user@domain.com"
+"Cutting Loose Salon","8429 Honore Ave, University Park, FL 34201, USA","(941) 358-6000",https://www.cuttingloosesalon.com/,
+"Salon Suites of Sarasota","5250 17th St Unit 103, Sarasota, FL 34235, USA","(941) 402-9446",https://www.salonsuitesofsarasota.com/,"jamiekingas@yahoo.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, ed436f5053144538958ad06a5005e99a@sentry.wixpress.com, 18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com, 5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com"
+"Sarasota Hair Queen Salon","200 Central Ave Suite #1, Sarasota, FL 34236, USA","(941) 214-0728",http://sarasotahairqueen.com/,"hi@mystore.com, 13e49d785d8d4f828038b6136f3b48ba@sentry.io"
+"James Griffith Salon - Sarasota","4011 Clark Rd, Sarasota, FL 34233, USA","(941) 921-2665",https://jamesgriffithsalon.com/locations/sarasota-fl,
+"Poised Beauty Salon","2123 Siesta Dr, Sarasota, FL 34239, USA","(941) 400-5636",http://www.poisedbeautysalon.com/?y_source=1_MjAxODgyMzItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D,"book@poisedbeautysalon.com, user@domain.com"
+"Modish Salon","7500 Island Cove Terrace UNIT 101, Sarasota, FL 34240, USA","(941) 358-9777",http://modishsalon.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 88170cb0c9d64f94b5821ca7fd2d55a4@sentry-next.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, management@modishsalon.com"
+"Salon Lofts","3800 S Tamiami Trl, Sarasota, FL 34239, USA","(941) 993-1576",https://salonlofts.com/salons/paradise_plaza?utm_source=apple_maps&utm_medium=organic&utm_campaign=yext,
+"Spa Hollywood","5780 Swift Rd, Sarasota, FL 34231, USA","(941) 927-2635",https://spahollywood.com/,tessspahollywood@gmail.com
+"Salon Forty-One on main","1642 Main St, Sarasota, FL 34236, USA","(941) 650-5868",,
+"LUXE Salon and Day Spa","3524 Fruitville Rd, Sarasota, FL 34237, USA","(941) 312-4463",http://www.luxesalonspa-srq.com/,"%20info@luxesalonspa-srq.com, 20info@luxesalonspa-srq.com, info@luxesalonspa-srq.com"
+"Sarasota Balayage","4141 S Tamiami Trl Suite 1, Sarasota, FL 34231, USA","(336) 345-4713",http://www.sarasotabalayage.com/,
+"Derek The Salon","610 S Pineapple Ave, Sarasota, FL 34236, USA","(941) 400-4173",https://derekthesalon.com/,info@derekthesalon.com
+"Sarasota Salon and Spa","930 Cocoanut Ave, Sarasota, FL 34236, USA","(941) 914-5888",https://sarasotanailsalon.com/,
+"Evolve Hair Lounge","2043 Bahia Vista St, Sarasota, FL 34239, USA","(941) 451-4247",http://evolvehairloungesrq.com/,
+"Apartment 12 Hair Studio","1636 Main St, Sarasota, FL 34236, USA","(941) 954-7670",https://apartment12hairstudio.com/,apartment12hairstudio@gmail.com
+"LG HOWARD & COMPANY","8620 S Tamiami Trl, Sarasota, FL 34238, USA","(941) 702-5390",http://www.lghowardsalon.com/,
+"Salon and Spa Valentina","5702 Clark Rd, Sarasota, FL 34233, USA","(941) 928-2198",http://www.salonandspavalentina.com/,"valentina@salonandspavalentina.com, user@domain.com"
+"Angela's Pure Salon & Spa","3510 N Lockwood Ridge Rd, Sarasota, FL 34234, USA","(941) 351-0670",http://angelaspuresalon.com/,
+"Hair by Yana","501 N Beneva Rd SUITE 260 Room #30, Sarasota, FL 34232, USA","(224) 475-5090",https://www.hairbyyana.com/,"hair.byyana16@gmail.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com, example@mysite.com"
+"Maven & Mane Salon","3603 Clark Rd, Sarasota, FL 34233, USA","(941) 404-5599",http://mavenandmane.com/,your-email@example.com
+"Nuovo Salon Group","1421 1st St, Sarasota, FL 34236, USA","(941) 684-9000 ext. 6",http://nuovosalongroup.com/,
+"Ana Molinari Salon Spa Boutique","72 S Lemon Ave, Sarasota, FL 34236, USA","(941) 365-1415",http://anamolinari.com/,"anamolinarisalonspa@hotmail.com, ana@anamolinari.com, fabiolabeckmann@hotmail.com, abiolabeckmann@hotmail.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, ed436f5053144538958ad06a5005e99a@sentry.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com"
+"Smyrna Hair Salon","2881 Clark Rd UNIT 15, Sarasota, FL 34231, USA","(941) 271-4704",https://www.smyrnasalon.com/?utm_source=google-gmb-maps&utm_medium=gmb-website-button&utm_campaign=locl.io&utm_content=311a5a32-caff-4798-924f-6a99013df0a8,"smyrnasalon@gmail.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"B Gorgeous Hair Studio","5119 N Tamiami Trl Suite 7, Sarasota, FL 34234, USA","(941) 735-9664",,
+"Viva Salon","3671 Webber St, Sarasota, FL 34232, USA","(941) 265-8482",https://vivasalonfl.com/,"vivasalon3671@gmail.com, hi@typemade.mx, dave@lab6.com, filler@godaddy.com"
+"Southern Roots Salon","5568 Palmer Blvd UNIT B, Sarasota, FL 34232, USA","(941) 378-2948",https://www.southernrootssrq.com/,"southernrootssalongroup@gmail.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"Sarasota Blonde","1820 Hillview St, Sarasota, FL 34239, USA","(941) 228-5734",http://thesarasotablonde.com/,"sarasotablondes@gmail.com, user@domain.com"
+"Curls Like Crazy","8051 N Tamiami Trl e9, Sarasota, FL 34243, USA","(941) 500-2848",https://curlslikecrazy.com/,"matt@pixelspread.com, impallari@gmail.com, hello@rfuenzalida.com"
+Supercuts,"3908 S Tamiami Trl UNIT A, Sarasota, FL 34231, USA","(941) 365-2121",https://www.supercuts.com/locations/nearme/haircut/fl/sarasota/3908-s-tamiami-trl-ste-a/82097,
+"Assunta Salon","1833 Morrill St, Sarasota, FL 34236, USA","(941) 254-1818",http://assuntasalon.com/,assunta@assuntasalon.com
+"Sarasota Hairstylist","1833 Morrill St, Sarasota, FL 34236, USA","(941) 780-0359",https://www.srqstylist.com/,user@domain.com
+"Silvana Perez Hair Stylist","501 S Beneva Rd, Sarasota, FL 34232, USA","(863) 303-4347",https://silvanaperezhair.com/,
+"d. cole hair design","1821 Morrill St, Sarasota, FL 34236, USA","(941) 954-2390",http://www.dcolehair.com/,
+"Shine Hair Design Studio","4141 S Tamiami Trl APT 21, Sarasota, FL 34231, USA","(941) 926-1975",http://www.shinesalonsarasota.com/,"shinesarasota@gmail.com, user@domain.com"
+"Beauty by Becca at Salty Mayne","7670 S Tamiami Trl, Sarasota, FL 34231, USA","(941) 539-7411",http://www.beautybybeccasrq.com/,user@domain.com
+"Kimmie B and The Atomic Blondes Salon","6633 Superior Ave, Sarasota, FL 34231, USA","(941) 350-9599",http://www.kimmiebandtheatomicblondessalon.com/,
+"The Confidence Factory","2961 University Pkwy, Sarasota, FL 34243, USA","(941) 306-5398",https://www.theconfidencefactorysalon.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 88170cb0c9d64f94b5821ca7fd2d55a4@sentry-next.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com"
+"Sassy Hair On Siesta Key","209 Beach Rd, Siesta Key, FL 34242, USA","(941) 349-6525",http://www.sassyhair.com/,sassy@sassyhair.com
+"Hair & Earth Organic Salon and Headspa","200 Central Ave, Sarasota, FL 34236, USA","(941) 284-9563",https://hairandearth.glossgenius.com/,hairandearth@gmail.com
+"SRQ Couture Hair Salon and Spa","1530 Dolphin St, Sarasota, FL 34236, USA","(941) 316-9660",https://srqcouturesalonandspa.com/,
+"Red Feather Salon","200 Central Ave Suite 23, Sarasota, FL 34236, USA","(941) 346-6222",http://www.redfeathersrq.com/,"jen@redfeathersrq.com, user@domain.com"
+"Tousle Salon","1735 Fruitville Rd c, Sarasota, FL 34292, USA","(941) 312-1495",http://touslesalon.net/,user@domain.com
+"Salons by JC Sarasota Towne Center","5376 Fruitville Rd, Sarasota, FL 34232, USA","(941) 266-7527",https://salonsbyjc.com/location/florida-sarasota-town-center/,"contact@salonsbyjc.com, info@salonsbyjcnashville.com, sbjc.mobile@gmail.com, scottsdale@salonsbyjc.com, pacificcommons@salonsbyjc.com, huntingtonbeachconcierge@salonsbyjc.com, nelson.chan@salonsbyjc.com, darin.mcghee@gmail.com, ingrid@courtstonemgmt.com, sbjc.sanramon@gmail.com, admin@salonsbyjc.com, sbjc.walnutcreek@gmail.com, sbjc.sherway@salonsbyjc.com, k.hochart@salonsbyjc.com, greenwoodvillage@salonsbyjc.com, scott@salonsbyjc.com, jimmcguiness@salonsbyjc.com, dcorreia@salonsbyjc.com, gary@salonsbyjc.com, cyndi@salonsbyjc.com, sbjc.boyntonbeach@gmail.com, dcooke@salonsbyjc.com, sbjchollywood@gmail.com, sbjckendalelakes@gmail.com, sbjc.lhp@gmail.com, lisa@salonsbyjc.com, urjeet.patel@salonsbyjc.com, gsbedrin@salonsbyjc.com, sbjc.flamingopines@gmail.com, davelong@salonsbyjc.com, sbjc.sarasotatc@gmail.com, a.molano@salonsbyjc.com, sbjc.haynes.bridge@gmail.com, jmurphy@salonsbyjc.com, sbjc.buford@gmail.com, chad.oldweiler@salonsbyjc.com, roswell@salonsbyjc.com, sbjc.roswellga@gmail.com, kent.petzold@salonsbyjc.com, elizabeth.mccarthy@salonsbyjc.com, jmlang@salonsbyjc.com, concierge.highlandpark@salonsbyjc.com, sbjc.lochraven@gmail.com, sbjc.burlex@gmail.com, sbjc.stoneham@gmail.com, novi.sbjc@gmail.com, applevalley@salonsbyjc.com, brent@salonsbyjc.com, bloomington@salonsbyjc.com, diana@salonsbyjc.com, coonrapids@salonsbyjc.com, cottagegrove@salonsbyjc.com, asimek@salonsbyjc.com, dean@salonsbyjc.com, saintlouisgalleria@salonsbyjc.com, townandcountry@salonsbyjc.com, angie@salonsbyjc.com, eagleplaza@salonsbyjc.com, sbjc.middletown@gmail.com, salonsbyjcnnj@gmail.com, abraham.ezekiel@salonsbyjc.com, scott.penza@salonsbyjc.com, janice@courtstonemgmt.com, maya@courtstonemgmt.com, sbjc.carycrossroads@gmail.com, carmel.park@salonsbyjc.com, luis.c.moreno@salonsbyjc.com, south.park@salonsbyjc.com, huntersville@salonsbyjc.com, raleigh@salonsbyjc.com, wakefield@salonsbyjc.com, gsmyers@salonsbyjc.com, adgriesmyer@salonsbyjc.com, s.patel@salonsbyjc.com, karen.ingram@salonsbyjc.com, sbjc.northwales@gmail.com, sbjc.warrington@gmail.com, wayne@salonsbyjc.com, dagney.helms@salonsbyjc.com, jansco@salonsbyjc.com, shawn@salonsbyjcnashville.com, allen.tx@salonsbyjc.com, arlington.tx@salonsbyjc.com, sbjc.davenport@gmail.com, mjjmratcliff@salonsbyjc.com, contact@salonsbyjcaustin.com, salonsbyjc.cc@gmail.com, casalinda@salonsbyjc.com, g.shaibeh@salonsbyjc.com, dallas.campbell@salonsbyjc.com, southlake@salonsbyjc.com, l.katz@salonsbyjc.com, vipsalonsuites@gmail.com, meyerland@salonsbyjc.com, westumanager@salonsbyjc.com, margaritasalonsbyjc@gmail.com, sbjc.katy@gmail.com, john.burgtorf@salonsbyjc.com, sbjc.lewisville@gmail.com, b.cassel@salonsbyjc.com, creekside@salonsbyjc.com, sbjc.pearland@gmail.com, sjcpearland@gmail.com, plano.sbjc@gmail.com, sbjc.richmond@gmail.com, sbjc.rosenberg@gmail.com, dominion.ridge@salonsbyjc.com, huebner@salonsbyjc.com, legacy@salonsbyjc.com, quarry@salonsbyjc.com, forum@salonsbyjc.com, westwood@salonsbyjc.com, scott.mckinney@salonsbyjc.com, sbjc.birnhamwoods@gmail.com, glcrossing@salonsbyjc.com, sbjc.grandparkway@gmail.com, trophyclub@salonsbyjc.com, waco@salonsbyjc.com, sbjc.webster@gmail.com, deanc@aol.com, seattle@salonsbyjc.com"
+"Hair Love the Salon","3900 Clark Rd Building H2, Sarasota, FL 34233, USA","(941) 586-7737",http://www.hairlovethesalon.com/,"deecutshair@gmail.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"Untangled Salon Studio","1735 Fruitville Rd Ste A, Sarasota, FL 34236, USA","(941) 799-4247",http://untangledsalonstudio.com/,
+"Salons by JC Sarasota","200 Central Ave #4914, Sarasota, FL 34236, USA","(941) 400-2088",https://salonsbyjc.com/location/florida-sarasota/,"contact@salonsbyjc.com, info@salonsbyjcnashville.com, sbjc.mobile@gmail.com, scottsdale@salonsbyjc.com, pacificcommons@salonsbyjc.com, huntingtonbeachconcierge@salonsbyjc.com, nelson.chan@salonsbyjc.com, darin.mcghee@gmail.com, ingrid@courtstonemgmt.com, sbjc.sanramon@gmail.com, admin@salonsbyjc.com, sbjc.walnutcreek@gmail.com, sbjc.sherway@salonsbyjc.com, k.hochart@salonsbyjc.com, greenwoodvillage@salonsbyjc.com, scott@salonsbyjc.com, jimmcguiness@salonsbyjc.com, dcorreia@salonsbyjc.com, gary@salonsbyjc.com, cyndi@salonsbyjc.com, sbjc.boyntonbeach@gmail.com, dcooke@salonsbyjc.com, sbjchollywood@gmail.com, sbjckendalelakes@gmail.com, sbjc.lhp@gmail.com, lisa@salonsbyjc.com, urjeet.patel@salonsbyjc.com, gsbedrin@salonsbyjc.com, sbjc.flamingopines@gmail.com, davelong@salonsbyjc.com, sbjc.sarasotatc@gmail.com, a.molano@salonsbyjc.com, sbjc.haynes.bridge@gmail.com, jmurphy@salonsbyjc.com, sbjc.buford@gmail.com, chad.oldweiler@salonsbyjc.com, roswell@salonsbyjc.com, sbjc.roswellga@gmail.com, kent.petzold@salonsbyjc.com, elizabeth.mccarthy@salonsbyjc.com, jmlang@salonsbyjc.com, concierge.highlandpark@salonsbyjc.com, sbjc.lochraven@gmail.com, sbjc.burlex@gmail.com, sbjc.stoneham@gmail.com, novi.sbjc@gmail.com, applevalley@salonsbyjc.com, brent@salonsbyjc.com, bloomington@salonsbyjc.com, diana@salonsbyjc.com, coonrapids@salonsbyjc.com, cottagegrove@salonsbyjc.com, asimek@salonsbyjc.com, dean@salonsbyjc.com, saintlouisgalleria@salonsbyjc.com, townandcountry@salonsbyjc.com, angie@salonsbyjc.com, eagleplaza@salonsbyjc.com, sbjc.middletown@gmail.com, salonsbyjcnnj@gmail.com, abraham.ezekiel@salonsbyjc.com, scott.penza@salonsbyjc.com, janice@courtstonemgmt.com, maya@courtstonemgmt.com, sbjc.carycrossroads@gmail.com, carmel.park@salonsbyjc.com, luis.c.moreno@salonsbyjc.com, south.park@salonsbyjc.com, huntersville@salonsbyjc.com, raleigh@salonsbyjc.com, wakefield@salonsbyjc.com, gsmyers@salonsbyjc.com, adgriesmyer@salonsbyjc.com, s.patel@salonsbyjc.com, karen.ingram@salonsbyjc.com, sbjc.northwales@gmail.com, sbjc.warrington@gmail.com, wayne@salonsbyjc.com, dagney.helms@salonsbyjc.com, jansco@salonsbyjc.com, shawn@salonsbyjcnashville.com, allen.tx@salonsbyjc.com, arlington.tx@salonsbyjc.com, sbjc.davenport@gmail.com, mjjmratcliff@salonsbyjc.com, contact@salonsbyjcaustin.com, salonsbyjc.cc@gmail.com, casalinda@salonsbyjc.com, g.shaibeh@salonsbyjc.com, dallas.campbell@salonsbyjc.com, southlake@salonsbyjc.com, l.katz@salonsbyjc.com, vipsalonsuites@gmail.com, meyerland@salonsbyjc.com, westumanager@salonsbyjc.com, margaritasalonsbyjc@gmail.com, sbjc.katy@gmail.com, john.burgtorf@salonsbyjc.com, sbjc.lewisville@gmail.com, b.cassel@salonsbyjc.com, creekside@salonsbyjc.com, sbjc.pearland@gmail.com, sjcpearland@gmail.com, plano.sbjc@gmail.com, sbjc.richmond@gmail.com, sbjc.rosenberg@gmail.com, dominion.ridge@salonsbyjc.com, huebner@salonsbyjc.com, legacy@salonsbyjc.com, quarry@salonsbyjc.com, forum@salonsbyjc.com, westwood@salonsbyjc.com, scott.mckinney@salonsbyjc.com, sbjc.birnhamwoods@gmail.com, glcrossing@salonsbyjc.com, sbjc.grandparkway@gmail.com, trophyclub@salonsbyjc.com, waco@salonsbyjc.com, sbjc.webster@gmail.com, deanc@aol.com, seattle@salonsbyjc.com"
+"Studio One Eleven","8383 S Tamiami Trl #209, Sarasota, FL 34238, USA","(954) 997-7185",https://studiooneeleven.glossgenius.com/,nicole@studiooneeleven.org
+"Juliana Dias Hair Stylist","5859 Fruitville Rd, Sarasota, FL 34232, USA",,http://www.julianadiashs.com/,"contact@musartsalon.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, ed436f5053144538958ad06a5005e99a@sentry.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com"
+"Marmalade Salon & Boutique","3617, 1927 S Osprey Ave, Sarasota, FL 34239, USA","(941) 362-0276",https://www.marmaladelifestyle.com/,hi@email.com
+"The Salty Suite Salon","1645 Lakeland Hills Blvd suite 3, Lakeland, FL 33805, USA","(863) 603-8485",https://saltysuitesalon.glossgenius.com/,saltysuitebeauty@gmail.com
+"Venue Salon","5035 S Lakeland Dr, Lakeland, FL 33813, USA","(863) 644-0102",https://venuesalon.com/,
+"Belle La Vie Salon & Spa","4525 Florida Ave S # 16, Lakeland, FL 33813, USA","(863) 617-5408",https://www.bellelaviesalonandspa.com/,bellelaviesalonandspa1@gmail.com
+"Glam Color Bar","4746 Florida Ave S, Lakeland, FL 33813, USA","(863) 648-0133",https://www.glamcolorbar.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=13950075577328327483,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"12/six.one Salon","819 Florida Ave S, Lakeland, FL 33801, USA","(863) 816-3019",https://www.vagaro.com/12sixonellc,
+"Liquid Hair Studio","230 N Tennessee Ave, Lakeland, FL 33801, USA","(863) 616-9996",http://liquidhairstudioinc.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com"
+"Esquire Salon Suites","325 Doris Dr, Lakeland, FL 33813, USA","(863) 682-0000",https://www.salonsuitesbyesquire.com/,"esquiresalonsuitesinfo@gmail.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 78f7996315bc402f9dcb8a2f974b82d1@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com"
+"Local Remedy","1074 Florida Ave S Suite 101, Lakeland, FL 33803, USA","(863) 606-5381",http://www.localremedylakeland.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, localremedysalon@gmail.com"
+"Alter'D Ego Salon","229 N Kentucky Ave, Lakeland, FL 33801, USA","(863) 825-3113",https://alterd-ego.square.site/,13e49d785d8d4f828038b6136f3b48ba@sentry.io
+"Woodlund Salon","200 E Canal St, Mulberry, FL 33860, USA","(863) 937-8584",http://www.woodlundsalon.com/,
+"Copper Penny Hair Studio","1003 Florida Ave S, Lakeland, FL 33803, USA","(863) 940-2161",https://m.facebook.com/Thecopperpennyhairstudiolkld,
+"Beautiful You Hair Company","4282 US Hwy 98 N, Lakeland, FL 33809, USA","(863) 333-4011",,
+"Bella Glam Beauty","1925 Bartow Rd, Lakeland, FL 33801, USA","(863) 272-1990",https://www.bellaglambeauty.com/,support@bellaglambeauty.com
+"Blondies Hair Salons Inc","5615 US Hwy 98 N, Lakeland, FL 33809, USA","(863) 815-9100",http://blondieslakeland.com/,blondieshairsalonlakleand@gmail.com
+Supercuts,"3615 Florida Ave S Suite 1010, Lakeland, FL 33803, USA","(863) 262-4465",https://www.supercuts.com/locations/nearme/haircut/fl/lakeland/3615-s-florida-ave-ste-1010/81566,
+"Studio on Main","126 E Main St, Lakeland, FL 33801, USA","(863) 529-0287",https://www.vagaro.com/stusioonmain,
+"Hair Gallery","5345 N Socrum Loop Rd, Lakeland, FL 33809, USA","(863) 859-9229",,
+"LUSTRE Headspa - Lakeland","1835 E Edgewood Dr, Lakeland, FL 33803, USA","(863) 370-7139",https://www.lustreheadspa.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com, 79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com, 8c30b2581acc426badc414e8a5dc04ef@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com, bfb679c754744c58a7374ee6e25cfc13@sentry.wixpress.com"
+"Split Ends Salon Lakeland","6144 US Hwy 98 N, Lakeland, FL 33809, USA","(863) 858-9006",https://www.facebook.com/Splitendslkld,
+"Studio 53","1537 S Combee Rd, Lakeland, FL 33801, USA","(863) 804-8810",https://hairstudio53.com/,
+"End Results A Hair & Nail Salon","5036 Lunn Rd, Lakeland, FL 33811, USA","(863) 510-5969",https://www.endresultssalonspa.com/,
+"ABK Beauty Salon Llc","6700 Florida Ave S STE 17, Lakeland, FL 33813, USA","(863) 646-0342",http://www.abksalon.com/,"abksalon@yahoo.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com"
+"Utopia Studios","854 S New York Ave, Lakeland, FL 33815, USA","(863) 617-9339",http://mysite.vagaro.com/utopiastudioslakeland,
+"Cielo Hair & Spa","3114 Florida Ave S Space 2, Lakeland, FL 33803, USA","(863) 583-4681",,
+"Salon Ezenzia","210 Arteva Dr, Lakeland, FL 33809, USA","(863) 858-2191",,
+"Lakeland Beauty Bar -Jenna's Salon","2056a E Edgewood Dr, Lakeland, FL 33803, USA",,,
+"Hair by Sara Atkinson","202 Lake Miriam Dr Suite E-13, Lakeland, FL 33813, USA","(352) 514-1354",https://saraatkinsonhair.com/,hairbysarabatkinson@gmail.com
+"Salon Rootz","3650 Harden Blvd, Lakeland, FL 33803, USA","(863) 683-2222",,
+"Salon Allure","5325 US Hwy 98 N, Lakeland, FL 33809, USA","(863) 853-1590",,
+"Fantastic Sams Cut & Color","4267 US Hwy 98 N, Lakeland, FL 33809, USA","(863) 859-6362",https://www.fantasticsams.com/salons/fantastic-sams-lakeland-fl?utm_source=google&utm_medium=organic&utm_campaign=gbp-website,
+"Relax it's Natural","606 N Ingraham Ave, Lakeland, FL 33801, USA","(863) 286-6112",https://relaxitsnatural.com/,"impallari@gmail.com, team@latofonts.com, filler@godaddy.com"
+"The Cherished Collective","4644 Cleveland Heights Blvd, Lakeland, FL 33813, USA","(863) 646-7629",https://thecherishedcollectivesalon.com/,info@casinoguide.ca
+"Love Salon","3017 Duff Rd, Lakeland, FL 33810, USA","(863) 666-4494",https://www.facebook.com/Love-Salon-250072371816604,
+"The Heights Salon & Spa","3333 Cleveland Heights Blvd, Lakeland, FL 33803, USA","(863) 646-9990",https://theheightslkld.com/,bebeautiful@theheightsasalonandspa.com
+"Avenue Salon","3825 Florida Ave S #1, Lakeland, FL 33813, USA",,http://avenuesalonllc.com/,"avesalonllc@gmail.com, matt@pixelspread.com, impallari@gmail.com, hello@rfuenzalida.com"
+"Hair Cuttery","1613 Town Center Dr, Lakeland, FL 33803, USA","(863) 682-6164",https://locations.haircuttery.com/fl/lakeland/1613-town-center-dr?y_source=1_MzQ4Mjk5My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D,
+SmartStyle,"5800 US Hwy 98 N, Lakeland, FL 33809, USA","(863) 815-4320",https://www.smartstyle.com/locations/nearme/haircut/fl/lakeland/5800-us-highway-98-n/11212,
+"Amy Lewis Hairstyling LLC","801 Florida Ave S, Lakeland, FL 33801, USA","(813) 703-2944",https://www.amylewishair.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 78f7996315bc402f9dcb8a2f974b82d1@sentry.wixpress.com"
+"Curl Craft Studio","1723 Florida Ave S, Lakeland, FL 33803, USA","(813) 644-9301",https://curlcraftstudio.glossgenius.com/,curlcraftstudio@gmail.com
+"Talk of the Town Beauty Salon","919 W Daughtery Rd, Lakeland, FL 33809, USA","(863) 859-1700",,
+"The Studio Salon Lakeland","2116 Florida Ave S, Lakeland, FL 33803, USA","(863) 899-0290",https://www.instagram.com/thestudiosalonlakeland?igsh=NHdvdzhpbXhpa2dp&utm_source=qr,
+"Establish 37 - Palmola","1224 Florida Ave S, Lakeland, FL 33803, USA","(863) 346-4220",https://www.establish37.com/,"hello@establish37.com, establish37@gmail.com, user@domain.com"
+"Dominican Hair Solutions","2407 Florida Ave S, Lakeland, FL 33803, USA","(863) 940-4469",http://www.dominicanhairsolutions.com/,
+"Clique Salon & Med Spa","Middle of Outback Restaurant Plaza, 5315 Florida Ave S Unit #1, Lakeland, FL 33813, USA","(863) 270-2915",https://cliquemedspa.com/,
+"Creative Touch'e Salon","931 E Parker St, Lakeland, FL 33801, USA","(863) 608-7462",,
+"The Riah Salon","801 Florida Ave S, Lakeland, FL 33801, USA","(863) 658-6415",https://riahsalon.glossgenius.com/,theriahsalon@gmail.com
+CosmoMaxx,"819 Florida Ave S, Lakeland, FL 33801, USA",,https://www.cosmomaxxhair.com/,user@domain.com
+"Blown Beautiful Dry Bar","1021 E County Rd 540A, Lakeland, FL 33813, USA","(863) 937-3428",http://www.bbdrybarlakeland.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"Magic Touch Hair Salon","5711 Florida Ave S STE 2, Lakeland, FL 33813, USA","(863) 816-3131",https://www.facebook.com/magictouchhairsalonllc,
+"European Dimensions","3838 Florida Ave S, Lakeland, FL 33813, USA","(863) 644-8411",,
+"High Class Barber Salon","945 Florida Ave S, Lakeland, FL 33803, USA","(863) 521-3508",https://booksy.com/en-us/684027_high-class-barber-salon_barber-shop_16013_lakeland,"info.us@booksy.com, help.us@booksy.com"
+"MY SALON Suite","4000 US Hwy 98 N, Lakeland, FL 33809, USA","(863) 608-9772",https://www.mysalonsuite.com/lakeland/?utm_source=google_business&utm_medium=search&utm_campaign=profile,info.lakeland@mysalonsuite.com
+"Manes By Gracey","1224 Florida Ave S, Lakeland, FL 33803, USA","(813) 967-2266",https://manesbygraceyc.glossgenius.com/,
+"Ana’s Dominican Hair Salon","819 N Lake Parker Ave, Lakeland, FL 33801, USA","(469) 417-9388",,
+"Be Envious Salon","5950 Imperial lakes Blvd, Mulberry, FL 33860, USA","(863) 816-3556",http://beenvioussalon.com/,"beenvioussalon@gmail.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, ed436f5053144538958ad06a5005e99a@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com"
+"Sterling Locs And African Braiding Salon Llc.","1743 E Edgewood Dr, Lakeland, FL 33803, USA","(210) 943-2796",https://www.sterlinglocsandafricanbraiding.com/,"slylonge1987@gmail.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com, d1bbe4458f884c6ba40890087b9ca2f9@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 98b21aa53d68482b8414e892d9af0e5f@sentry-next.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, 1eeb89147c984dc6bc3ffafd9e6cd089@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, f40a036b055640d1bcedf51ca04aa73a@sentry.wixpress.com"
+"Sola Salons","1476 Town Center Dr, Lakeland, FL 33803, USA","(813) 797-5980",https://www.solasalonstudios.com/locations/lakeland?utm_source=gmb&utm_medium=organic,"anisa@solatampa.com, u003eanisa@solatampa.com"
+"Color & Extensions By Amanda Joy / Hair Extensions Educator","4019 US Hwy 98 N, Lakeland, FL 33809, USA","(863) 604-5673",https://www.amandajoycolorandextensions.com/,"color.extensionsbyamandajoy@gmail.com, amandajoy0200@yahoo.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"Finesse By Von Hair Studio","1014 1/2 N Combee Rd, Lakeland, FL 33801, USA","(863) 333-4083",http://finessebyvonhairstudio.square.site/,"hi@mystore.com, 13e49d785d8d4f828038b6136f3b48ba@sentry.io"
+"The Color Palette Salon","202 Lake Miriam Dr Suite E-13, Lakeland, FL 33813, USA","(813) 716-7126",https://www.colorpalettelakeland.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com"
+"VOYAGE The Salon","6709 Manatee Ave W, Bradenton, FL 34209, USA","(941) 896-3902",http://www.voyagethesalon.com/,"user@domain.com, voyage@voyagethesalon.com"
+"Shear Rituals Salon and Beauty Bar","3633 Cortez Rd W b4, Bradenton, FL 34210, USA","(941) 752-8010",http://www.shearrituals.com/,"shearrituals@gmail.com, user@domain.com"
+"The Loft Hair Studio","7420 Cortez Rd W, Bradenton, FL 34210, USA","(941) 251-4970",http://thelofthair4308.com/,"thelofthairstudio4308@gmail.com, thelofthairstudiobradenton@gmail.com, thelofthairstudioellenton@gmail.com"
+"Amren Salon","101 Manatee Ave W suite 105, Bradenton, FL 34205, USA","(763) 482-1127",https://amrensalon.glossgenius.com/,amandasmartmann@gmail.com
+"Salon 722","548 12th St W, Bradenton, FL 34205, USA","(941) 548-8522",http://www.vagaro.com/SherylJ,
+"New York Hair Company","7311 52nd Pl E, Bradenton, FL 34203, USA","(941) 752-2323",https://www.newyorkhair.com/,
+"Coastal Hair Co","8729 State Road 70 E, Bradenton, FL 34202, USA","(941) 213-9303",https://www.coastalhaircompany.com/,user@domain.com
+"Hair Antics","3971 Cortez Rd W, Bradenton, FL 34210, USA","(941) 737-4519",http://www.hairantics.net/,
+"N2U Salon & Spa","8738 State Road 70 E, Bradenton, FL 34202, USA","(941) 755-5350",http://www.n2usalonspa.com/,
+"Be Blunt Hair Studio","4815 Manatee Ave W, Bradenton, FL 34209, USA","(941) 526-9397",https://studiomdirectory.com/be-blunt-hair-studio,
+"SeaChells Styles","7010 Cortez Rd W, Bradenton, FL 34210, USA","(815) 260-7835",http://seachellstyles.com/,
+"Hair by Megan Cusack","4815 Manatee Ave W, Bradenton, FL 34209, USA","(941) 799-1831",https://studiomdirectory.com/hair-by-megan-cusack,
+"Studio M Hair Salon & Spa","4815 Manatee Ave W, Bradenton, FL 34209, USA","(941) 251-1122",http://studiomdirectory.com/,
+"Blue Door Spa & Salon Bradenton","5234 FL-64, Bradenton, FL 34208, USA","(941) 747-0111",https://thebluedoorspa.com/,info@thebluedoorspa.com
+"FS Cut & Color Bradenton","5722 Cortez Rd W, Bradenton, FL 34210, USA","(941) 795-6350",https://www.fantasticsams.com/salons/fantastic-sams-bradenton-fl-1?utm_source=google&utm_medium=organic&utm_campaign=gbp-website,
+"Radiant Studio","4949 FL-64, Bradenton, FL 34208, USA","(941) 304-3145",http://www.radianthairstudio.com/,
+"The Hair Ninja Salon","3659 Cortez Rd W STE 100, Bradenton, FL 34210, USA","(941) 448-5258",http://www.styleseat.com/thehairninjasalon,
+"BOE Hair Salon - Skincare - Nails - Makeup Artist - Massage","2559 Lakewood Ranch Blvd, Bradenton, FL 34211, USA","(941) 746-1500",https://www.boesalonspa.com/,"boesalonspa@gmail.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8c30b2581acc426badc414e8a5dc04ef@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"Salon Uptown Downtown","620 S Tamiami Trl, Bradenton, FL 34205, USA","(941) 744-0620",http://www.lisayourstylist.com/,
+Supercuts,"7324 Manatee Ave W, Bradenton, FL 34209, USA","(941) 795-0709",https://www.supercuts.com/locations/nearme/haircut/fl/bradenton/7324-manatee-ave-w/82339,
+"X'clusive Hair Salon","4220 20th St W, Bradenton, FL 34205, USA","(941) 799-8930",,
+"Me Time Salon","6302 Manatee Ave W suit E1, Bradenton, FL 34209, USA","(941) 420-4170",http://www.metimesalonfl.com/,"metimesalonfl@gmail.com, user@domain.com"
+"The Hideaway Styling Studio","5109 Manatee Ave W, Bradenton, FL 34209, USA","(941) 794-5554",,
+"CC Styling Studio","3645 Cortez Rd W # 140, Bradenton, FL 34210, USA","(941) 356-5153",https://www.ccstylingstudio.net/,"ccstylingstudio@gmail.com, your.email@example.com"
+SmartStyle,"6225 FL-64, Bradenton, FL 34208, USA","(941) 251-1312",https://www.smartstyle.com/locations/nearme/haircut/fl/bradenton/6225-e-state-road-64/11191,
+"Teddi's Place Hair Salon","3643 Cortez Rd, Professional Center, Wildewood Springs Blvd Suite 120, Bradenton, FL 34210, USA","(941) 752-6416",,
+"Sunhoney Hair co.","6921 State Road 70 E, Bradenton, FL 34203, USA",,http://sunhoneyhairco.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com"
+"Hair Dimensions","6404 Manatee Ave W STE T, Bradenton, FL 34209, USA","(941) 761-4480",http://www.hairdimensionsbradenton.com/,
+"Me Too Salon","1825 Lakewood Ranch Blvd, Bradenton, FL 34211, USA","(941) 896-4925",https://metoosalononline.com/,
+"Salon 43","4232 Cortez Rd W, Bradenton, FL 34210, USA","(941) 751-2000",http://www.salon43.com/,"salon43@salon43.com, supportteam@performancemediamarketing.com"
+"troo organic hair & wellness studio","4148 Lakewood Ranch Blvd, Bradenton, FL 34211, USA","(941) 216-3899",https://www.troohair.com/,"user@domain.com, contact@troohair.com"
+"JadesRose Salon","9732 FL-64 East, Bradenton, FL 34212, USA","(941) 718-5470",https://jadesrose.org/,info@stagheaddesigns.com
+"FS Cut & Color (Bayshore Gardens, FL)","6092 14th St W, Bradenton, FL 34207, USA","(941) 755-7565",https://www.fantasticsams.com/salons/fantastic-sams-bradenton-fl?utm_source=google&utm_medium=organic&utm_campaign=gbp-website,
+"Creative Images by Heather","3601 Manatee Ave W, Bradenton, FL 34205, USA","(941) 730-2205",http://www.creativeimagesbyheather.com/,"impallari@gmail.com, creativeimages@msn.com"
+"di Moda Salon","5901 53rd Ave E, Bradenton, FL 34203, USA","(941) 755-5339",,
+"Sweetest Little Salon & Co suites","437 Cortez Rd W, Bradenton, FL 34207, USA","(941) 212-0096",http://www.sweetestlittlesalon.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com"
+"hair by sherelle","101 Manatee Ave W, Bradenton, FL 34205, USA","(941) 586-5406",https://hairdreamsbysherelle.com/,
+"101 HAIR SPA","5759 Manatee Ave W, Bradenton, FL 34209, USA","(941) 216-3309",,
+"The Hair Company","7304 Manatee Ave W, Bradenton, FL 34209, USA","(941) 896-9987",http://wearethehaircompany.com/,wearethehaircompany@gmail.com
+"The Color Lab","909 5th St W, Palmetto, FL 34221, USA","(941) 398-4633",https://www.facebook.com/thecolorlabpalmetto?mibextid=ZbWKwL,
+"Hair Cuttery","4262 53rd Ave E Unit 7, Bradenton, FL 34203, USA","(941) 756-1920",https://locations.haircuttery.com/fl/bradenton/4262-53rd-avenue-east-unit-7?y_source=1_MzQ4MzIwMS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D,
+"The Loft Hair Studio Ellenton","6320 US-301, Ellenton, FL 34222, USA","(941) 479-4009",http://thelofthair4308.com/,"thelofthairstudio4308@gmail.com, thelofthairstudiobradenton@gmail.com, thelofthairstudioellenton@gmail.com"
+"Modern Clips","4529 26th St W, Bradenton, FL 34207, USA","(941) 306-1791",http://facebook.com/ModernClipsSalon,
+"The Loft Hair Studio Downtown","1933 Manatee Ave W, Bradenton, FL 34205, USA","(941) 251-3111",https://www.facebook.com/profile.php?id=61555314279278&mibextid=JRoKGi,
+"Ted Hair Studio","7107 15th Ave NW, Bradenton, FL 34209, USA","(941) 792-1579",http://seachellsstyles.com/,"astigma@astigmatic.com, matt@pixelspread.com, impallari@gmail.com, hello@rfuenzalida.com"
+"Karima's French Hair Salon","3971 Cortez Rd W, Bradenton, FL 34210, USA","(941) 718-0340",http://www.karimasfrenchcoiffure.com/,"ritale2006@hotmail.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 78f7996315bc402f9dcb8a2f974b82d1@sentry.wixpress.com, 5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com"
+"West Ave Salon LLC","5008 Manatee Ave W Suite C, Bradenton, FL 34209, USA","(941) 748-1454",,
+"Lakewood Ranch Hair Salon","14425 State Road 70 E, Lakewood Ranch, FL 34202, USA","(941) 753-9999",https://www.lakewoodranchhairsalon.com/,
+"Lakewood Ranch Hair Salon","8729 State Road 70 E, Bradenton, FL 34202, USA","(941) 753-7737",https://www.lakewoodranchhairsalon.com/,
+"Moreland's Hair Cafe Salon & Spa","4911 14th St W STE 104, Bradenton, FL 34207, USA","(941) 448-0437",http://www.morelandshaircafe.com/,
+"Backstreet Hair Designers","5902 Manatee Ave W, Bradenton, FL 34209, USA","(941) 792-7134",,
+"YK Beauty Salon","4440b 26th St W, Bradenton, FL 34207, USA","(941) 226-1876",http://ykbeautysalon.com/,"user@domain.com, ykbeautysalon4@gmail.com"
+"Wake Up in Your Makeup","3645 Cortez Rd W suite 141, Bradenton, FL 34210, USA","(941) 224-4840",http://ccstylingstudio.net/,"ccstylingstudio@gmail.com, your.email@example.com"
+SmartStyle,"5315 Cortez Rd W, Bradenton, FL 34210, USA","(941) 795-7800",https://www.smartstyle.com/locations/nearme/haircut/fl/bradenton/5315-cortez-rd-w/17929,
+"Celebrity Looks Esthetics and Beauty Spa","1201 6th Ave W Suite B, Bradenton, FL 34205, USA","(904) 869-2577",http://www.glammonstarz.com/,glammonstarz@gmail.com
+"Off 7th Hair Studio","729 7th St W, Palmetto, FL 34221, USA","(941) 721-4247",http://off7thhair.com/,
+"Kds Hair Studio","239 US 301 Blvd E E, Bradenton, FL 34208, USA","(941) 896-4496",http://www.styleseat.com/melanamorris,
+"Salon 301 LLC","7024 US-301 N, Ellenton, FL 34222, USA","(941) 721-0778",https://salon301llc.com/,info@salon301llc.com
+"Kalidad Professional Barber & Hair Salon","1706 9th St W, Bradenton, FL 34205, USA","(941) 748-7421",,
+"YHC barbershop","4023 W Waters Ave, Tampa, FL 33614, USA","(813) 729-1554",https://booksy.com/en-us/1064744_yasiel-barber-tampa_barber-shop_15761_tampa,"info.us@booksy.com, help.us@booksy.com"
+"Razorz Edge Barbershop","3695 W Waters Ave, Tampa, FL 33614, USA","(813) 605-3231",,
+"The Cut Barbershop","902 W Busch Blvd, Tampa, FL 33612, USA","(813) 935-3233",http://thecuttampa.com/,"corygreenzweig@gmail.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 78f7996315bc402f9dcb8a2f974b82d1@sentry.wixpress.com"
+"Kingly Cutz Barbershop","1041 W Busch Blvd, Tampa, FL 33612, USA","(813) 468-4061",,
+"BarberShop The Neighbor's Cut","3301 W Waters Ave Ste 102, Tampa, FL 33614, USA","(813) 919-8182",https://barbershoptheneighborscut.com/,
+"The Official La Perla Barbershop llc","8311 N Armenia Ave, Tampa, FL 33604, USA","(813) 280-2199",https://booksy.com/en-us/instant-experiences/widget/1080052?instant_experiences_enabled=true&ig_ix=true,"info.us@booksy.com, help.us@booksy.com"
+"Skillz Inc Barber Shop Carrollwood Tampa","8405 N Himes Ave #102, Tampa, FL 33614, USA","(813) 933-1062",https://skillzincbarbers.com/home,
+"Fade Loft barbershop","6407 W Waters Ave, Tampa, FL 33634, USA","(813) 484-5132",https://fadeloftbarbershoptownncountry.com/home,"sample@yourdomain.com, infante.g2002@gmail.com"
+"Walt’s Barbershop Tampa","1814 W Waters Ave, Tampa, FL 33604, USA","(267) 616-0999",https://refer.booksy.com/walter2486martinez!34a0215001!a?locale=es,
+"Pro Shave Barbershop Hillsborough Av","Pro Shave Barbershop, 7657 W Hillsborough Ave, Tampa, FL 33615, USA","(813) 443-0366",https://proshavebarber.com/,yourname@example.com
+Jc-Barbershop2021,"8019 N Himes Ave St #502, Tampa, FL 33614, USA","(786) 370-5377",https://jcbarbershop.com/,"%20crisblackbox@gmail.com, crisblackbox@gmail.com, 20crisblackbox@gmail.com"
+"VIP Barbershop","4318 N Armenia Ave, Tampa, FL 33607, USA","(813) 553-1510",https://vipbarbershoptampa.com/,
+"Ray and Charlene’s Barber Shop","8850 N Himes Ave, Tampa, FL 33614, USA","(813) 935-9701",https://rayandcharlenesbarbershop.com/,
+"Big League Barbershop","1100 N Florida Ave, Tampa, FL 33602, USA","(770) 891-9882",http://bigleaguebarbershoptpa.com/,
+"Chino2 Barbershop llc","3611 W Hillsborough Ave Suite 214, Tampa, FL 33614, USA","(813) 360-7994",https://chino2barbershop.com/,
+"Headlines Barber Shop North Dale/ Carrollwood","13032 N Dale Mabry Hwy, Tampa, FL 33618, USA","(813) 374-9420",https://headlinesbarberstampabay.com/northdale,bossio@tomb45.com
+"Westside Barbershop","2800 N Mac Dill Ave Suite R, Tampa, FL 33607, USA","(813) 443-2152",https://getsquire.com/booking/book/westside-barbershop-tampa,info@westsidebarbershop.com
+"Allan Barber 💈✂️","8311 N Armenia Ave, Tampa, FL 33604, USA","(813) 280-2199",http://theofficialbarbershopllc.booksy.com/a/,"info.us@booksy.com, help.us@booksy.com"
+"FADE-X BARBERSHOP","9014 N Florida Ave, Tampa, FL 33604, USA","(941) 726-0664",https://fadexbarber.com/,
+"Exotic Cutz Channelside Barber spa","1000 Channelside Dr STE A, Tampa, FL 33602, USA","(813) 486-1210",http://www.exoticcutzchannelside.com/,
+"Muscle Cut Barbershop (inside powerhouse gym)","3251 W Hillsborough Ave, Tampa, FL 33614, USA","(813) 296-9777",https://yborbarbershop.wixsite.com/ycbc,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, f36cc48fb72b4d298c835f2793cf3b84@sentry-next.wixpress.com, baf30a2b91654c5a840931f0137bed30@sentry.wixpress.com, 0e6a29e4756740a8a63493e912ba2174@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"Dugout Barbershop","4002 W Waters Ave, Tampa, FL 33614, USA","(813) 300-3432",,
+"Jose M @Westside Barbershop - Tampa","2800 N Mac Dill Ave, Tampa, FL 33607, USA","(813) 215-9185",https://booksy.com/en-us/100027_jose-m-westside-barbershop-tampa_barber-shop_15761_tampa,"info.us@booksy.com, help.us@booksy.com"
+"Fade Legends Barber Shop","Fade Legends Barber shop, 4345 Gunn Hwy, Tampa, FL 33618, USA","(813) 962-4200",http://fadelegends.setmore.com/,
+"Danny's Barber Shop","3105 N Armenia Ave, Tampa, FL 33607, USA","(813) 300-4904",https://www.dannysbarbers.space/,
+"BarrelHouse Barber","3502 N Nebraska Ave ste b, Tampa, FL 33603, USA","(813) 377-6292",https://barrelhousebarber.com/,barrelhousebarber@gmail.com
+"Pro Shave Barbershop #2","8420 Sheldon Rd, Tampa, FL 33615, USA","(813) 806-0000",https://proshavebarber.com/,yourname@example.com
+"Studio Elite Barbershop","6802 W Hillsborough Ave #13, Tampa, FL 33634, USA","(813) 243-0831",https://www.instagram.com/studio_elite_barber_shop_?igsh=MWU2MmxtNGtoeXU0dg==&utm_source=qr,
+"Fade Tampa","4351 W Waters Ave, Tampa, FL 33614, USA","(813) 882-0702",,
+"Bay Styles Barber Shop","7515 N Armenia Ave, Tampa, FL 33604, USA","(813) 932-0908",https://www.baystylesbarbershop.com/,
+"La Romana Barbershop","12205 N Florida Ave, Tampa, FL 33612, USA","(813) 488-1223",,
+"Charly Barber Shop","1412 W Waters Ave #101, Tampa, FL 33604, USA","(813) 704-3772",http://charlybarbershop96.booksy.com/a/,"info.us@booksy.com, help.us@booksy.com"
+"The Barbershop Tampa","8629 W Hillsborough Ave, Tampa, FL 33615, USA","(813) 542-3799",https://linktr.ee/thebarbershop813,
+"House of Fades","3115 W Columbus Dr # 110, Tampa, FL 33607, USA","(813) 875-7700",,
+"Fernando's Legacy Barbershop","1193 Gramercy Ln Ste 4, Tampa, FL 33607, USA","(813) 399-6080",https://fernandoslegacy.com/,
+"Doug's Barbershop Tampa","2102 W Busch Blvd, Tampa, FL 33612, USA","(813) 270-4556",http://dougsbarbershop.booksy.com/,"info.us@booksy.com, help.us@booksy.com"
+"Experience The One Barber Lounge","2525 E Hillsborough Ave Suite 137, Tampa, FL 33610, USA","(813) 466-2401",https://experiencetheonebarberlounge.com/,
+"The Lux Barber Studio","10005 N Dale Mabry Hwy Suite 156, Tampa, FL 33618, USA","(727) 859-8659",https://theluxbarberstudio.com/,"info@theluxbarberstudio.com, luxbarberstudiotampa@gmail.com"
+"The Corner Barbershop","7017 N Himes Ave, Tampa, FL 33614, USA","(813) 545-8276",https://www.facebook.com/share/1CL9QEBY7t/?mibextid=wwXIfr,
+"Las Estrellas Barbershop","4311 W Waters Ave #201, Tampa, FL 33614, USA","(813) 403-3387",,
+"Gcuts Barbershop Tampa","104 E Fletcher Ave Suite G, Tampa, FL 33612, USA","(813) 269-2887",http://www.gcutsbarber.com/,"gscuts@gmail.com, hello@themenectar.com, support@gcutsbarbers.com"
+"Flakos Barber shop","3911 W Waters Ave STE 12, Tampa, FL 33614, USA","(813) 347-0610",,
+"Fade to Perfection","7709 W Hillsborough Ave, Tampa, FL 33615, USA","(813) 888-5004",http://fadetoperfection62.booksy.com/a/,"info.us@booksy.com, help.us@booksy.com"
+"District Barbers of TAMPA","1947 W Cass St, Tampa, FL 33606, USA","(813) 251-9010",http://www.districtbarbersoftampa.com/,user@domain.com
+"The Extraordinaire Touch","7542 N Dale Mabry Hwy, Tampa, FL 33614, USA","(813) 284-0775",http://www.thebrixbarbershop.com/,
+"Gents and Tonic","4104 W Linebaugh Ave #2B, Tampa, FL 33624, USA","(813) 438-1323",https://gentsandtonic.com/,
+"Daniel'S 80's & 90's Barbershop","4025 W Waters Ave #103, Tampa, FL 33614, USA","(813) 887-3999",,
+"Avivamiento Barbershop","7502 N Armenia Ave, Tampa, FL 33604, USA","(813) 930-5777",,
+"Heyday Barbershop","5115 N Florida Ave, Tampa, FL 33603, USA","(813) 765-9989",http://www.heydaybarbershop.com/,
+"Kavana Barbería","5802 N Armenia Ave, Tampa, FL 33603, USA","(813) 252-3722",,
+"Dope Men Social","514 N Franklin St # 207, Tampa, FL 33602, USA","(813) 414-1691",http://www.dopemensocial.com/,
+"Plan A Barbers","2153 W Busch Blvd, Tampa, FL 33612, USA","(813) 252-6935",http://planabarbers.booksy.com/,"info.us@booksy.com, help.us@booksy.com"
+"Mr. Fade","4419 N Armenia Ave, Tampa, FL 33603, USA","(813) 999-5301",,
+"Anthony and Nat @ Westside barbershop","2800 N Mac Dill Ave, Tampa, FL 33607, USA","(813) 786-6150",https://booksy.com/en-us/23490_nat-westside-barbershop_barber-shop_15761_tampa#ba_s=seo,"info.us@booksy.com, help.us@booksy.com"
+"The Barbershop by Salon Inga","4544 W Kennedy Blvd, Tampa, FL 33609, USA","(813) 867-3511",http://www.thebarbershoptampa.com/,barber@saloninga.com
+"The Fade Factory Gentlemen's Grooming","2901 N Lincoln Ave suite 11, Tampa, FL 33607, USA","(813) 542-1004",https://web.getsquire.com/brands/the-fade-factory,thefadefactory2020@gmail.com
+"La Etika Barber Shop","904 W Waters Ave, Tampa, FL 33604, USA","(813) 809-9693",,
+"A J barbershop & Salón Inc.","1901 W Busch Blvd, Tampa, FL 33612, USA","(813) 935-3177",,
+"Barbershop DayFadez","7818 N Armenia Ave suite 3, Tampa, FL 33604, USA","(786) 569-5744",http://dayronfadez.booksy.com/i/,"info.us@booksy.com, help.us@booksy.com"
+"Champions Barber Shop","4901 W Linebaugh Ave # 3, Tampa, FL 33624, USA","(813) 415-3422",,
+"Uptown Barber Bar","3300 Dr M.L.K. Jr St N, St. Petersburg, FL 33704, USA","(727) 898-4516",http://uptownbarberbar.com/,uptownbarberbar@gmail.com
+"Central Oak Barber Co.","246 Dr M.L.K. Jr St N, St. Petersburg, FL 33705, USA",,http://www.centraloakbarberco.com/,
+"Top Notch Barber co","2150 1st Ave S, St. Petersburg, FL 33712, USA","(727) 289-6334",http://topnotchbarberco.com/,
+"Stand Tall Barbering Company","2114 54th Ave N, St. Petersburg, FL 33714, USA","(727) 289-1010",https://www.standtallbarbering.com/,"user@domain.com, email@example.com"
+"The Shave Cave","215 1st St N, St. Petersburg, FL 33701, USA","(727) 914-7700",https://www.theshavecave.com/?utm_source=Google&utm_medium=GBP_LRS&utm_campaign=Main_Website_Button,"user@domain.com, info@theshavecave.com"
+"Broken Compass Barber Co.","1 Beach Dr SE Unit 106, St. Petersburg, FL 33701, USA","(727) 385-6218",http://www.brokencompassbarbercompany.com/,"user@domain.com, brokencompassbarber@gmail.com, brokencompassbarberco@gmail.com"
+"Floyd's 99 Barbershop","1200 Central Ave, St. Petersburg, FL 33705, USA","(727) 222-0925",https://www.floydsbarbershop.com/locations/florida/st-pete,
+"Central Station Barbershop & Grooming","2325 Central Ave, St. Petersburg, FL 33713, USA","(727) 605-5014",https://www.centralstationbarbershop.org/,
+Barberhaus,"2014 66th St N, St. Petersburg, FL 33710, USA","(727) 317-2900",http://thebarberhaus.com/,contact@thebarberhaus.com
+"Bayview Barber Co","1506 54th Ave N, St. Petersburg, FL 33703, USA",,http://bayviewbarberco.com/,user@domain.com
+"Modern Barber Co.","4634 Central Ave, St. Petersburg, FL 33711, USA","(727) 290-6003",https://www.modernbarberco.com/,
+"Goodfella's master barber shop","8908 4th St N, St. Petersburg, FL 33702, USA","(727) 851-9967",https://barbershopstpetersburg.com/,
+"Buzz & Brews Barbershop","10454 Roosevelt Blvd N, St. Petersburg, FL 33716, USA","(727) 201-8796",https://buzznbrews.com/,"user@domain.com, email@example.com"
+"Tyler'z Barbershop","880 3rd Ave S, St. Petersburg, FL 33701, USA","(727) 498-6004",https://www.tylerzbarbershop.com/,"marketing@tylerzbarbershop.com, marketing@tylerzbarebrshop.com, info@theshaver.com"
+"Billy's Corner Barber Shop","2031 4th St N #12, St. Petersburg, FL 33704, USA","(727) 440-9437",http://stpetebarbershop.com/,
+"Tim's Barber Shop Inc.","2527 Dr M.L.K. Jr St N, St. Petersburg, FL 33704, USA","(727) 462-8467",https://www.timsbarbershop.com/,richard@electricpixels.com
+"Fresh Fits and Fades","2315 Central Ave, St. Petersburg, FL 33713, USA","(727) 873-7518",,
+"Casablanca Barber Shop","11270 4th St N #216, St. Petersburg, FL 33716, USA","(727) 914-4910",http://casablancabarber.com/,"clients@simplissimo.com, info@casablancabarbershop.com"
+"Scotty's Barbershop","3025 Central Ave, St. Petersburg, FL 33713, USA","(727) 248-2350",https://www.scottysbarbershopfl.com/,"hi@mystore.com, 13e49d785d8d4f828038b6136f3b48ba@sentry.io"
+"ManCave for Men - St. Pete","140 1st Ave N, St. Petersburg, FL 33701, USA","(727) 388-9900",https://mancaveformen.com/locations/sundial-st-petersburg-florida/,
+"Sports Cuts","3166 18th Ave S, St. Petersburg, FL 33712, USA","(727) 323-8388",http://sports-cuts-st-petersburg.paqe.io/,
+"The Next Level Barbers","11 7th St N, St. Petersburg, FL 33701, USA","(727) 914-4291",http://www.thenextlevelbarbers.com/,
+"Loman Barber","7322 Central Ave, St. Petersburg, FL 33707, USA","(727) 289-2240",http://www.lomanbarber.com/,13e49d785d8d4f828038b6136f3b48ba@sentry.io
+"Aaron’s Against the Grain Barbershop","2438 Central Ave, St. Petersburg, FL 33713, USA","(727) 329-9614",http://www.againstthegrain727.com/,micah@micahrich.com
+"Taper Bay Barbershop","4914 1st Ave S, St. Petersburg, FL 33707, USA","(727) 776-4490",http://taperbay.com/,"sami@taperbay.com, contact@mysite.com"
+"Freedom Kutz","6055 Dr. M.L.K. Jr St S, St. Petersburg, FL 33705, USA","(727) 800-6226",,
+"Megatron Kutz","2504 34th St S, St. Petersburg, FL 33711, USA","(727) 320-2466",,
+"Buzz & Brews Barbershop","9025 Park Blvd, Seminole, FL 33777, USA","(727) 800-9099",https://www.buzznbrews.com/,"user@domain.com, email@example.com"
+"Barbers & Beers St. Pete","2619 Central Ave, St. Petersburg, FL 33713, USA","(727) 253-3644",http://www.barbersandbeers.com/,"barbersandbeers24@gmail.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 78f7996315bc402f9dcb8a2f974b82d1@sentry.wixpress.com, 5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com, example@mysite.com"
+"Master's Touch Barber Studio","3917 6th St S, St. Petersburg, FL 33705, USA","(727) 410-9119",http://www.masterstouchbarberstudio.com/,
+"Black Sail Barber Studio","234 4th St N, St. Petersburg, FL 33701, USA","(727) 580-1418",http://www.blacksailbarber.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"Sami's Barber Shop","8410 4th St N, St. Petersburg, FL 33702, USA","(727) 576-7264",,
+"Barber Luxe","3222 Dr M.L.K. Jr St N, St. Petersburg, FL 33704, USA","(978) 818-3473",http://www.barber-luxe.com/,"nbarberluxe3222@gmail.com, 13e49d785d8d4f828038b6136f3b48ba@sentry.io"
+"MisTer'z Barber Lounge","6393 Dr M.L.K. Jr St N #106, St. Petersburg, FL 33702, USA","(727) 502-0575",https://www.misterzbarberlounge.com/,
+"Tabias’s Cuts","1 Beach Dr SE #106, St. Petersburg, FL 33701, USA",,https://www.brokencompassbarbercompany.com/tabias,"user@domain.com, brokencompassbarberco@gmail.com"
+"Razor's Edge Barber Stylists","3961 58th St N, St. Petersburg, FL 33709, USA","(727) 381-4247",,
+"Smoke & Fade Barbershop l After Hours Grooming","237 2nd Ave S, St. Petersburg, FL 33701, USA","(813) 403-8100",https://www.blackleaflounge.com/smoke-and-fade,
+"Brentwood Barber Shop","2948 49th Street N, St. Petersburg, FL 33710, USA","(727) 321-1630",,
+"Fly Guys Barbershop","10387 Gandy Blvd N #101, St. Petersburg, FL 33702, USA","(727) 954-3759",http://housellc.booksy.com/a/,"info.us@booksy.com, help.us@booksy.com"
+"Creative Kutz","1125 22nd St S, St. Petersburg, FL 33712, USA","(727) 454-2678",,
+"Isa’s Cuts","3607 Central Ave, St. Petersburg, FL 33713, USA","(727) 592-5330",https://www.isacuts.com/,"cglover_23@yahoo.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"Headquarterz Barbershop","3153 Central Ave, St. Petersburg, FL 33713, USA","(727) 321-5757",,
+"D'z Cutz","3125 5th Ave N, St. Petersburg, FL 33713, USA","(727) 601-7748",http://dz-cutz.booksy.com/,"info.us@booksy.com, help.us@booksy.com"
+Chillwillfreshcutz,"1139 Dr. M.L.K. Jr St S, St. Petersburg, FL 33705, USA","(727) 557-6133",,
+"Ultimate Cuts Barbershop","5855 54th Ave N, Kenneth City, FL 33709, USA","(727) 329-8489",,
+"Cut Cut City Barbershop","1139 Dr. M.L.K. Jr St S, St. Petersburg, FL 33705, USA","(727) 215-6897",http://cutcutcityy.booksy.com/,"info.us@booksy.com, help.us@booksy.com"
+"Stylin Cuts Barbershop","3754 Central Ave, St. Petersburg, FL 33711, USA","(727) 235-0625",,
+"4th Street Barber","6833 4th St N, St. Petersburg, FL 33702, USA","(727) 522-2189",,
+"Elite Barbers","4631 Haines Rd N, St. Petersburg, FL 33714, USA","(401) 952-5392",,
+"Modish Barbers Hair Lounge","2705 54th Ave N #9, St. Petersburg, FL 33714, USA","(727) 396-1111",https://modishhairco.com/,
+"Pete's Barbershop","6620 Central Ave, St. Petersburg, FL 33707, USA","(727) 347-9994",,
+"Sims Barber Shop","7244 Central Ave, St. Petersburg, FL 33707, USA","(727) 201-8482",https://simsbarber.com/,
+"The Strand Barber Shop","11012 4th St N, St. Petersburg, FL 33716, USA","(727) 922-5535",,
+"Fade Masters Pinellas Barbershop","6236 66th St N, Pinellas Park, FL 33781, USA","(727) 546-2889",https://popl.co/card/zFj3FphS/1/s,"fademastersbarbershops@gmail.com, fademasters813@gmail.com"
+Anderson's,"876 18th Ave S, St. Petersburg, FL 33705, USA","(727) 823-2601",,
+"Disston 1 Barbers shop","3451 49th Street N, St. Petersburg, FL 33710, USA","(727) 240-9775",,
+"Tyrone Barber Shop (Formerly on 9th Ave)","9653 Bay Pines Blvd, St. Petersburg, FL 33708, USA","(727) 384-0321",http://tyronebarbershop.com/,
+"Improved Image Barber Club","3012 54th Ave S, St. Petersburg, FL 33712, USA","(727) 322-6145",,
+"Forever Faded Barbershop","8629 49th Street N, Pinellas Park, FL 33782, USA","(727) 800-2934",,
+"The Heritage Club Barbershop & Salon","1712 S Dale Mabry Hwy, Tampa, FL 33629, USA","(813) 251-6000",http://heritageclubbarbershop.com/,info@heritageclubbarbershop.com
+"Sola Salon Studios","15241 N Dale Mabry Hwy, Tampa, FL 33618, USA","(813) 373-4907",https://www.solasalonstudios.com/locations/tampa-florida?utm_source=gmb&utm_medium=organic,rich@solasalons.com
+"Fantastic Sams Cut & Color","13250 N Dale Mabry Hwy, Tampa, FL 33618, USA","(813) 962-0222",https://www.fantasticsams.com/salons/fantastic-sams-tampa-fl-0?utm_source=google&utm_medium=organic&utm_campaign=gbp-website,
+HAIRLAND,"4335 W Kennedy Blvd, Tampa, FL 33609, USA","(727) 479-8682",https://hairlandusa.com/?utm_source=googlemaps&utm_medium=googlemapsprofile&utm_campaign=googlemaps,
+"Chic Beauty Collective","1412 E Fletcher Ave, Tampa, FL 33612, USA","(754) 202-8293",http://chicbeautytpa.com/,"hi@mystore.com, 13e49d785d8d4f828038b6136f3b48ba@sentry.io"
+"Salon Adube","221 W Waters Ave, Tampa, FL 33604, USA","(813) 935-4939",,
+"Melanee's Hair Studio","1313 E Fletcher Ave, Tampa, FL 33612, USA","(813) 857-9050",http://melaneeshairstudio.square.site/,"hi@mystore.com, 13e49d785d8d4f828038b6136f3b48ba@sentry.io"
+"Hair by Leydy","222 N 11th St, Tampa, FL 33602, USA","(813) 455-5265",https://www.hairbyleydy.com/,user@domain.com
+"The Little Black Door Salon","4644 W Gandy Blvd #7, Tampa, FL 33611, USA","(813) 404-6021",http://www.tlbdsalon.com/,thelittleblackdoorsalon@gmail.com
+"The Blonde Practitioner","2603 W Azeele St Ste 3, Tampa, FL 33609, USA",,http://theblondepractitioner.com/,"hairbyerinstone@gmail.com, 13e49d785d8d4f828038b6136f3b48ba@sentry.io"
+"Lorraine Fred Beauty","1200 W Cass St Suite 208-210, Tampa, FL 33606, USA","(813) 894-1043",http://www.lorrainefredbeauty.com/,"lorrainefredbeauty@gmail.com, user@domain.com"
+"The Green Room Extension & Beauty Bar","3415 S Manhattan Ave, Tampa, FL 33629, USA","(813) 443-4763",http://www.thegreenroomtampa.com/,inquiry@thegreenroomtampa.com
+"Salon Eunoia","4218 Henderson Blvd, Tampa, FL 33629, USA","(813) 442-4272",https://www.saloneunoia.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=18106167950620188003,"info@saloneunoia.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, cd64ba1f47df485bba2b0076c0dd3b25@sentry.wixpress.com, 79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com, 463991d7bca24f02a0baf16f9e6eda73@sentry.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 1eeb89147c984dc6bc3ffafd9e6cd089@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, ed436f5053144538958ad06a5005e99a@sentry.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, 18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, a18507e8883842d8a1ba47257fee81ac@sentry.wixpress.com, 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com, bfb679c754744c58a7374ee6e25cfc13@sentry.wixpress.com, 5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com"
+"Amanda Santos Hair","1200 W Cass St #109, Tampa, FL 33606, USA","(813) 526-3074",https://amandasantoshair.square.site/,13e49d785d8d4f828038b6136f3b48ba@sentry.io
+"Eden Yanez Professional Hair Stylist","10005 N Dale Mabry Hwy Suite #112, Tampa, FL 33618, USA","(813) 230-7966",http://www.edenyanez.com/,
+"Siobhan Silva Hairstylist","4308 N Florida Ave, Tampa, FL 33603, USA","(888) 200-0515",http://www.siobhansilva.com/,"user@domain.com, hello@siobhansilva.com"
+"Salón Galy","16518 N Dale Mabry Hwy Suite, Tampa, FL 33618, USA","(813) 406-9790",https://www.instagram.com/magalyshair/,
+"L&L Beauty Unique Salon","8502 N Armenia Ave Suite 4E, Tampa, FL 33604, USA","(656) 444-2908",http://squareup.com/u/1pHvvWFG,lazaroiranpenate@gmail.com
+"Diola’s Beauty Salon","6804 N Armenia Ave #4, Tampa, FL 33604, USA","(813) 252-3439",,
+"Leivy Beauty Salon","4351 W Waters Ave, Tampa, FL 33614, USA","(813) 850-4535",,
+"Beauty Salon & Boutique by Leydis","4025 W Waters Ave, Tampa, FL 33614, USA","(832) 276-9944",https://squareup.com/appointments/book/T0N99YDXTM12G,barbaraleydisbel@gmail.com
+"April Beauty & Health Spa (Dominican Salon - Salon Dominicano)","8405 N Himes Ave SUITE 106, Tampa, FL 33614, USA","(813) 403-0738",https://aprilbeautyandhealthspa.com/,"%20aprilraysa23@gmail.com, aprilraysa23@icloud.com, 20aprilraysa23@gmail.com, %20aprilraysa23@icloud.com, 20aprilraysa23@icloud.com"
+"PASSION BEAUTY SALON LLC","3901 W Broad St, Tampa, FL 33614, USA","(813) 770-1806",,
+"MM beauty salon and spa","7821 N Dale Mabry Hwy Suit 106, Tampa, FL 33614, USA","(813) 735-9335",https://usamap.xyz/business/mm-beauty-salon-and-spa-_Gr8dcBE,hello@usmapsz.xyz
+"Beauty Lounge Salon + Blow Dry Bar - Carrollwood","5373 Ehrlich Rd Suite 201, Tampa, FL 33625, USA","(813) 304-0012",https://www.beautyloungetampa.com/,info@beautyloungetampa.com
+"Sole Beauty By Michelle","308 E Dr Martin Luther King Jr Blvd, Tampa, FL 33603, USA","(813) 501-7653",https://sole.beauty/,
+"La Vie Beauty Spa","8502 N Armenia Ave Suite 4G, Tampa, FL 33604, USA","(813) 842-6574",,
+"Muse Beauty Salon","2202 W Waters Ave Suite 7, Tampa, FL 33604, USA","(813) 532-9272",http://musebeautysalontampa.com/?utm_source=gmb&utm_medium=referral,
+"Forever Beautiful Salon & Wine Spa","5135 N Florida Ave, Tampa, FL 33603, USA","(813) 231-3378",https://foreverbeautiful.us/,
+"Alora Hair Salon","10005 N Dale Mabry Hwy, Tampa, FL 33618, USA","(813) 528-3489",https://giannamojica.glossgenius.com/,
+"Evergreen Beauty at Phenix Salon Suites","10005 N Dale Mabry Hwy Suite 102, Tampa, FL 33618, USA","(813) 616-2966",http://katarinasherie.glossgenius.com/,evergreenbeautytpa@gmail.com
+"Angela's salon dominicana","4341 Gunn Hwy, Tampa, FL 33618, USA","(813) 204-0251",,
+"Dani’s Beauty Studio","4021 W Waters Ave Suite C, Tampa, FL 33614, USA","(813) 467-7089",,
+"La Nova Beauty Salon","8511 N Blvd, Tampa, FL 33604, USA",,,
+"Celestial Beauty Salon","2800 N Mac Dill Ave suite g, Tampa, FL 33607, USA","(813) 870-2800",http://www.celestialbeautysalon.com/,
+"Ale Jaramillo Beauty Studio - Salon & Spa","2316 W Linebaugh Ave, Tampa, FL 33612, USA","(813) 405-9828",http://alejaramillobeauty.glossgenius.com/,alexandra@alejaramillobeauty.com
+"La Lily Beauty Bar","7706 N Florida Ave, Tampa, FL 33604, USA","(813) 431-1218",https://www.instagram.com/lalilybeautybar/,
+"Rosana Salon","1623 W Waters Ave, Tampa, FL 33604, USA","(813) 562-1455",,
+"Vanity Salon & Spa","7129 N Armenia Ave, Tampa, FL 33604, USA",,,
+"Lala's Threading & Beauty Salon","4303 Gunn Hwy, Tampa, FL 33618, USA","(813) 792-1144",,
+"Salon Sequence Studios | Carrollwood","14339 N Dale Mabry Hwy, Tampa, FL 33618, USA","(813) 755-1670",http://salonsequence.com/,leasing@salonsequence.com
+"Love Our Curls Studio","7901 N Nebraska Ave Sute 200-A, Tampa, FL 33604, USA","(813) 842-8186",http://www.loveourcurls.com/,"loveourcurls1@gmail.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, ed436f5053144538958ad06a5005e99a@sentry.wixpress.com, 88170cb0c9d64f94b5821ca7fd2d55a4@sentry-next.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com"
+"Hair Expression of Carrollwood","12037 Anderson Rd, Greater Northdale, FL 33624, USA","(813) 269-1125",http://www.hairexpressionofcarrollwood.com/,info@hairexpressionofcarrollwood.com
+"Salon Spice","1005 W Busch Blvd, Tampa, FL 33612, USA","(813) 605-5742",https://salonspicehair.com/,"info@salonspicehair.com, info@example.com"
+"She’s A Natural hair salon, Tampa Fl","1941 W Lumsden Rd Suite 102, Brandon, FL 33511, USA","(813) 705-0036",http://www.shesanaturalsalon.com/,
+"Virtuous Beauty Hair Studio","1435 W Busch Blvd Suite E, Tampa, FL 33612, USA","(813) 443-5752",,
+"Beautiful People Salon","1311 E Fletcher Ave, Tampa, FL 33612, USA","(813) 980-0994",http://www.thebeautypeople.com/,thebeautypeople@verizon.net
+"Mimie's House of Beauty","3007 W Cypress St #3, Tampa, FL 33609, USA","(813) 876-7990",https://mimieshouseofbeauty.com/,"info@stylemixthemes.com, wilma.elliott37@example.com, ethan.newman35@stylemix.net"
+"Neww Attitude Studio","9000 N Florida Ave STE C, Tampa, FL 33604, USA","(813) 863-3759",https://newwattitudestudio1.as.me/,
+"Third Eye Organic Hair Studio Fl.","4830 W Kennedy Blvd Suite 102, Tampa, FL 33609, USA","(727) 504-7006",http://www.thirdeyestudiofl.com/,"hannah@thirdeyestudiofl.com, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com"
+"Dreadlock Me & Natural Hair","4209 E Busch blvd, private unit A, Tampa, FL 33617, USA","(239) 810-5894",http://www.dreadlockme.com/,
+"Stylist Danielle Leshea","12823 N Dale Mabry Hwy, Tampa, FL 33618, USA","(813) 728-9621",http://www.stylistdanielleleshea.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com"
+"A Woman's Worth Hair Studio","7809 Temple Terrace Hwy, Tampa, FL 33637, USA","(813) 419-7554",https://awomansworthhairstudio.com/,
+"Bella Amour Salon and Spa","7935 N Armenia Ave, Tampa, FL 33604, USA","(813) 458-9285",http://styleseat.com/irislogan2?,
+"Tree & Keke Natural Hair Studio","12421 N Florida Ave #212, Tampa, FL 33612, USA","(813) 374-1816",,
+"Chrystal Queen of Diamond Hair Salon","10958 N 56th St, Temple Terrace, FL 33617, USA","(813) 810-8499",https://www.chrystalqueen.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 98b21aa53d68482b8414e892d9af0e5f@sentry-next.wixpress.com, baf30a2b91654c5a840931f0137bed30@sentry.wixpress.com, 0e6a29e4756740a8a63493e912ba2174@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com, bfb679c754744c58a7374ee6e25cfc13@sentry.wixpress.com"
+"Phenomenal Dezign Beauty Boutique , LLC","2024 S 50th St, Tampa, FL 33619, USA","(813) 562-3552",,
+"Stasia's Organic Element Salon","403 E Oak Ave, Tampa, FL 33603, USA","(813) 991-0433",http://stasiasorganic.com/,
+"Nilaijah Hair Studio","1419 W Waters Ave #109, Tampa, FL 33604, USA","(813) 935-2882",,
+"M Salon 1","11921 N Dale Mabry Hwy suite 106, Tampa, FL 33618, USA","(813) 932-0088",http://msalonone.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+"Bee Natural Locks","104 E Fowler Ave suite 205, Tampa, FL 33612, USA","(813) 399-4256",http://www.beenaturallocks.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 1eeb89147c984dc6bc3ffafd9e6cd089@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, beenaturallocks@gmail.com"
+"Nicoles Curls Curly Hair Studio","2901 W Busch Blvd Ste 608, Tampa, FL 33618, USA","(813) 461-4066",http://www.nicolescurls.com/,"605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com, c183baa23371454f99f417f6616b724d@sentry.wixpress.com, 460ff4620fa44cba8df530afde949785@sentry.wixpress.com, ed436f5053144538958ad06a5005e99a@sentry.wixpress.com, 8c4075d5481d476e945486754f783364@sentry.io, 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com, 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com, 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com"
+"Lubby's Locs","1323 W Busch Blvd # D, Tampa, FL 33612, USA","(813) 520-1648",http://lubbys-locs.square.site/,"locitupwithjuana@gmail.com, 13e49d785d8d4f828038b6136f3b48ba@sentry.io"
+"Divine Charisma Hair Salon","15241 N Dale Mabry Hwy Suite 10, Tampa, FL 33618, USA","(904) 887-2933",https://divinecharisma.glossgenius.com/,divinecharismahair@gmail.com
+"Royal Crowns Llc","12421 N Florida Ave, Tampa, FL 33612, USA","(813) 591-7987",http://www.royalcrownstyle.as.me/,
+"Pura Vida Hair Salon","6420 N Central Ave, Tampa, FL 33604, USA","(813) 260-1080",https://www.puravidahairtampa.com/,puravidahairtampa@gmail.com
+"Pretty Girls In Curls","1200 W Cass St, Tampa, FL 33606, USA","(656) 239-3197",https://prettygirlsincurls.square.site/,13e49d785d8d4f828038b6136f3b48ba@sentry.io
+"Hair by Christal Tyms","6604 Harney Rd E, Tampa, FL 33610, USA","(954) 892-1943",https://tyms-suites-hair-by-christal-tyms.square.site/,"tymssuites@yahoo.com, 13e49d785d8d4f828038b6136f3b48ba@sentry.io"
+"Tosin Elizebeth Hair Salon","10581 Bloomingdale Ridge Dr suite 15, Riverview, FL 33578, USA","(813) 438-2172",https://www.tosinelizebethhairsalons.com/,"user@domain.com, tosstyles@gmail.com"
+"Signature natural hair studio","6209 E Hillsborough Ave, Tampa, FL 33610, USA","(813) 464-0607",,
+"Holistic Hair Studio","207 N Dale Mabry Hwy Suite 206, Tampa, FL 33609, USA","(813) 310-1564",,
+"Hair Science","7655 N 56th St, Tampa, FL 33617, USA","(314) 503-6094",https://www.aesthetics129.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=17051528161951004031,
+"EKOS Salon","403 E Oak Ave, Tampa, FL 33602, USA","(813) 695-2531",https://ekossalon.com/,info@ndiscovered.com
+"Tampa Hair Extensions","7901 N Nebraska Ave Suite 200-B, Tampa, FL 33604, USA","(305) 303-0548",https://www.tampahairextensions.us/,
+"Curly Hair Specialist / Yarizel Marie Co","2746 N Florida Ave, Tampa, FL 33602, USA","(334) 718-6928",https://mysite.vagaro.com/yarizelmarieco/home,
+"Fon Naturals | Tampa Dreadlocks Stylist","6209 E Hillsborough Ave, Tampa, FL 33610, USA","(205) 540-2223",https://www.fonnaturals.com/,
+"OG Hair Luxe","123 W Seneca Ave, Tampa, FL 33612, USA","(813) 445-0830",http://www.oghluxe.com/,"user@domain.com, krystina@oghluxe.com"
+"Locs N Luv","2102 W Busch Blvd, Tampa, FL 33612, USA","(786) 800-0567",,
+"Knotty Styler","2508 N Armenia Ave, Tampa, FL 33607, USA","(704) 390-6737",https://www.styleseat.com/m/v/dianagatabaki,
+"Color Collective Hair Studio","3347 S Westshore Blvd # 2, Tampa, FL 33629, USA","(813) 331-5723",http://www.colorcollectivehair.com/,colorcollectivehair@gmail.com
+"Salon Color Bar","5216 Bridge St, Tampa, FL 33611, USA","(727) 851-9933",http://salon-colorbar.com/,hello@salon-colorbar.com
+"Colour Bar Salon","3207 W Bay to Bay Blvd, Tampa, FL 33629, USA","(813) 532-5542",https://colourbartampa.com/,colourbarsalon@yahoo.com
+"Color by Jackie | South Tampa Hair Stylist + Color Specialist & Hair Extensions","4205 S MacDill Ave, Tampa, FL 33611, USA","(813) 500-2490",http://colorbyjackie.com/,user@domain.com
+"Dream in Color Hair Studio","4545 W Kennedy Blvd Loft 10, 4545 W Kennedy Blvd, Tampa, FL 33609, USA","(813) 732-6193",https://dreamincolorhairstudio.com/,
+"KK LUXE HAIR EXTENSIONS & CUSTOM COLOR","4545 W Kennedy Blvd #7, Tampa, FL 33609, USA","(917) 597-6207",,
+"Kabellos Hair Salon","3434 W Columbus Dr #110, Tampa, FL 33607, USA","(813) 998-0064",http://www.kabellos-hairsalon.com/,prcuban7@yahoo.com
+Tonyrouphael,"1416 W Kennedy Blvd # 5, Tampa, FL 33606, USA","(813) 344-4969",,
+"Hair Stylist & Colorist Natallia Sidarenka","1200 W Cass St Suite 203, Tampa, FL 33606, USA","(646) 353-7774",https://natallia-sidarenka.square.site/,"hi@mystore.com, 13e49d785d8d4f828038b6136f3b48ba@sentry.io"
+"Delia Rose Studio","10005 N Dale Mabry Hwy Ste 113, Tampa, FL 33618, USA","(656) 266-2866",https://deliarosestudio.glossgenius.com/,deliarose113@gmail.com
+"Glamour Spa Hair, Skin & Nails","4021 W Waters Ave suite d, Tampa, FL 33614, USA","(813) 407-0098",http://www.facebook.com/glamourspahair,

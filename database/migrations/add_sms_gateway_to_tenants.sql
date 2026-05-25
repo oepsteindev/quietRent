@@ -1,0 +1,1 @@
+ALTER TABLE tenants ADD COLUMN sms_gateway VARCHAR(60) NULL AFTER phone;

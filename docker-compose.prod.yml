@@ -1,0 +1,66 @@
+services:
+  app:
+    build: ./docker/php
+    container_name: quietrent_app
+    restart: unless-stopped
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - quietrent
+
+  web:
+    image: nginx:alpine
+    container_name: quietrent_web
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - .:/var/www/html
+      - ./docker/nginx/prod.conf:/etc/nginx/conf.d/default.conf
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+    depends_on:
+      - app
+    networks:
+      - quietrent
+
+  db:
+    image: mysql:8.0
+    container_name: quietrent_db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASS}
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASS}
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks:
+      - quietrent
+
+  cron:
+    build: ./docker/php
+    container_name: quietrent_cron
+    restart: unless-stopped
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - quietrent
+    command: sh -c "echo '* * * * * php /var/www/html/cron/run.php >> /var/log/quietrent-cron.log 2>&1' | crontab - && crond -f -l 8"
+
+volumes:
+  db_data:
+
+networks:
+  quietrent:
