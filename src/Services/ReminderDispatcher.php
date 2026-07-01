@@ -163,21 +163,25 @@ class ReminderDispatcher
         $lateFeeFormatted = '$' . number_format($r['late_fee_cents'] / 100, 2);
         $totalDue         = '$' . number_format(($r['amount_cents'] + $r['late_fee_cents']) / 100, 2);
 
+        $unsubUrl = Mailer::unsubscribeUrl($r['tenant_email']);
+
         $vars = [
-            '{tenant_name}'     => $r['tenant_name'],
-            '{property_name}'   => $r['property_name'],
-            '{unit_label}'      => $r['unit_label'],
-            '{rent_amount}'     => $rentFormatted,
-            '{due_date}'        => $r['due_date'],
-            '{late_fee_amount}' => $lateFeeFormatted,
-            '{total_due}'       => $totalDue,
-            '{payment_link}'    => $r['payment_link'] ? 'Pay online here: ' . $r['payment_link'] : '',
-            '{contact_phone}'   => $r['contact_phone'] ? 'For more information call ' . $r['contact_phone'] : '',
-            '{landlord_name}'   => $r['landlord_name'],
+            '{tenant_name}'      => $r['tenant_name'],
+            '{property_name}'    => $r['property_name'],
+            '{unit_label}'       => $r['unit_label'],
+            '{rent_amount}'      => $rentFormatted,
+            '{due_date}'         => $r['due_date'],
+            '{late_fee_amount}'  => $lateFeeFormatted,
+            '{total_due}'        => $totalDue,
+            '{payment_link}'     => $r['payment_link'] ? 'Pay online here: ' . $r['payment_link'] : '',
+            '{contact_phone}'    => $r['contact_phone'] ? 'For more information call ' . $r['contact_phone'] : '',
+            '{landlord_name}'    => $r['landlord_name'],
+            '{unsubscribe_link}' => $unsubUrl,
         ];
 
         $subject = strtr($r['tpl_subject'] ?? $r['stage'], $vars);
         $body    = strtr($r['tpl_body']    ?? $r['stage'], $vars);
+        $body   .= "\n\n---\nTo stop receiving these reminders: " . $unsubUrl;
 
         return [$subject, $body];
     }

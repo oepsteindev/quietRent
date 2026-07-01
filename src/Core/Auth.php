@@ -27,6 +27,24 @@ class Auth
         $_SESSION['account_id'] = $user['account_id'];
         $_SESSION['user_name']  = $user['name'];
         $_SESSION['user_role']  = $user['role'];
+        $_SESSION['is_admin']   = (int)($user['is_admin'] ?? 0);
+    }
+
+    public static function isAdmin(): bool
+    {
+        self::start();
+        return !empty($_SESSION['is_admin']);
+    }
+
+    public static function requireAdmin(): void
+    {
+        self::require();
+        if (!self::isAdmin()) {
+            http_response_code(403);
+            header('Content-Type: application/json');
+            echo json_encode(['error' => 'Forbidden']);
+            exit;
+        }
     }
 
     public static function logout(): void

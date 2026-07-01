@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Documentation — quietNotify for Hairdressers</title>
+  <meta name="description" content="How to use quietNotify for Hairdressers: appointments, reminders, payment tracking, and templates." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'system-ui', 'sans-serif'] },
+          colors: {
+            quiet: {
+              50:'#f5f7ff',100:'#ebeffe',200:'#d0d9fd',300:'#a8b8fb',
+              400:'#7b95f8',500:'#5571f3',600:'#3b52e8',700:'#2e40d4',
+              800:'#2835ab',900:'#252f87',950:'#171d52',
+            },
+          },
+        },
+      },
+    }
+  </script>
+</head>
+<body class="bg-white text-slate-800 antialiased">
+
+  <!-- Header -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-10">
+    <div class="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <a href="../index.html" class="text-sm font-semibold text-slate-900">quiet<span class="text-pink-500">Notify</span></a>
+        <span class="text-slate-300">/</span>
+        <span class="text-sm text-slate-500 font-medium">Hairdresser Docs</span>
+      </div>
+      <a href="/login" class="text-sm font-medium text-slate-500 hover:text-slate-900 transition-colors">Sign in →</a>
+    </div>
+  </header>
+
+  <div class="max-w-6xl mx-auto px-6 py-12 flex gap-12">
+
+    <!-- Sidebar -->
+    <aside class="hidden lg:block w-52 shrink-0 sticky top-20 self-start">
+      <nav class="text-sm space-y-1">
+        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3 px-3">Contents</p>
+        <a href="#getting-started" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors font-medium">Getting started</a>
+        <a href="#appointments" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Appointments</a>
+        <a href="#reminders" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Reminders</a>
+        <a href="#payments" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Payment tracking</a>
+        <a href="#templates" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Message templates</a>
+        <a href="#settings" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Settings</a>
+        <a href="#billing" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Billing</a>
+        <a href="#faq" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">FAQ</a>
+      </nav>
+      <div class="mt-8 px-3">
+        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">Other docs</p>
+        <a href="docs-landlords.html" class="block text-xs text-slate-500 hover:text-slate-700 py-1 transition-colors">→ Landlords</a>
+        <a href="docs-tradesmen.html" class="block text-xs text-slate-500 hover:text-slate-700 py-1 transition-colors">→ Tradesmen</a>
+      </div>
+    </aside>
+
+    <!-- Content -->
+    <main class="min-w-0 flex-1 max-w-3xl">
+
+      <div class="mb-10">
+        <div class="inline-flex items-center gap-2 bg-pink-50 text-pink-600 text-xs font-semibold px-3 py-1 rounded-full border border-pink-100 mb-4">quietNotify for Hairdressers</div>
+        <h1 class="text-3xl font-bold text-slate-900 mb-3">Hairdresser Documentation</h1>
+        <p class="text-lg text-slate-500">Appointment reminders and client management for solo stylists and small salons. This guide covers every feature in the hairdresser product.</p>
+      </div>
+
+      <!-- Getting started -->
+      <section id="getting-started" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Getting started</h2>
+        <p class="text-slate-600 mb-4">Setup takes about 10 minutes. Here is the recommended order:</p>
+        <ol class="space-y-4 text-slate-600">
+          <li class="flex gap-4">
+            <span class="w-7 h-7 bg-pink-100 rounded-full flex items-center justify-center text-pink-600 font-bold text-sm shrink-0 mt-0.5">1</span>
+            <div>
+              <p class="font-semibold text-slate-800 mb-1">Create your account</p>
+              <p class="text-sm leading-relaxed">Go to <a href="/register" class="text-pink-500 hover:underline">/register</a> and sign up. When prompted to choose a product, select <strong>Hairdresser</strong>. Your 14-day trial starts immediately.</p>
+            </div>
+          </li>
+          <li class="flex gap-4">
+            <span class="w-7 h-7 bg-pink-100 rounded-full flex items-center justify-center text-pink-600 font-bold text-sm shrink-0 mt-0.5">2</span>
+            <div>
+              <p class="font-semibold text-slate-800 mb-1">Set your payment link &amp; contact phone</p>
+              <p class="text-sm leading-relaxed">Go to <strong>Settings</strong> and add your Venmo, Square, or payment URL and your contact phone number. These are included in messages automatically.</p>
+            </div>
+          </li>
+          <li class="flex gap-4">
+            <span class="w-7 h-7 bg-pink-100 rounded-full flex items-center justify-center text-pink-600 font-bold text-sm shrink-0 mt-0.5">3</span>
+            <div>
+              <p class="font-semibold text-slate-800 mb-1">Add a cancellation policy (optional)</p>
+              <p class="text-sm leading-relaxed">In <strong>Settings</strong>, add your cancellation or late-fee policy text. This appears at the bottom of every email you send to clients.</p>
+            </div>
+          </li>
+          <li class="flex gap-4">
+            <span class="w-7 h-7 bg-pink-100 rounded-full flex items-center justify-center text-pink-600 font-bold text-sm shrink-0 mt-0.5">4</span>
+            <div>
+              <p class="font-semibold text-slate-800 mb-1">Add your first appointment</p>
+              <p class="text-sm leading-relaxed">Go to <strong>Appointments</strong> and click <em>Add appointment</em>. Fill in the client name, email, phone, service, date and time, stylist, and fee. A confirmation message goes out automatically when you save.</p>
+            </div>
+          </li>
+          <li class="flex gap-4">
+            <span class="w-7 h-7 bg-pink-100 rounded-full flex items-center justify-center text-pink-600 font-bold text-sm shrink-0 mt-0.5">5</span>
+            <div>
+              <p class="font-semibold text-slate-800 mb-1">You're done</p>
+              <p class="text-sm leading-relaxed">The system schedules a reminder the day before and another the morning of the appointment. You don't need to send anything manually.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Appointments -->
+      <section id="appointments" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Appointments</h2>
+
+        <p class="text-slate-600 mb-5 text-sm leading-relaxed">The <strong>Appointments</strong> view is the main screen. It lists all upcoming and past appointments with date/time filters and status filters.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-3">Appointment statuses</h3>
+        <div class="space-y-2 mb-6">
+          <div class="flex items-center gap-3 text-sm">
+            <span class="px-2.5 py-0.5 bg-blue-50 text-blue-700 rounded-full text-xs font-semibold w-24 text-center shrink-0">Scheduled</span>
+            <span class="text-slate-600">Confirmed appointment in the future (or recently passed, not yet resolved).</span>
+          </div>
+          <div class="flex items-center gap-3 text-sm">
+            <span class="px-2.5 py-0.5 bg-emerald-50 text-emerald-700 rounded-full text-xs font-semibold w-24 text-center shrink-0">Completed</span>
+            <span class="text-slate-600">Appointment was marked done. Payment link sent if configured.</span>
+          </div>
+          <div class="flex items-center gap-3 text-sm">
+            <span class="px-2.5 py-0.5 bg-slate-100 text-slate-500 rounded-full text-xs font-semibold w-24 text-center shrink-0">Canceled</span>
+            <span class="text-slate-600">Appointment was canceled. Pending reminders are suppressed.</span>
+          </div>
+          <div class="flex items-center gap-3 text-sm">
+            <span class="px-2.5 py-0.5 bg-red-50 text-red-600 rounded-full text-xs font-semibold w-24 text-center shrink-0">No-show</span>
+            <span class="text-slate-600">Client did not appear. Tracked for your records; no automatic follow-up is sent.</span>
+          </div>
+        </div>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Adding an appointment</h3>
+        <p class="text-sm text-slate-600 leading-relaxed mb-5">Click <strong>+ Add appointment</strong>. Required fields: client name, email, date, and time. Recommended fields: phone (for SMS), service name, fee, and stylist. When you save, a booking confirmation is sent to the client immediately.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Completing an appointment</h3>
+        <p class="text-sm text-slate-600 leading-relaxed mb-5">Use the <strong>Complete</strong> action on a scheduled appointment once the service is done. This marks it completed and — if you have a payment link in Settings — includes it in any follow-up message.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Canceling an appointment</h3>
+        <p class="text-sm text-slate-600 leading-relaxed">Use the <strong>Cancel</strong> action to mark an appointment canceled. Any pending reminder messages for that appointment are suppressed so the client does not receive reminders for a canceled booking.</p>
+      </section>
+
+      <!-- Reminders -->
+      <section id="reminders" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Reminders</h2>
+
+        <p class="text-slate-600 mb-5 text-sm leading-relaxed">Reminders are sent automatically for every scheduled appointment. There is nothing to configure — the default cadence covers the standard flow.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-3">Default reminder cadence</h3>
+        <div class="border border-slate-200 rounded-xl overflow-hidden mb-6">
+          <table class="w-full text-sm">
+            <thead class="bg-slate-50 text-slate-500 text-xs uppercase font-semibold">
+              <tr>
+                <th class="px-5 py-3 text-left">Stage</th>
+                <th class="px-5 py-3 text-left">When</th>
+                <th class="px-5 py-3 text-left">Purpose</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 text-slate-600">
+              <tr>
+                <td class="px-5 py-3 font-medium">Confirmation</td>
+                <td class="px-5 py-3">Immediately on booking</td>
+                <td class="px-5 py-3">Confirms the appointment details and includes your payment/policy info.</td>
+              </tr>
+              <tr>
+                <td class="px-5 py-3 font-medium">Day-before reminder</td>
+                <td class="px-5 py-3">~24 hours before</td>
+                <td class="px-5 py-3">Reminds client of tomorrow's appointment.</td>
+              </tr>
+              <tr>
+                <td class="px-5 py-3 font-medium">Same-day reminder</td>
+                <td class="px-5 py-3">Morning of the appointment</td>
+                <td class="px-5 py-3">Final reminder on the day of the visit.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Automatic suppression</h3>
+        <p class="text-sm text-slate-600 leading-relaxed mb-4">If an appointment is canceled, any pending reminders for it are suppressed immediately. Clients won't receive a day-before reminder for an appointment that's already been called off.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Delivery channel</h3>
+        <p class="text-sm text-slate-600 leading-relaxed mb-4">Each appointment can have a preferred channel set when it's created. If the client has a phone number, you can choose SMS or both (email + SMS). Email is the fallback if no phone is provided.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Quiet hours</h3>
+        <p class="text-sm text-slate-600 leading-relaxed">SMS reminders are never sent between 10 PM and 6 AM regardless of the appointment time.</p>
+      </section>
+
+      <!-- Payments -->
+      <section id="payments" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Payment tracking</h2>
+
+        <p class="text-slate-600 mb-5 text-sm leading-relaxed">The <strong>Appointment Payments</strong> view shows payment records linked to completed appointments. quietNotify does not process payments directly — you use your own payment processor (Venmo, Square, Stripe, etc.) and the app tracks whether each appointment has been paid.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">How to record a payment</h3>
+        <p class="text-sm text-slate-600 leading-relaxed mb-4">Once an appointment is completed and you've received payment through your processor, use the <strong>Mark paid</strong> action in the Appointments view or the Appointment Payments view to log it. This keeps your records clean and lets you see which completed appointments are still outstanding.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Payment link</h3>
+        <p class="text-sm text-slate-600 leading-relaxed">If you add a payment link in Settings (e.g. your Venmo or Square URL), it is automatically included in your message templates via the <code class="bg-slate-100 px-1 rounded">{payment_link}</code> variable. Clients can tap it directly from the reminder to pay you.</p>
+      </section>
+
+      <!-- Templates -->
+      <section id="templates" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Message templates</h2>
+
+        <p class="text-slate-600 mb-5 text-sm leading-relaxed">Go to <strong>Settings → Reminder templates</strong> to edit the subject and body for each reminder stage. If you leave a template blank, the system uses a sensible default. All templates support the following variables:</p>
+
+        <div class="border border-slate-200 rounded-xl overflow-hidden mb-6">
+          <table class="w-full text-sm">
+            <thead class="bg-slate-50 text-slate-500 text-xs uppercase font-semibold">
+              <tr><th class="px-5 py-3 text-left">Variable</th><th class="px-5 py-3 text-left">Replaced with</th></tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 text-slate-600 font-mono text-xs">
+              <tr><td class="px-5 py-3">{client_name}</td><td class="px-5 py-3 font-sans">Client's full name</td></tr>
+              <tr><td class="px-5 py-3">{service}</td><td class="px-5 py-3 font-sans">Service name (e.g. "Cut &amp; Color")</td></tr>
+              <tr><td class="px-5 py-3">{appointment_date}</td><td class="px-5 py-3 font-sans">Date and time of the appointment</td></tr>
+              <tr><td class="px-5 py-3">{stylist_name}</td><td class="px-5 py-3 font-sans">Stylist name assigned to the appointment</td></tr>
+              <tr><td class="px-5 py-3">{fee}</td><td class="px-5 py-3 font-sans">Appointment fee (e.g. "$65.00")</td></tr>
+              <tr><td class="px-5 py-3">{payment_link}</td><td class="px-5 py-3 font-sans">Your payment URL with label, or blank if not set</td></tr>
+              <tr><td class="px-5 py-3">{contact_phone}</td><td class="px-5 py-3 font-sans">Your contact phone with label, or blank if not set</td></tr>
+              <tr><td class="px-5 py-3">{business_name}</td><td class="px-5 py-3 font-sans">Your account / salon name</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Cancellation policy / disclaimer</h3>
+        <p class="text-sm text-slate-600 leading-relaxed">In <strong>Settings → Cancellation / disclaimer</strong>, add your cancellation policy text (e.g. "Cancellations must be made 24 hours in advance. Late cancellations may be charged 50% of the service fee."). This text is appended to the bottom of every outbound email automatically — you don't need to include it in each template manually.</p>
+      </section>
+
+      <!-- Settings -->
+      <section id="settings" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Settings</h2>
+        <div class="space-y-5">
+          <div>
+            <h3 class="font-semibold text-slate-800 mb-1">Payment link</h3>
+            <p class="text-sm text-slate-600 leading-relaxed">Your Venmo, Square, Stripe, or any payment URL. Inserted in messages via <code class="bg-slate-100 px-1 rounded">{payment_link}</code>. Leave blank to omit from all messages.</p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-slate-800 mb-1">Contact phone</h3>
+            <p class="text-sm text-slate-600 leading-relaxed">Your number that clients can call with questions. Inserted via <code class="bg-slate-100 px-1 rounded">{contact_phone}</code>. Optional.</p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-slate-800 mb-1">Cancellation / disclaimer</h3>
+            <p class="text-sm text-slate-600 leading-relaxed">Plain text that appears at the bottom of every email. Use it for your cancellation window, no-show policy, or late fee notice.</p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-slate-800 mb-1">Reminder templates</h3>
+            <p class="text-sm text-slate-600 leading-relaxed">Edit subject and body per reminder stage. Changes apply to messages sent after saving — already-pending messages use the template at send time.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Billing -->
+      <section id="billing" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Billing</h2>
+        <p class="text-slate-600 mb-5 text-sm leading-relaxed">Go to <strong>Billing</strong> in the sidebar to manage your plan. Reminders continue sending as long as your subscription is active or your trial has not expired.</p>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm border border-slate-200 rounded-xl overflow-hidden">
+            <thead class="bg-slate-50 text-slate-500 text-xs uppercase font-semibold">
+              <tr><th class="px-5 py-3 text-left">Plan</th><th class="px-5 py-3 text-left">Price</th><th class="px-5 py-3 text-left">Includes</th></tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 text-slate-600">
+              <tr><td class="px-5 py-3 font-medium">Solo Stylist</td><td class="px-5 py-3">$19/mo</td><td class="px-5 py-3">Appointment reminders, email + SMS, payment tracking, templates</td></tr>
+              <tr><td class="px-5 py-3 font-medium">Small Salon</td><td class="px-5 py-3">$39/mo</td><td class="px-5 py-3">Everything in Solo + multiple stylists, team access</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="text-xs text-slate-400 mt-3">All plans include a 14-day free trial. No credit card required to start.</p>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">FAQ</h2>
+        <div class="space-y-6">
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">Does the system send reminders automatically after I add an appointment?</p>
+            <p class="text-sm text-slate-600 leading-relaxed">Yes. A confirmation goes out immediately, and the day-before and same-day reminders are scheduled automatically. You don't need to do anything.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">What if I cancel an appointment — will the client still get reminders?</p>
+            <p class="text-sm text-slate-600 leading-relaxed">No. Canceling an appointment suppresses all pending reminders for that booking immediately.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">Can I track which clients have paid?</p>
+            <p class="text-sm text-slate-600 leading-relaxed">Yes. Use the Appointment Payments view to mark each completed appointment as paid. This gives you a clear view of which appointments still have outstanding balances.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">How do I handle a no-show?</p>
+            <p class="text-sm text-slate-600 leading-relaxed">Use the <strong>No-show</strong> action on the appointment. It is recorded against the client for your reference. No automated follow-up is sent — if you charge a no-show fee, send the request manually via your payment link.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">Is my cancellation policy shown to clients?</p>
+            <p class="text-sm text-slate-600 leading-relaxed">Yes. The disclaimer text you add in Settings is automatically appended to the bottom of every email. Clients see it in the confirmation and reminder messages without you needing to include it in each template.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">I have a question not answered here.</p>
+            <p class="text-sm text-slate-600"><a href="mailto:support@getquietnotify.com" class="text-pink-500 hover:underline">support@getquietnotify.com</a></p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-100 py-8 px-6 mt-4">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <span class="text-sm font-semibold text-slate-700">quiet<span class="text-pink-500">Notify</span></span>
+      <div class="flex items-center gap-6 text-xs text-slate-400">
+        <a href="../index.html" class="hover:text-slate-600 transition-colors">Home</a>
+        <a href="docs-landlords.html" class="hover:text-slate-600 transition-colors">Landlord docs</a>
+        <a href="docs-tradesmen.html" class="hover:text-slate-600 transition-colors">Tradesman docs</a>
+        <a href="mailto:support@getquietnotify.com" class="hover:text-slate-600 transition-colors">Contact</a>
+        <a href="privacy-landlords.html" class="hover:text-slate-600 transition-colors">Privacy</a>
+        <a href="terms-landlords.html" class="hover:text-slate-600 transition-colors">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

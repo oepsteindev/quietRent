@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import { setProductType, isPinned, pinnedVertical, product } from '../composables/useAccount.js'
+import { setProductType, setIsAdmin, isPinned, pinnedVertical, product } from '../composables/useAccount.js'
 import { post } from '../composables/useApi.js'
 
 const router = createRouter({
@@ -25,6 +25,7 @@ const router = createRouter({
     { path: '/import',           component: () => import('../views/Import.vue') },
     { path: '/settings',         component: () => import('../views/Settings.vue') },
     { path: '/billing',          component: () => import('../views/Billing.vue') },
+    { path: '/admin',            component: () => import('../views/Admin.vue') },
   ],
 })
 
@@ -50,10 +51,22 @@ router.beforeEach(async (to) => {
 
     if (res.type === 'opaqueredirect' || res.status === 0) return '/login'
     if (res.status !== 200) return '/login'
+    let dashData = {}
     try {
-      const data = await res.json()
-      if (data.product_type) setProductType(data.product_type)
+      dashData = await res.json()
+      if (dashData.product_type) setProductType(dashData.product_type)
+      if (dashData.is_admin !== undefined) setIsAdmin(dashData.is_admin)
     } catch (_) {}
+
+    // Admin route: only accessible to admin users
+    if (to.path === '/admin') {
+      return dashData.is_admin ? true : '/dashboard'
+    }
+
+    // Expired trial / canceled — send to billing (allow billing + settings through)
+    if (!dashData.account_active && to.path !== '/billing' && to.path !== '/settings') {
+      return '/billing'
+    }
 
     // Block routes that don't belong to this product's navigation
     // Use matched route patterns so detail pages (/properties/:id) pass when /properties is in nav

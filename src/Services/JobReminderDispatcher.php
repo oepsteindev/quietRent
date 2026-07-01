@@ -181,21 +181,28 @@ class JobReminderDispatcher
         $costFormatted = '$' . number_format(($r['estimated_cost_cents'] ?? 0) / 100, 2);
         $whenFormatted = date('l, F j \a\t g:i A', strtotime($r['scheduled_at']));
 
+        $clientEmail = $r['client_email'] ?? $r['email'] ?? '';
+        $unsubUrl    = $clientEmail ? Mailer::unsubscribeUrl($clientEmail) : '';
+
         $vars = [
-            '{client_name}'    => $r['client_name'],
-            '{job_type}'       => $r['job_type'],
-            '{scheduled_at}'   => $whenFormatted,
-            '{address}'        => $r['address'] ?? '',
-            '{tradesman_name}' => $r['tradesman_name'],
-            '{company_name}'   => $r['company_name'],
-            '{estimated_cost}' => $costFormatted,
-            '{business_name}'  => $r['business_name'],
-            '{payment_link}'   => $r['payment_link'] ? 'Pay online here: ' . $r['payment_link'] : '',
-            '{contact_phone}'  => $r['contact_phone'] ? 'For more information call ' . $r['contact_phone'] : '',
+            '{client_name}'      => $r['client_name'],
+            '{job_type}'         => $r['job_type'],
+            '{scheduled_at}'     => $whenFormatted,
+            '{address}'          => $r['address'] ?? '',
+            '{tradesman_name}'   => $r['tradesman_name'],
+            '{company_name}'     => $r['company_name'],
+            '{estimated_cost}'   => $costFormatted,
+            '{business_name}'    => $r['business_name'],
+            '{payment_link}'     => $r['payment_link'] ? 'Pay online here: ' . $r['payment_link'] : '',
+            '{contact_phone}'    => $r['contact_phone'] ? 'For more information call ' . $r['contact_phone'] : '',
+            '{unsubscribe_link}' => $unsubUrl,
         ];
 
         $subject = strtr($r['tpl_subject'] ?? $r['stage'], $vars);
         $body    = strtr($r['tpl_body']    ?? $r['stage'], $vars);
+        if ($unsubUrl) {
+            $body .= "\n\n---\nTo stop receiving these reminders: " . $unsubUrl;
+        }
 
         return [$subject, $body];
     }

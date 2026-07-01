@@ -2,7 +2,7 @@
 
 namespace QuietRent\Controllers;
 
-use QuietRent\Core\{Auth, Env, Response};
+use QuietRent\Core\{Auth, Env, Response, RateLimit};
 use QuietRent\Models\{Account, User};
 
 class AuthController
@@ -20,12 +20,17 @@ class AuthController
     {
         Auth::verifyCsrf();
 
+        if (RateLimit::tooManyLoginAttempts()) {
+            Response::json(['error' => 'Too many login attempts. Please wait 15 minutes.'], 429);
+        }
+
         $data = $_POST ?: json_decode(file_get_contents('php://input'), true) ?? [];
         $email    = trim($data['email'] ?? '');
         $password = $data['password'] ?? '';
 
         $user = User::findByEmail($email);
         if (!$user || !User::verifyPassword($user, $password)) {
+            RateLimit::recordLoginAttempt();
             Response::json(['error' => 'Invalid email or password.'], 401);
         }
 

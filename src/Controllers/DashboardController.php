@@ -41,6 +41,8 @@ class DashboardController
             'late_charges'   => $lateCharges,
             'property_count' => count($properties),
             'product_type'   => $account['product_type'] ?? 'landlords',
+            'is_admin'       => Auth::isAdmin(),
+            'account_active' => $account ? \QuietRent\Models\Account::isActive($account) : false,
         ]);
     }
 }

@@ -1,6 +1,6 @@
 {
   "src/main.js": {
-    "file": "assets/main-Bn3-hvcB.js",
+    "file": "assets/main-DQ15LEsv.js",
     "name": "main",
     "src": "src/main.js",
     "isEntry": true,
@@ -23,14 +23,24 @@
       "src/views/AppointmentPayments.vue",
       "src/views/Import.vue",
       "src/views/Settings.vue",
-      "src/views/Billing.vue"
+      "src/views/Billing.vue",
+      "src/views/Admin.vue"
     ],
     "css": [
-      "assets/main-Cdg0c8uP.css"
+      "assets/main-BQKwe6vI.css"
+    ]
+  },
+  "src/views/Admin.vue": {
+    "file": "assets/Admin-CIO61AYJ.js",
+    "name": "Admin",
+    "src": "src/views/Admin.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.js"
     ]
   },
   "src/views/AppointmentPayments.vue": {
-    "file": "assets/AppointmentPayments-NNezhalb.js",
+    "file": "assets/AppointmentPayments-CjBWP6jX.js",
     "name": "AppointmentPayments",
     "src": "src/views/AppointmentPayments.vue",
     "isDynamicEntry": true,
@@ -39,7 +49,7 @@
     ]
   },
   "src/views/Appointments.vue": {
-    "file": "assets/Appointments-3Zxdqo1-.js",
+    "file": "assets/Appointments-_shVbSIC.js",
     "name": "Appointments",
     "src": "src/views/Appointments.vue",
     "isDynamicEntry": true,
@@ -48,7 +58,7 @@
     ]
   },
   "src/views/Billing.vue": {
-    "file": "assets/Billing-WbJVbx-Y.js",
+    "file": "assets/Billing-I3rHxu7k.js",
     "name": "Billing",
     "src": "src/views/Billing.vue",
     "isDynamicEntry": true,
@@ -57,7 +67,7 @@
     ]
   },
   "src/views/Dashboard.vue": {
-    "file": "assets/Dashboard-BfJ-RXHd.js",
+    "file": "assets/Dashboard-Cu5IU6R3.js",
     "name": "Dashboard",
     "src": "src/views/Dashboard.vue",
     "isDynamicEntry": true,
@@ -66,7 +76,7 @@
     ]
   },
   "src/views/ForgotPassword.vue": {
-    "file": "assets/ForgotPassword-DrcOfJ7i.js",
+    "file": "assets/ForgotPassword-BHY5d8-W.js",
     "name": "ForgotPassword",
     "src": "src/views/ForgotPassword.vue",
     "isDynamicEntry": true,
@@ -75,7 +85,7 @@
     ]
   },
   "src/views/Import.vue": {
-    "file": "assets/Import-D5AxwYIS.js",
+    "file": "assets/Import-DRjKHKbx.js",
     "name": "Import",
     "src": "src/views/Import.vue",
     "isDynamicEntry": true,
@@ -84,7 +94,7 @@
     ]
   },
   "src/views/InvoiceBuilder.vue": {
-    "file": "assets/InvoiceBuilder-D-qe7SdE.js",
+    "file": "assets/InvoiceBuilder-6NWGyFBt.js",
     "name": "InvoiceBuilder",
     "src": "src/views/InvoiceBuilder.vue",
     "isDynamicEntry": true,
@@ -93,7 +103,7 @@
     ]
   },
   "src/views/Invoices.vue": {
-    "file": "assets/Invoices-DV05MoE1.js",
+    "file": "assets/Invoices-Dhj8d-QF.js",
     "name": "Invoices",
     "src": "src/views/Invoices.vue",
     "isDynamicEntry": true,
@@ -102,7 +112,7 @@
     ]
   },
   "src/views/Jobs.vue": {
-    "file": "assets/Jobs-BEXSeglc.js",
+    "file": "assets/Jobs-YzJ8YWvd.js",
     "name": "Jobs",
     "src": "src/views/Jobs.vue",
     "isDynamicEntry": true,
@@ -111,7 +121,7 @@
     ]
   },
   "src/views/Login.vue": {
-    "file": "assets/Login-B0PmWdv6.js",
+    "file": "assets/Login-BOckXFna.js",
     "name": "Login",
     "src": "src/views/Login.vue",
     "isDynamicEntry": true,
@@ -120,7 +130,7 @@
     ]
   },
   "src/views/Properties.vue": {
-    "file": "assets/Properties-CyBYA4_X.js",
+    "file": "assets/Properties-B0I2O8k1.js",
     "name": "Properties",
     "src": "src/views/Properties.vue",
     "isDynamicEntry": true,
@@ -129,7 +139,7 @@
     ]
   },
   "src/views/PropertyDetail.vue": {
-    "file": "assets/PropertyDetail-DGBKy0Xv.js",
+    "file": "assets/PropertyDetail-B31u80jE.js",
     "name": "PropertyDetail",
     "src": "src/views/PropertyDetail.vue",
     "isDynamicEntry": true,
@@ -138,7 +148,7 @@
     ]
   },
   "src/views/Register.vue": {
-    "file": "assets/Register-BDG2Zw6x.js",
+    "file": "assets/Register-DGXndjCr.js",
     "name": "Register",
     "src": "src/views/Register.vue",
     "isDynamicEntry": true,
@@ -147,7 +157,7 @@
     ]
   },
   "src/views/Rent.vue": {
-    "file": "assets/Rent-CI50aiZU.js",
+    "file": "assets/Rent-BFQ93OrC.js",
     "name": "Rent",
     "src": "src/views/Rent.vue",
     "isDynamicEntry": true,
@@ -156,7 +166,7 @@
     ]
   },
   "src/views/ResetPassword.vue": {
-    "file": "assets/ResetPassword-CQ_znCoJ.js",
+    "file": "assets/ResetPassword-CD5DCg-8.js",
     "name": "ResetPassword",
     "src": "src/views/ResetPassword.vue",
     "isDynamicEntry": true,
@@ -165,7 +175,7 @@
     ]
   },
   "src/views/Settings.vue": {
-    "file": "assets/Settings-s_6dJaN_.js",
+    "file": "assets/Settings-CniWPIlC.js",
     "name": "Settings",
     "src": "src/views/Settings.vue",
     "isDynamicEntry": true,
@@ -174,7 +184,7 @@
     ]
   },
   "src/views/TenantDetail.vue": {
-    "file": "assets/TenantDetail-om0iM4FL.js",
+    "file": "assets/TenantDetail-DiufjQJN.js",
     "name": "TenantDetail",
     "src": "src/views/TenantDetail.vue",
     "isDynamicEntry": true,
@@ -183,7 +193,7 @@
     ]
   },
   "src/views/Tenants.vue": {
-    "file": "assets/Tenants-Cp-Beeum.js",
+    "file": "assets/Tenants-BFyRUaSn.js",
     "name": "Tenants",
     "src": "src/views/Tenants.vue",
     "isDynamicEntry": true,

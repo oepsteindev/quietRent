@@ -12,12 +12,13 @@ define('BASE_PATH', dirname(__DIR__));
 require BASE_PATH . '/src/Core/Autoloader.php';
 require BASE_PATH . '/vendor/autoload.php';
 
-use QuietRent\Core\{Autoloader, Env, DB};
+use QuietRent\Core\{Autoloader, Env, DB, RateLimit};
 use QuietRent\Models\RentCharge;
-use QuietRent\Services\{BillingEngine, ReminderDispatcher, AppointmentReminderDispatcher, JobReminderDispatcher};
+use QuietRent\Services\{BillingEngine, ReminderDispatcher, AppointmentReminderDispatcher, JobReminderDispatcher, TrialNotifier};
 
 Autoloader::register(BASE_PATH);
 Env::load(BASE_PATH . '/.env');
+\Sentry\init(['dsn' => \QuietRent\Core\Env::get('SENTRY_DSN', '')]);
 
 $log = function (string $msg): void {
     echo '[' . date('Y-m-d H:i:s') . '] ' . $msg . PHP_EOL;
@@ -62,5 +63,12 @@ $suppressed = JobReminderDispatcher::suppressCanceled();
 $log("Job reminders suppressed: $suppressed");
 $jobSent = JobReminderDispatcher::sendDue();
 $log("Job reminders sent: $jobSent");
+
+// 9. Clean up stale login attempt records
+RateLimit::clearOld();
+
+// 10. Trial expiry warnings (24h before trial ends)
+$warned = TrialNotifier::warnExpiring();
+$log("Trial expiry warnings sent: $warned");
 
 $log('Cron run complete');

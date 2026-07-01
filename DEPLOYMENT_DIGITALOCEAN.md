@@ -190,6 +190,42 @@ docker exec quietrent_cron tail -f /var/log/quietrent-cron.log
 
 ---
 
+## 10. Static Pages
+
+The following static HTML files are served directly by nginx from the repo root and `html/` directory — no build step is needed. They are updated by committing changes locally and running `git pull` on the server.
+
+### Marketing homepage
+| URL | File |
+|-----|------|
+| `https://yourdomain.com/` | `index.html` |
+
+### Documentation
+| URL | File |
+|-----|------|
+| `https://yourdomain.com/html/docs-landlords.html` | `html/docs-landlords.html` |
+| `https://yourdomain.com/html/docs-hairdressers.html` | `html/docs-hairdressers.html` |
+| `https://yourdomain.com/html/docs-tradesmen.html` | `html/docs-tradesmen.html` |
+
+### Legal
+| URL | File |
+|-----|------|
+| `https://yourdomain.com/html/privacy-landlords.html` | `html/privacy-landlords.html` |
+| `https://yourdomain.com/html/privacy-hairdressers.html` | `html/privacy-hairdressers.html` |
+| `https://yourdomain.com/html/terms-landlords.html` | `html/terms-landlords.html` |
+| `https://yourdomain.com/html/terms-hairdressers.html` | `html/terms-hairdressers.html` |
+
+To verify all static pages are reachable after deploy:
+```bash
+for path in "/" "/html/docs-landlords.html" "/html/docs-hairdressers.html" "/html/docs-tradesmen.html" \
+            "/html/privacy-landlords.html" "/html/terms-landlords.html"; do
+  echo -n "$path → "
+  curl -o /dev/null -s -w "%{http_code}\n" "https://yourdomain.com$path"
+done
+```
+Every line should return `200`.
+
+---
+
 ## Go-Live Checklist
 
 Before flipping DNS / announcing:
@@ -202,6 +238,11 @@ Before flipping DNS / announcing:
 - [ ] All four Docker containers running
 - [ ] Test a registration + subscription flow end-to-end
 - [ ] Send a manual test email + SMS from the server
+- [ ] Marketing homepage loads (`/`) and all three product cards are visible
+- [ ] Docs pages load: `/html/docs-landlords.html`, `/html/docs-hairdressers.html`, `/html/docs-tradesmen.html`
+- [ ] Legal pages load: privacy and terms for landlords and hairdressers
+- [ ] All "Start free trial" buttons on homepage link to `/register`
+- [ ] All "Read docs →" links on homepage resolve correctly
 
 ---
 

@@ -6,7 +6,7 @@
         <div class="text-6xl mb-4">✓</div>
         <h2 class="text-2xl font-bold text-slate-900 mb-2">Payment successful!</h2>
         <p class="text-slate-600 mb-8">Your subscription is now active. You'll be charged on your next billing cycle.</p>
-        <button @click="goToDashboard" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3 rounded-lg">
+        <button @click="showSuccess = false; loadStatus()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3 rounded-lg">
           Continue
         </button>
       </div>
@@ -317,18 +317,26 @@ function formatDate(dateStr) {
 }
 
 onMounted(async () => {
-  checkUrlParams()
+  await checkUrlParams()
   await loadStatus()
   if (isSubscribed.value) {
     await loadInvoices()
   }
 })
 
-function checkUrlParams() {
+async function checkUrlParams() {
   const params = new URLSearchParams(window.location.search)
   if (params.has('success')) {
     showSuccess.value = true
+    const sessionId = params.get('session_id')
     window.history.replaceState({}, '', '/billing')
+    if (sessionId) {
+      try {
+        await get(`/api/billing/verify-session?session_id=${sessionId}`)
+      } catch (e) {
+        console.error('Session verify failed:', e)
+      }
+    }
     setTimeout(() => { showSuccess.value = false }, 15000)
   }
   if (params.has('canceled')) {

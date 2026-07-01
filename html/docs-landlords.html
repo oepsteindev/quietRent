@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Documentation — quietNotify for Landlords</title>
+  <meta name="description" content="How to use quietNotify: properties, tenants, rent tracking, reminders, and settings." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            quiet: {
+              50:  '#f5f7ff', 100: '#ebeffe', 200: '#d0d9fd', 300: '#a8b8fb',
+              400: '#7b95f8', 500: '#5571f3', 600: '#3b52e8', 700: '#2e40d4',
+              800: '#2835ab', 900: '#252f87', 950: '#171d52',
+            },
+          },
+        },
+      },
+    }
+  </script>
+</head>
+<body class="bg-white text-slate-800 antialiased">
+
+  <!-- Header -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-10">
+    <div class="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <a href="../index.html" class="text-sm font-semibold text-slate-900">quiet<span class="text-quiet-600">Notify</span></a>
+        <span class="text-slate-300">/</span>
+        <span class="text-sm text-slate-500 font-medium">Documentation</span>
+      </div>
+      <a href="/login" class="text-sm font-medium text-slate-500 hover:text-slate-900 transition-colors">Sign in →</a>
+    </div>
+  </header>
+
+  <div class="max-w-6xl mx-auto px-6 py-12 flex gap-12">
+
+    <!-- Sidebar -->
+    <aside class="hidden lg:block w-52 shrink-0 sticky top-20 self-start">
+      <nav class="text-sm space-y-1">
+        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3 px-3">Contents</p>
+        <a href="#getting-started" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors font-medium">Getting started</a>
+        <a href="#dashboard" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Dashboard</a>
+        <a href="#properties" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Properties &amp; units</a>
+        <a href="#tenants" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Tenants</a>
+        <a href="#rent" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Rent &amp; charges</a>
+        <a href="#reminders" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Reminders &amp; alerts</a>
+        <a href="#templates" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Message templates</a>
+        <a href="#import" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">CSV import</a>
+        <a href="#settings" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Settings</a>
+        <a href="#billing" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Billing</a>
+        <a href="#faq" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">FAQ</a>
+      </nav>
+    </aside>
+
+    <!-- Content -->
+    <main class="min-w-0 flex-1 max-w-3xl">
+
+      <div class="mb-10">
+        <h1 class="text-3xl font-bold text-slate-900 mb-3">quietNotify for Landlords</h1>
+        <p class="text-lg text-slate-500">Automated rent reminders, late notices, and payment tracking for small landlords. This guide covers every feature in the app.</p>
+      </div>
+
+      <!-- Getting started -->
+      <section id="getting-started" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Getting started</h2>
+        <p class="text-slate-600 mb-4">The core setup takes about 15 minutes. Here is the order that makes sense:</p>
+        <ol class="space-y-4 text-slate-600">
+          <li class="flex gap-4">
+            <span class="w-7 h-7 bg-quiet-100 rounded-full flex items-center justify-center text-quiet-700 font-bold text-sm shrink-0 mt-0.5">1</span>
+            <div>
+              <p class="font-semibold text-slate-800 mb-1">Create your account</p>
+              <p class="text-sm leading-relaxed">Go to <a href="/register" class="text-quiet-600 hover:underline">/register</a> and enter your name, email, and password. Your trial starts immediately — no credit card needed.</p>
+            </div>
+          </li>
+          <li class="flex gap-4">
+            <span class="w-7 h-7 bg-quiet-100 rounded-full flex items-center justify-center text-quiet-700 font-bold text-sm shrink-0 mt-0.5">2</span>
+            <div>
+              <p class="font-semibold text-slate-800 mb-1">Add a property and units</p>
+              <p class="text-sm leading-relaxed">Go to <strong>Properties</strong> and click <em>Add property</em>. Then add each unit under it: unit label (e.g. "Apt 1"), monthly rent in dollars, due day of month, grace period in days, and late fee amount. Or use CSV import if you have many units.</p>
+            </div>
+          </li>
+          <li class="flex gap-4">
+            <span class="w-7 h-7 bg-quiet-100 rounded-full flex items-center justify-center text-quiet-700 font-bold text-sm shrink-0 mt-0.5">3</span>
+            <div>
+              <p class="font-semibold text-slate-800 mb-1">Add tenants</p>
+              <p class="text-sm leading-relaxed">Go to <strong>Tenants</strong> and add each tenant. You need their name, email address, and optionally a phone number for SMS. Set their preferred reminder channel: email, SMS, or both.</p>
+            </div>
+          </li>
+          <li class="flex gap-4">
+            <span class="w-7 h-7 bg-quiet-100 rounded-full flex items-center justify-center text-quiet-700 font-bold text-sm shrink-0 mt-0.5">4</span>
+            <div>
+              <p class="font-semibold text-slate-800 mb-1">Add your payment link</p>
+              <p class="text-sm leading-relaxed">Go to <strong>Settings</strong> and paste your Venmo, Zelle, PayPal, or Stripe link. This gets included in every reminder automatically. Leave it blank to omit from messages.</p>
+            </div>
+          </li>
+          <li class="flex gap-4">
+            <span class="w-7 h-7 bg-quiet-100 rounded-full flex items-center justify-center text-quiet-700 font-bold text-sm shrink-0 mt-0.5">5</span>
+            <div>
+              <p class="font-semibold text-slate-800 mb-1">You're done</p>
+              <p class="text-sm leading-relaxed">The system generates rent charges each month and schedules all four reminder stages automatically. Check the Dashboard and Rent views to see status for each charge.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Dashboard -->
+      <section id="dashboard" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Dashboard</h2>
+        <p class="text-slate-600 mb-5">The dashboard shows your collection status for the current month at a glance.</p>
+        <div class="grid sm:grid-cols-2 gap-4 mb-6">
+          <div class="bg-slate-50 rounded-xl p-5 border border-slate-100">
+            <p class="text-xs font-bold text-slate-400 uppercase tracking-wide mb-1">Collected this month</p>
+            <p class="text-sm text-slate-600">Total rent marked paid or received online for the current billing period.</p>
+          </div>
+          <div class="bg-slate-50 rounded-xl p-5 border border-slate-100">
+            <p class="text-xs font-bold text-slate-400 uppercase tracking-wide mb-1">Outstanding this month</p>
+            <p class="text-sm text-slate-600">Rent plus any late fees still unpaid for the current period.</p>
+          </div>
+          <div class="bg-slate-50 rounded-xl p-5 border border-slate-100">
+            <p class="text-xs font-bold text-slate-400 uppercase tracking-wide mb-1">Late tenants</p>
+            <p class="text-sm text-slate-600">Count of tenants with at least one charge in <em>late</em> status. Turns red when greater than zero.</p>
+          </div>
+          <div class="bg-slate-50 rounded-xl p-5 border border-slate-100">
+            <p class="text-xs font-bold text-slate-400 uppercase tracking-wide mb-1">Due in 7 days</p>
+            <p class="text-sm text-slate-600">Upcoming charges within the next week that haven't been paid yet.</p>
+          </div>
+        </div>
+        <p class="text-sm text-slate-500">Below the stat cards you'll see a table of current and past-due charges with a <strong>Mark paid</strong> button for each one.</p>
+      </section>
+
+      <!-- Properties -->
+      <section id="properties" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Properties &amp; units</h2>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Properties</h3>
+        <p class="text-slate-600 mb-5 text-sm leading-relaxed">Each property is a building or address. Give it a name (e.g. "Oak Street Duplex"). You can have as many properties as your plan allows.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Units</h3>
+        <p class="text-slate-600 mb-4 text-sm leading-relaxed">Units live inside a property. Each unit needs:</p>
+        <ul class="space-y-2 text-sm text-slate-600 mb-6">
+          <li class="flex items-start gap-2"><span class="text-quiet-500 font-bold mt-0.5">·</span><span><strong>Unit label</strong> — a short identifier like "Unit A", "Apt 2", or "Ground floor".</span></li>
+          <li class="flex items-start gap-2"><span class="text-quiet-500 font-bold mt-0.5">·</span><span><strong>Monthly rent</strong> — in dollars. Stored as cents internally so cents are supported.</span></li>
+          <li class="flex items-start gap-2"><span class="text-quiet-500 font-bold mt-0.5">·</span><span><strong>Due day</strong> — day of the month rent is due (e.g. 1 for the 1st).</span></li>
+          <li class="flex items-start gap-2"><span class="text-quiet-500 font-bold mt-0.5">·</span><span><strong>Grace period</strong> — number of days after the due date before a charge flips to <em>late</em>. Set to 0 for no grace period.</span></li>
+          <li class="flex items-start gap-2"><span class="text-quiet-500 font-bold mt-0.5">·</span><span><strong>Late fee</strong> — flat dollar amount applied when a charge becomes late. Set to 0 for no late fee.</span></li>
+        </ul>
+        <div class="bg-amber-50 border border-amber-200 rounded-lg px-5 py-4 text-sm text-amber-800">
+          <strong>Note:</strong> Deactivating a unit stops future rent charges from being generated for it. Existing charges are not deleted.
+        </div>
+      </section>
+
+      <!-- Tenants -->
+      <section id="tenants" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Tenants</h2>
+
+        <p class="text-slate-600 mb-5 text-sm leading-relaxed">Add one tenant per unit (or per lease). Required fields are name and email. Phone number is required for SMS reminders.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-3">Reminder channel</h3>
+        <div class="overflow-x-auto mb-6">
+          <table class="w-full text-sm border border-slate-200 rounded-lg overflow-hidden">
+            <thead class="bg-slate-50 text-slate-500 text-xs uppercase font-semibold">
+              <tr>
+                <th class="px-5 py-3 text-left">Channel</th>
+                <th class="px-5 py-3 text-left">What happens</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 text-slate-600">
+              <tr><td class="px-5 py-3 font-medium">Email</td><td class="px-5 py-3">All reminders go to the tenant's email address only.</td></tr>
+              <tr><td class="px-5 py-3 font-medium">SMS</td><td class="px-5 py-3">Sends to the tenant's phone. Falls back to email if no phone is on file.</td></tr>
+              <tr><td class="px-5 py-3 font-medium">Both</td><td class="px-5 py-3">Email is always sent. SMS is sent additionally if a phone number exists.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Pausing reminders</h3>
+        <p class="text-sm text-slate-600 leading-relaxed mb-5">On the tenant detail page you can toggle <strong>Pause reminders</strong>. When paused, no new reminders are scheduled and any pending reminders are suppressed. This is useful when a tenant is in a payment arrangement or dispute. The tenant and their charges are not deleted.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Tenant detail page</h3>
+        <p class="text-sm text-slate-600 leading-relaxed">Click any tenant name in the Tenants list or from the Rent view to open their detail page. This shows their contact info, current lease, all past rent charges, and the full reminder history for each charge.</p>
+      </section>
+
+      <!-- Rent -->
+      <section id="rent" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Rent &amp; charges</h2>
+
+        <p class="text-slate-600 mb-5 text-sm leading-relaxed">The <strong>Rent</strong> view is the main operations screen. It shows every charge for the selected month with filtering by status.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-3">Charge statuses</h3>
+        <div class="space-y-2 mb-6">
+          <div class="flex items-center gap-3 text-sm">
+            <span class="px-2.5 py-0.5 bg-blue-50 text-blue-700 rounded-full text-xs font-semibold w-24 text-center shrink-0">Upcoming</span>
+            <span class="text-slate-600">Charge has been generated but the due date has not arrived yet.</span>
+          </div>
+          <div class="flex items-center gap-3 text-sm">
+            <span class="px-2.5 py-0.5 bg-amber-50 text-amber-700 rounded-full text-xs font-semibold w-24 text-center shrink-0">Due</span>
+            <span class="text-slate-600">Due date has passed and the charge is within the grace period.</span>
+          </div>
+          <div class="flex items-center gap-3 text-sm">
+            <span class="px-2.5 py-0.5 bg-red-100 text-red-700 rounded-full text-xs font-semibold w-24 text-center shrink-0">Late</span>
+            <span class="text-slate-600">Grace period has expired. Late fee (if configured) has been applied.</span>
+          </div>
+          <div class="flex items-center gap-3 text-sm">
+            <span class="px-2.5 py-0.5 bg-emerald-50 text-emerald-700 rounded-full text-xs font-semibold w-24 text-center shrink-0">Paid</span>
+            <span class="text-slate-600">Marked paid manually or payment confirmed. All pending reminders are suppressed.</span>
+          </div>
+          <div class="flex items-center gap-3 text-sm">
+            <span class="px-2.5 py-0.5 bg-slate-100 text-slate-500 rounded-full text-xs font-semibold w-24 text-center shrink-0">Waived</span>
+            <span class="text-slate-600">Charge has been waived. No further reminders are sent.</span>
+          </div>
+        </div>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Marking a charge paid</h3>
+        <p class="text-sm text-slate-600 leading-relaxed mb-4">Click <strong>Mark paid</strong> on any unpaid charge. This sets the status to <em>paid</em> and suppresses any pending reminders for that charge immediately. Use this for tenants who pay by check, cash, Zelle, or any method outside the payment link.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Waiving a charge</h3>
+        <p class="text-sm text-slate-600 leading-relaxed mb-4">Click <strong>Waive</strong> to mark a charge as waived — this stops all reminders without recording it as paid. Useful for one-time concessions.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Alerts sent column</h3>
+        <p class="text-sm text-slate-600 leading-relaxed">The Alerts sent column shows every reminder that was attempted for that charge. Each row shows the reminder stage, delivery channel, timestamp, and a color-coded status dot — green for sent, red for failed. This log persists regardless of current charge status.</p>
+      </section>
+
+      <!-- Reminders -->
+      <section id="reminders" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Reminders &amp; alerts</h2>
+
+        <p class="text-slate-600 mb-5 text-sm leading-relaxed">Reminders are scheduled automatically when a rent charge is generated. You do not need to configure anything for them to work — the default cadence covers the most common scenarios.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-3">Default cadence</h3>
+        <div class="border border-slate-200 rounded-xl overflow-hidden mb-6">
+          <table class="w-full text-sm">
+            <thead class="bg-slate-50 text-slate-500 text-xs uppercase font-semibold">
+              <tr>
+                <th class="px-5 py-3 text-left">Stage</th>
+                <th class="px-5 py-3 text-left">When</th>
+                <th class="px-5 py-3 text-left">Purpose</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 text-slate-600">
+              <tr>
+                <td class="px-5 py-3 font-medium">Pre-due</td>
+                <td class="px-5 py-3">3 days before due date, 8 AM</td>
+                <td class="px-5 py-3">Friendly reminder that rent is coming up.</td>
+              </tr>
+              <tr>
+                <td class="px-5 py-3 font-medium">Due day</td>
+                <td class="px-5 py-3">On the due date, 8 AM</td>
+                <td class="px-5 py-3">Rent is due today with payment link.</td>
+              </tr>
+              <tr>
+                <td class="px-5 py-3 font-medium">1-day late</td>
+                <td class="px-5 py-3">1 day after due date, 8 AM</td>
+                <td class="px-5 py-3">First late notice.</td>
+              </tr>
+              <tr>
+                <td class="px-5 py-3 font-medium">5-day late</td>
+                <td class="px-5 py-3">5 days after due date, 8 AM</td>
+                <td class="px-5 py-3">Stronger late notice with late fee details.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Automatic suppression</h3>
+        <p class="text-sm text-slate-600 leading-relaxed mb-4">When a charge is marked paid or waived, any pending reminders for that charge are suppressed automatically. Tenants will not receive a late notice after you've already recorded payment.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Quiet hours</h3>
+        <p class="text-sm text-slate-600 leading-relaxed mb-4">SMS messages are never sent between 10 PM and 6 AM. The system skips delivery during those hours and catches up at the next run.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Failed reminders</h3>
+        <p class="text-sm text-slate-600 leading-relaxed">A reminder shows as failed (red dot in the Alerts sent column) when the underlying email or SMS provider returned an error. Common causes: invalid email address, undeliverable SMS number, or provider credentials not configured. Failed reminders do not retry automatically — update the tenant's contact info and the next stage will use the corrected details.</p>
+      </section>
+
+      <!-- Templates -->
+      <section id="templates" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Message templates</h2>
+
+        <p class="text-slate-600 mb-5 text-sm leading-relaxed">Go to <strong>Settings → Reminder templates</strong> to edit the subject and body for each reminder stage. If you leave a template blank, the system uses a sensible default.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-3">Available variables</h3>
+        <div class="border border-slate-200 rounded-xl overflow-hidden mb-6">
+          <table class="w-full text-sm">
+            <thead class="bg-slate-50 text-slate-500 text-xs uppercase font-semibold">
+              <tr>
+                <th class="px-5 py-3 text-left">Variable</th>
+                <th class="px-5 py-3 text-left">Replaced with</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 text-slate-600 font-mono text-xs">
+              <tr><td class="px-5 py-3">{tenant_name}</td><td class="px-5 py-3 font-sans">The tenant's full name</td></tr>
+              <tr><td class="px-5 py-3">{property_name}</td><td class="px-5 py-3 font-sans">The property name</td></tr>
+              <tr><td class="px-5 py-3">{unit_label}</td><td class="px-5 py-3 font-sans">The unit identifier (e.g. "Apt 2")</td></tr>
+              <tr><td class="px-5 py-3">{rent_amount}</td><td class="px-5 py-3 font-sans">Monthly rent (e.g. "$1,200.00")</td></tr>
+              <tr><td class="px-5 py-3">{due_date}</td><td class="px-5 py-3 font-sans">The charge due date (e.g. "2026-06-01")</td></tr>
+              <tr><td class="px-5 py-3">{late_fee_amount}</td><td class="px-5 py-3 font-sans">The late fee amount (e.g. "$50.00")</td></tr>
+              <tr><td class="px-5 py-3">{total_due}</td><td class="px-5 py-3 font-sans">Rent plus late fee combined</td></tr>
+              <tr><td class="px-5 py-3">{payment_link}</td><td class="px-5 py-3 font-sans">Your payment link with label, or blank if not set</td></tr>
+              <tr><td class="px-5 py-3">{contact_phone}</td><td class="px-5 py-3 font-sans">Your contact phone with label, or blank if not set</td></tr>
+              <tr><td class="px-5 py-3">{landlord_name}</td><td class="px-5 py-3 font-sans">Your account name</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="bg-quiet-50 border border-quiet-100 rounded-lg px-5 py-4 text-sm text-quiet-800">
+          <strong>Tip:</strong> Include <code class="bg-quiet-100 px-1 rounded">{payment_link}</code> in the body of every stage so tenants always have a direct way to pay. The variable resolves to an empty string if you haven't set a payment link in Settings.
+        </div>
+      </section>
+
+      <!-- Import -->
+      <section id="import" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">CSV import</h2>
+
+        <p class="text-slate-600 mb-5 text-sm leading-relaxed">Use the <strong>Import</strong> screen to bulk-upload properties, units, and tenants from a spreadsheet. This is the fastest way to get set up if you already have your data in Excel or Google Sheets.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">How it works</h3>
+        <ol class="space-y-3 text-sm text-slate-600 mb-6">
+          <li class="flex gap-3"><span class="font-bold text-quiet-600 shrink-0">1.</span>Export your spreadsheet as a CSV file.</li>
+          <li class="flex gap-3"><span class="font-bold text-quiet-600 shrink-0">2.</span>Go to <strong>Import</strong> in the sidebar, choose the import type (Properties, Units, or Tenants), and upload the file.</li>
+          <li class="flex gap-3"><span class="font-bold text-quiet-600 shrink-0">3.</span>Map your column headers to the expected fields. A preview shows how rows will be interpreted.</li>
+          <li class="flex gap-3"><span class="font-bold text-quiet-600 shrink-0">4.</span>Review validation errors (duplicate units, missing required fields) before confirming.</li>
+          <li class="flex gap-3"><span class="font-bold text-quiet-600 shrink-0">5.</span>Confirm the import. A log shows how many rows were created and any that were skipped.</li>
+        </ol>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Required columns per type</h3>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm border border-slate-200 rounded-xl overflow-hidden mb-6">
+            <thead class="bg-slate-50 text-slate-500 text-xs uppercase font-semibold">
+              <tr><th class="px-5 py-3 text-left">Type</th><th class="px-5 py-3 text-left">Required fields</th></tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 text-slate-600">
+              <tr><td class="px-5 py-3 font-medium">Properties</td><td class="px-5 py-3">name</td></tr>
+              <tr><td class="px-5 py-3 font-medium">Units</td><td class="px-5 py-3">property_name, unit_label, monthly_rent, due_day</td></tr>
+              <tr><td class="px-5 py-3 font-medium">Tenants</td><td class="px-5 py-3">unit_label, property_name, full_name, email</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="text-sm text-slate-500">Optional fields (grace_days, late_fee, phone, preferred_channel, lease_start, lease_end) can be included but are not required.</p>
+      </section>
+
+      <!-- Settings -->
+      <section id="settings" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Settings</h2>
+
+        <div class="space-y-6">
+          <div>
+            <h3 class="font-semibold text-slate-800 mb-1">Payment link</h3>
+            <p class="text-sm text-slate-600 leading-relaxed">Paste your Venmo, Zelle, PayPal, or any payment URL. This is inserted into messages using the <code class="bg-slate-100 px-1 rounded">{payment_link}</code> variable. Leave blank to omit from all messages.</p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-slate-800 mb-1">Contact phone</h3>
+            <p class="text-sm text-slate-600 leading-relaxed">Your phone number tenants can call with questions. Inserted via the <code class="bg-slate-100 px-1 rounded">{contact_phone}</code> variable. Optional.</p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-slate-800 mb-1">Reminder templates</h3>
+            <p class="text-sm text-slate-600 leading-relaxed">Edit the subject and body for each reminder stage. Changes apply to the next batch of reminders sent — already-scheduled reminders that are pending use the template at the time they are sent.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Billing -->
+      <section id="billing" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Billing</h2>
+
+        <p class="text-slate-600 mb-5 text-sm leading-relaxed">Go to <strong>Billing</strong> in the sidebar to manage your subscription. Your trial lasts 14 days. After that you need an active plan to continue sending reminders.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-3">Plans</h3>
+        <div class="overflow-x-auto mb-6">
+          <table class="w-full text-sm border border-slate-200 rounded-xl overflow-hidden">
+            <thead class="bg-slate-50 text-slate-500 text-xs uppercase font-semibold">
+              <tr>
+                <th class="px-5 py-3 text-left">Plan</th>
+                <th class="px-5 py-3 text-left">Price</th>
+                <th class="px-5 py-3 text-left">Units</th>
+                <th class="px-5 py-3 text-left">Includes</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 text-slate-600">
+              <tr><td class="px-5 py-3 font-medium">Starter</td><td class="px-5 py-3">$19/mo</td><td class="px-5 py-3">Up to 5</td><td class="px-5 py-3">Email reminders, payment tracking</td></tr>
+              <tr><td class="px-5 py-3 font-medium">Small Portfolio</td><td class="px-5 py-3">$39/mo</td><td class="px-5 py-3">Up to 20</td><td class="px-5 py-3">Email + SMS, late fees, CSV import, templates</td></tr>
+              <tr><td class="px-5 py-3 font-medium">Manager</td><td class="px-5 py-3">$79/mo</td><td class="px-5 py-3">Up to 75</td><td class="px-5 py-3">Everything + multi-property, team access</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="text-sm text-slate-500">Downgrading to a lower plan takes effect at the next billing cycle. Cancellations stop your subscription at the end of the current period.</p>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">FAQ</h2>
+
+        <div class="space-y-6">
+
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">What happens when I mark a charge paid?</p>
+            <p class="text-sm text-slate-600 leading-relaxed">The charge status moves to <em>paid</em> and any pending reminders for that charge are suppressed immediately. No further messages will be sent to the tenant for that charge.</p>
+          </div>
+
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">Can I stop reminders for just one tenant?</p>
+            <p class="text-sm text-slate-600 leading-relaxed">Yes. Open the tenant's detail page and toggle <strong>Pause reminders</strong>. All pending reminders for that tenant are suppressed. New reminders won't be scheduled until you un-pause them. The tenant and their charges are not affected.</p>
+          </div>
+
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">Do reminders go out on weekends?</p>
+            <p class="text-sm text-slate-600 leading-relaxed">Yes. Reminders are sent based on the scheduled date and time regardless of day of week. If you want to avoid weekend messages, adjust your unit's due date so the reminder stages don't fall on weekends.</p>
+          </div>
+
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">What if a reminder fails?</p>
+            <p class="text-sm text-slate-600 leading-relaxed">Failed reminders show with a red dot in the Alerts sent column. They do not retry automatically. Check the tenant's email address or phone number for errors and update if needed — the next reminder stage will use the corrected info.</p>
+          </div>
+
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">Can tenants pay through the app?</p>
+            <p class="text-sm text-slate-600 leading-relaxed">quietNotify includes your external payment link (Venmo, Zelle, Stripe, etc.) in every reminder. We don't process payments directly — tenants click through to your preferred payment method. You then mark charges paid manually or they're marked automatically if you use a webhook integration.</p>
+          </div>
+
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">How are late fees applied?</p>
+            <p class="text-sm text-slate-600 leading-relaxed">Late fees are applied per-unit when a charge transitions from <em>due</em> to <em>late</em> (after the grace period expires). The flat fee you set on the unit is added to the charge. One late fee is applied per billing cycle.</p>
+          </div>
+
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">Can I use my own email domain for sending?</p>
+            <p class="text-sm text-slate-600 leading-relaxed">Email is sent through the quietNotify mail service. Custom sender domains are not available in the current version. Replies go to the email address on your account.</p>
+          </div>
+
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">I have a question not answered here.</p>
+            <p class="text-sm text-slate-600 leading-relaxed">Email us at <a href="mailto:support@getquietnotify.com" class="text-quiet-600 hover:underline">support@getquietnotify.com</a> and we'll get back to you.</p>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-100 py-8 px-6 mt-4">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <span class="text-sm font-semibold text-slate-700">quiet<span class="text-quiet-600">Notify</span></span>
+      <div class="flex items-center gap-6 text-xs text-slate-400">
+        <a href="../index.html" class="hover:text-slate-600 transition-colors">Home</a>
+        <a href="mailto:support@getquietnotify.com" class="hover:text-slate-600 transition-colors">Contact</a>
+        <a href="privacy-landlords.html" class="hover:text-slate-600 transition-colors">Privacy</a>
+        <a href="terms-landlords.html" class="hover:text-slate-600 transition-colors">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

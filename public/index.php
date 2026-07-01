@@ -27,10 +27,12 @@ use QuietRent\Controllers\{
     JobReminderRuleController,
     InvoiceController,
     UnsubscribeController,
+    AdminController,
 };
 
 Autoloader::register(BASE_PATH);
 Env::load(BASE_PATH . '/.env');
+\Sentry\init(['dsn' => Env::get('SENTRY_DSN', '')]);
 Auth::start();
 
 // ----------------------------------------------------------------
@@ -56,7 +58,7 @@ $router->post('/reset-password',[AuthController::class, 'reset']);
 
 // ── SPA page routes (all serve the Vue shell) ────────────────────
 foreach (['/dashboard','/properties','/properties/{id}','/tenants','/tenants/{id}',
-          '/units','/rent','/appointments','/appointment-payments','/jobs','/invoices','/invoices/{id}','/settings','/import','/billing','/'] as $route) {
+          '/units','/rent','/appointments','/appointment-payments','/jobs','/invoices','/invoices/{id}','/settings','/import','/billing','/admin','/'] as $route) {
     $router->get($route, [DashboardController::class, 'index']);
 }
 
@@ -99,6 +101,7 @@ $router->get('/api/reminder-rules',         [ReminderRuleController::class, 'ind
 $router->post('/api/reminder-rules/{id}',   [ReminderRuleController::class, 'update']);
 
 $router->post('/api/billing/checkout',      [BillingController::class, 'checkout']);
+$router->get('/api/billing/verify-session', [BillingController::class, 'verifySession']);
 $router->post('/api/webhooks/stripe',        [BillingController::class, 'webhook']);
 $router->get('/api/billing/status',          [BillingController::class, 'status']);
 $router->post('/api/billing/cancel',         [BillingController::class, 'cancel']);
@@ -145,11 +148,15 @@ $router->get('/api/invoices/{id}/download',    [InvoiceController::class, 'downl
 
 $router->get('/api/account-settings',                 [AccountSettingsController::class, 'show']);
 $router->post('/api/account-settings',                [AccountSettingsController::class, 'update']);
+$router->post('/api/account/delete',                  [AccountSettingsController::class, 'deleteAccount']);
 
 $router->get('/api/accounts',                         [AccountController::class, 'index']);
 $router->post('/api/accounts',                        [AccountController::class, 'store']);
 $router->post('/api/switch-account',                  [AccountController::class, 'switchAccount']);
 $router->post('/api/switch-to-vertical',              [AccountController::class, 'switchToVertical']);
+
+$router->get('/api/admin/accounts',                   [AdminController::class, 'accounts']);
+$router->post('/api/admin/accounts/{id}',             [AdminController::class, 'updateAccount']);
 
 try {
     $router->dispatch();

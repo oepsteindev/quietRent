@@ -158,21 +158,28 @@ class AppointmentReminderDispatcher
         $feeFormatted  = '$' . number_format(($r['fee_cents'] ?? 0) / 100, 2);
         $apptFormatted = date('l, F j \a\t g:i A', strtotime($r['appointment_at']));
 
+        $clientEmail = $r['client_email'] ?? $r['email'] ?? '';
+        $unsubUrl    = $clientEmail ? Mailer::unsubscribeUrl($clientEmail) : '';
+
         $vars = [
-            '{client_name}'    => $r['client_name'],
-            '{service_name}'   => $r['service_name'],
-            '{appointment_at}' => $apptFormatted,
-            '{stylist_name}'   => $r['stylist_name'],
-            '{salon_name}'     => $r['salon_name'],
-            '{fee_amount}'     => $feeFormatted,
-            '{business_name}'  => $r['business_name'],
-            '{disclaimer}'     => $r['disclaimer'] ?? '',
-            '{payment_link}'   => $r['payment_link'] ? 'Pay online here: ' . $r['payment_link'] : '',
-            '{contact_phone}'  => $r['contact_phone'] ? 'For more information call ' . $r['contact_phone'] : '',
+            '{client_name}'      => $r['client_name'],
+            '{service_name}'     => $r['service_name'],
+            '{appointment_at}'   => $apptFormatted,
+            '{stylist_name}'     => $r['stylist_name'],
+            '{salon_name}'       => $r['salon_name'],
+            '{fee_amount}'       => $feeFormatted,
+            '{business_name}'    => $r['business_name'],
+            '{disclaimer}'       => $r['disclaimer'] ?? '',
+            '{payment_link}'     => $r['payment_link'] ? 'Pay online here: ' . $r['payment_link'] : '',
+            '{contact_phone}'    => $r['contact_phone'] ? 'For more information call ' . $r['contact_phone'] : '',
+            '{unsubscribe_link}' => $unsubUrl,
         ];
 
         $subject = strtr($r['tpl_subject'] ?? $r['stage'], $vars);
         $body    = strtr($r['tpl_body']    ?? $r['stage'], $vars);
+        if ($unsubUrl) {
+            $body .= "\n\n---\nTo stop receiving these reminders: " . $unsubUrl;
+        }
 
         return [$subject, $body];
     }

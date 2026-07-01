@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Documentation — quietNotify for Tradesmen</title>
+  <meta name="description" content="How to use quietNotify for Tradesmen: job notifications, invoicing, clients, and templates." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'system-ui', 'sans-serif'] },
+          colors: {
+            quiet: {
+              50:'#f5f7ff',100:'#ebeffe',200:'#d0d9fd',300:'#a8b8fb',
+              400:'#7b95f8',500:'#5571f3',600:'#3b52e8',700:'#2e40d4',
+              800:'#2835ab',900:'#252f87',950:'#171d52',
+            },
+          },
+        },
+      },
+    }
+  </script>
+</head>
+<body class="bg-white text-slate-800 antialiased">
+
+  <!-- Header -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-10">
+    <div class="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <a href="../index.html" class="text-sm font-semibold text-slate-900">quiet<span class="text-amber-500">Notify</span></a>
+        <span class="text-slate-300">/</span>
+        <span class="text-sm text-slate-500 font-medium">Tradesman Docs</span>
+      </div>
+      <a href="/login" class="text-sm font-medium text-slate-500 hover:text-slate-900 transition-colors">Sign in →</a>
+    </div>
+  </header>
+
+  <div class="max-w-6xl mx-auto px-6 py-12 flex gap-12">
+
+    <!-- Sidebar -->
+    <aside class="hidden lg:block w-52 shrink-0 sticky top-20 self-start">
+      <nav class="text-sm space-y-1">
+        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3 px-3">Contents</p>
+        <a href="#getting-started" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors font-medium">Getting started</a>
+        <a href="#jobs" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Jobs</a>
+        <a href="#reminders" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Job notifications</a>
+        <a href="#invoices" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Invoices</a>
+        <a href="#templates" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Message templates</a>
+        <a href="#settings" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Settings</a>
+        <a href="#billing" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">Billing</a>
+        <a href="#faq" class="block px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-50 transition-colors">FAQ</a>
+      </nav>
+      <div class="mt-8 px-3">
+        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">Other docs</p>
+        <a href="docs-landlords.html" class="block text-xs text-slate-500 hover:text-slate-700 py-1 transition-colors">→ Landlords</a>
+        <a href="docs-hairdressers.html" class="block text-xs text-slate-500 hover:text-slate-700 py-1 transition-colors">→ Hairdressers</a>
+      </div>
+    </aside>
+
+    <!-- Content -->
+    <main class="min-w-0 flex-1 max-w-3xl">
+
+      <div class="mb-10">
+        <div class="inline-flex items-center gap-2 bg-amber-50 text-amber-600 text-xs font-semibold px-3 py-1 rounded-full border border-amber-100 mb-4">quietNotify for Tradesmen</div>
+        <h1 class="text-3xl font-bold text-slate-900 mb-3">Tradesman Documentation</h1>
+        <p class="text-lg text-slate-500">Job notifications and PDF invoicing for plumbers, electricians, contractors, and independent tradespeople. This guide covers every feature in the tradesman product.</p>
+      </div>
+
+      <!-- Getting started -->
+      <section id="getting-started" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Getting started</h2>
+        <p class="text-slate-600 mb-4">Setup takes about 10 minutes:</p>
+        <ol class="space-y-4 text-slate-600">
+          <li class="flex gap-4">
+            <span class="w-7 h-7 bg-amber-100 rounded-full flex items-center justify-center text-amber-600 font-bold text-sm shrink-0 mt-0.5">1</span>
+            <div>
+              <p class="font-semibold text-slate-800 mb-1">Create your account</p>
+              <p class="text-sm leading-relaxed">Go to <a href="/register" class="text-amber-600 hover:underline">/register</a>, sign up, and select <strong>Tradesman</strong> as your product type. Your 14-day trial starts immediately.</p>
+            </div>
+          </li>
+          <li class="flex gap-4">
+            <span class="w-7 h-7 bg-amber-100 rounded-full flex items-center justify-center text-amber-600 font-bold text-sm shrink-0 mt-0.5">2</span>
+            <div>
+              <p class="font-semibold text-slate-800 mb-1">Add your payment link &amp; contact phone</p>
+              <p class="text-sm leading-relaxed">Go to <strong>Settings</strong> and add your payment URL and phone. These are inserted in job notifications and invoices automatically.</p>
+            </div>
+          </li>
+          <li class="flex gap-4">
+            <span class="w-7 h-7 bg-amber-100 rounded-full flex items-center justify-center text-amber-600 font-bold text-sm shrink-0 mt-0.5">3</span>
+            <div>
+              <p class="font-semibold text-slate-800 mb-1">Add a client</p>
+              <p class="text-sm leading-relaxed">Go to <strong>Tenants</strong> (the client list in the tradesman product) and add your first client with their name, email, and phone number.</p>
+            </div>
+          </li>
+          <li class="flex gap-4">
+            <span class="w-7 h-7 bg-amber-100 rounded-full flex items-center justify-center text-amber-600 font-bold text-sm shrink-0 mt-0.5">4</span>
+            <div>
+              <p class="font-semibold text-slate-800 mb-1">Add a job</p>
+              <p class="text-sm leading-relaxed">Go to <strong>Jobs</strong> and click <em>Add job</em>. Fill in the client, job type, address, scheduled date and time, and estimated cost. A confirmation message is sent to the client automatically.</p>
+            </div>
+          </li>
+          <li class="flex gap-4">
+            <span class="w-7 h-7 bg-amber-100 rounded-full flex items-center justify-center text-amber-600 font-bold text-sm shrink-0 mt-0.5">5</span>
+            <div>
+              <p class="font-semibold text-slate-800 mb-1">Send an invoice after the job</p>
+              <p class="text-sm leading-relaxed">Go to <strong>Invoices</strong>, create a new invoice, add your line items, and send it directly to the client by email as a PDF. No separate invoicing tool needed.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Jobs -->
+      <section id="jobs" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Jobs</h2>
+
+        <p class="text-slate-600 mb-5 text-sm leading-relaxed">The <strong>Jobs</strong> view lists all upcoming and past jobs. Filter by date or status to find what you need.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-3">Job statuses</h3>
+        <div class="space-y-2 mb-6">
+          <div class="flex items-center gap-3 text-sm">
+            <span class="px-2.5 py-0.5 bg-blue-50 text-blue-700 rounded-full text-xs font-semibold w-24 text-center shrink-0">Scheduled</span>
+            <span class="text-slate-600">Job is booked and client has been notified.</span>
+          </div>
+          <div class="flex items-center gap-3 text-sm">
+            <span class="px-2.5 py-0.5 bg-emerald-50 text-emerald-700 rounded-full text-xs font-semibold w-24 text-center shrink-0">Completed</span>
+            <span class="text-slate-600">Job is done. A follow-up message is sent to the client.</span>
+          </div>
+          <div class="flex items-center gap-3 text-sm">
+            <span class="px-2.5 py-0.5 bg-slate-100 text-slate-500 rounded-full text-xs font-semibold w-24 text-center shrink-0">Canceled</span>
+            <span class="text-slate-600">Job was canceled. Pending notifications are suppressed.</span>
+          </div>
+          <div class="flex items-center gap-3 text-sm">
+            <span class="px-2.5 py-0.5 bg-red-50 text-red-600 rounded-full text-xs font-semibold w-24 text-center shrink-0">No-show</span>
+            <span class="text-slate-600">Client was not available at the scheduled time. Logged for your records.</span>
+          </div>
+        </div>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Adding a job</h3>
+        <p class="text-sm text-slate-600 leading-relaxed mb-5">Click <strong>+ Add job</strong>. Required: client, job type, date and time. Recommended: address, tradesman, estimated cost. A confirmation notification is sent immediately on save.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Completing a job</h3>
+        <p class="text-sm text-slate-600 leading-relaxed mb-4">Use the <strong>Complete</strong> action when the work is done. This marks the job completed and sends a follow-up message to the client (if the completion stage template is active). It's also a good time to create an invoice from the Invoices screen.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Canceling a job</h3>
+        <p class="text-sm text-slate-600 leading-relaxed">Use <strong>Cancel</strong> to mark a job canceled. Pending 24h and 2h reminders are suppressed so the client does not receive notifications for a job that is no longer happening.</p>
+      </section>
+
+      <!-- Reminders -->
+      <section id="reminders" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Job notifications</h2>
+
+        <p class="text-slate-600 mb-5 text-sm leading-relaxed">Four notification stages are available per job. Three are active by default. The completion follow-up is optional and off by default.</p>
+
+        <div class="border border-slate-200 rounded-xl overflow-hidden mb-6">
+          <table class="w-full text-sm">
+            <thead class="bg-slate-50 text-slate-500 text-xs uppercase font-semibold">
+              <tr>
+                <th class="px-5 py-3 text-left">Stage</th>
+                <th class="px-5 py-3 text-left">When</th>
+                <th class="px-5 py-3 text-left">Default</th>
+                <th class="px-5 py-3 text-left">Purpose</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 text-slate-600">
+              <tr>
+                <td class="px-5 py-3 font-medium">Confirmation</td>
+                <td class="px-5 py-3">Immediately on booking</td>
+                <td class="px-5 py-3"><span class="text-emerald-600 font-semibold text-xs">On</span></td>
+                <td class="px-5 py-3">Confirms job details, date, address, and estimated cost.</td>
+              </tr>
+              <tr>
+                <td class="px-5 py-3 font-medium">24h reminder</td>
+                <td class="px-5 py-3">24 hours before job</td>
+                <td class="px-5 py-3"><span class="text-emerald-600 font-semibold text-xs">On</span></td>
+                <td class="px-5 py-3">Reminds client you're coming tomorrow.</td>
+              </tr>
+              <tr>
+                <td class="px-5 py-3 font-medium">2h reminder</td>
+                <td class="px-5 py-3">2 hours before job</td>
+                <td class="px-5 py-3"><span class="text-emerald-600 font-semibold text-xs">On</span></td>
+                <td class="px-5 py-3">Short heads-up that you're on your way shortly.</td>
+              </tr>
+              <tr>
+                <td class="px-5 py-3 font-medium">Completion</td>
+                <td class="px-5 py-3">Evening of job completion</td>
+                <td class="px-5 py-3"><span class="text-slate-400 font-semibold text-xs">Off</span></td>
+                <td class="px-5 py-3">Follow-up message after the work is done. Enable in Settings → Templates.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Automatic suppression</h3>
+        <p class="text-sm text-slate-600 leading-relaxed mb-4">Canceling a job suppresses all pending notifications for it immediately.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Delivery channel</h3>
+        <p class="text-sm text-slate-600 leading-relaxed mb-4">Per-client channel preference: email only, SMS only, or both. SMS falls back to email if no phone number is on file.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Quiet hours</h3>
+        <p class="text-sm text-slate-600 leading-relaxed">SMS is never sent between 10 PM and 6 AM.</p>
+      </section>
+
+      <!-- Invoices -->
+      <section id="invoices" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Invoices</h2>
+
+        <p class="text-slate-600 mb-5 text-sm leading-relaxed">The <strong>Invoices</strong> view lists all your invoices with status filters. Create, edit, send, and track invoices without any external invoicing tool.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-3">Invoice statuses</h3>
+        <div class="space-y-2 mb-6">
+          <div class="flex items-center gap-3 text-sm">
+            <span class="px-2.5 py-0.5 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold w-20 text-center shrink-0">Draft</span>
+            <span class="text-slate-600">Invoice is saved but not yet sent to the client. You can still edit it.</span>
+          </div>
+          <div class="flex items-center gap-3 text-sm">
+            <span class="px-2.5 py-0.5 bg-blue-50 text-blue-700 rounded-full text-xs font-semibold w-20 text-center shrink-0">Sent</span>
+            <span class="text-slate-600">Invoice has been emailed to the client as a PDF attachment.</span>
+          </div>
+          <div class="flex items-center gap-3 text-sm">
+            <span class="px-2.5 py-0.5 bg-emerald-50 text-emerald-700 rounded-full text-xs font-semibold w-20 text-center shrink-0">Paid</span>
+            <span class="text-slate-600">Invoice has been marked paid. No further action needed.</span>
+          </div>
+        </div>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Creating an invoice</h3>
+        <p class="text-sm text-slate-600 leading-relaxed mb-4">Go to <strong>Invoices → New invoice</strong>. Select the client, add a description, then add one or more line items — each with a description, quantity, and unit price. The total is calculated live. Save as a draft to review before sending.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Sending an invoice</h3>
+        <p class="text-sm text-slate-600 leading-relaxed mb-4">From the Invoices list or the invoice detail page, click <strong>Send</strong>. A PDF is generated and emailed to the client's email address. The invoice status moves to <em>Sent</em>.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Downloading a PDF</h3>
+        <p class="text-sm text-slate-600 leading-relaxed mb-4">You can download a copy of any invoice as a PDF from the invoice detail page at any time — useful for your own records or if you want to print and hand it over in person.</p>
+
+        <h3 class="font-semibold text-slate-800 mb-2">Marking an invoice paid</h3>
+        <p class="text-sm text-slate-600 leading-relaxed">Use the <strong>Mark paid</strong> action on any sent invoice. This records the payment and moves the invoice to <em>Paid</em> status. Use this whether the client paid via your payment link, cash, bank transfer, or any other method.</p>
+      </section>
+
+      <!-- Templates -->
+      <section id="templates" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Message templates</h2>
+
+        <p class="text-slate-600 mb-5 text-sm leading-relaxed">Go to <strong>Settings → Reminder templates</strong> to edit each notification stage's subject and body. Leave a template blank to use the system default.</p>
+
+        <div class="border border-slate-200 rounded-xl overflow-hidden mb-6">
+          <table class="w-full text-sm">
+            <thead class="bg-slate-50 text-slate-500 text-xs uppercase font-semibold">
+              <tr><th class="px-5 py-3 text-left">Variable</th><th class="px-5 py-3 text-left">Replaced with</th></tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 text-slate-600 font-mono text-xs">
+              <tr><td class="px-5 py-3">{client_name}</td><td class="px-5 py-3 font-sans">Client's full name</td></tr>
+              <tr><td class="px-5 py-3">{job_type}</td><td class="px-5 py-3 font-sans">Job type / description</td></tr>
+              <tr><td class="px-5 py-3">{scheduled_at}</td><td class="px-5 py-3 font-sans">Scheduled date and time of the job</td></tr>
+              <tr><td class="px-5 py-3">{address}</td><td class="px-5 py-3 font-sans">Job address</td></tr>
+              <tr><td class="px-5 py-3">{tradesman_name}</td><td class="px-5 py-3 font-sans">Name of the tradesperson assigned to the job</td></tr>
+              <tr><td class="px-5 py-3">{estimated_cost}</td><td class="px-5 py-3 font-sans">Estimated job cost</td></tr>
+              <tr><td class="px-5 py-3">{payment_link}</td><td class="px-5 py-3 font-sans">Your payment URL with label, or blank if not set</td></tr>
+              <tr><td class="px-5 py-3">{contact_phone}</td><td class="px-5 py-3 font-sans">Your contact phone with label, or blank if not set</td></tr>
+              <tr><td class="px-5 py-3">{company_name}</td><td class="px-5 py-3 font-sans">Your account / business name</td></tr>
+              <tr><td class="px-5 py-3">{business_name}</td><td class="px-5 py-3 font-sans">Same as company_name — either works</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="bg-amber-50 border border-amber-200 rounded-lg px-5 py-4 text-sm text-amber-800">
+          <strong>Tip:</strong> The completion stage template is off by default. Enable it in <strong>Settings → Templates</strong> and turn on the <em>Completion</em> stage if you want clients to receive a follow-up message the evening after the job is marked done.
+        </div>
+      </section>
+
+      <!-- Settings -->
+      <section id="settings" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Settings</h2>
+        <div class="space-y-5">
+          <div>
+            <h3 class="font-semibold text-slate-800 mb-1">Payment link</h3>
+            <p class="text-sm text-slate-600 leading-relaxed">Your payment URL (Venmo, Stripe, bank transfer link, etc.). Inserted in notifications and invoices via <code class="bg-slate-100 px-1 rounded">{payment_link}</code>. Leave blank to omit.</p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-slate-800 mb-1">Contact phone</h3>
+            <p class="text-sm text-slate-600 leading-relaxed">Your business phone number. Inserted via <code class="bg-slate-100 px-1 rounded">{contact_phone}</code>. Useful for clients to call with access instructions before you arrive.</p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-slate-800 mb-1">Notification templates</h3>
+            <p class="text-sm text-slate-600 leading-relaxed">Customize each stage: confirmation, 24h reminder, 2h reminder, completion. Toggle each stage on or off. Changes apply to the next batch of messages sent.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Billing -->
+      <section id="billing" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">Billing</h2>
+        <p class="text-slate-600 mb-5 text-sm leading-relaxed">Manage your subscription from the <strong>Billing</strong> screen. Notifications and invoicing continue as long as your subscription is active.</p>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm border border-slate-200 rounded-xl overflow-hidden">
+            <thead class="bg-slate-50 text-slate-500 text-xs uppercase font-semibold">
+              <tr><th class="px-5 py-3 text-left">Plan</th><th class="px-5 py-3 text-left">Price</th><th class="px-5 py-3 text-left">Includes</th></tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 text-slate-600">
+              <tr><td class="px-5 py-3 font-medium">Solo Tradesperson</td><td class="px-5 py-3">$19/mo</td><td class="px-5 py-3">Job notifications, invoicing, email + SMS, templates</td></tr>
+              <tr><td class="px-5 py-3 font-medium">Small Team</td><td class="px-5 py-3">$39/mo</td><td class="px-5 py-3">Everything in Solo + multiple tradespeople, team access</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="text-xs text-slate-400 mt-3">14-day free trial included. No credit card needed to start.</p>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="mb-14 scroll-mt-20">
+        <h2 class="text-xl font-bold text-slate-900 mb-4 pb-3 border-b border-slate-100">FAQ</h2>
+        <div class="space-y-6">
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">Does a confirmation go out when I add a job?</p>
+            <p class="text-sm text-slate-600 leading-relaxed">Yes. As soon as you save a new job, a confirmation notification is sent to the client with the job details, scheduled time, and address.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">What if the job gets canceled — will the client still get reminders?</p>
+            <p class="text-sm text-slate-600 leading-relaxed">No. Canceling a job suppresses all pending notifications (the 24h and 2h reminders) immediately.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">Can I send the invoice before marking the job complete?</p>
+            <p class="text-sm text-slate-600 leading-relaxed">Yes. Invoices and jobs are independent — you can create and send an invoice at any time, even before completing or while the job is still in progress.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">Can the client pay directly from the invoice?</p>
+            <p class="text-sm text-slate-600 leading-relaxed">The PDF invoice includes your payment link (if set in Settings) so the client can tap it and pay via your preferred method. quietNotify does not process the payment itself.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">How do I track which invoices are still unpaid?</p>
+            <p class="text-sm text-slate-600 leading-relaxed">Use the <em>Sent</em> filter in the Invoices view to see all invoices that have been emailed but not yet marked paid. Once you receive payment through your processor, hit <strong>Mark paid</strong> to close them out.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">How do I enable the completion follow-up message?</p>
+            <p class="text-sm text-slate-600 leading-relaxed">Go to <strong>Settings → Templates</strong> and enable the <em>Completion</em> stage. Edit the template body to say whatever you'd like (e.g. a thank-you with a payment link). It will send the evening of the day a job is marked complete.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-slate-800 mb-1">I have a question not answered here.</p>
+            <p class="text-sm text-slate-600"><a href="mailto:support@getquietnotify.com" class="text-amber-600 hover:underline">support@getquietnotify.com</a></p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-100 py-8 px-6 mt-4">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <span class="text-sm font-semibold text-slate-700">quiet<span class="text-amber-500">Notify</span></span>
+      <div class="flex items-center gap-6 text-xs text-slate-400">
+        <a href="../index.html" class="hover:text-slate-600 transition-colors">Home</a>
+        <a href="docs-landlords.html" class="hover:text-slate-600 transition-colors">Landlord docs</a>
+        <a href="docs-hairdressers.html" class="hover:text-slate-600 transition-colors">Hairdresser docs</a>
+        <a href="mailto:support@getquietnotify.com" class="hover:text-slate-600 transition-colors">Contact</a>
+        <a href="privacy-landlords.html" class="hover:text-slate-600 transition-colors">Privacy</a>
+        <a href="terms-landlords.html" class="hover:text-slate-600 transition-colors">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

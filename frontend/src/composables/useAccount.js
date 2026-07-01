@@ -33,8 +33,10 @@ function detectProduct() {
 }
 
 const _productType = ref(detectProduct())
+const _isAdmin = ref(false)
 
-export const product = computed(() => getProduct(_productType.value) || PRODUCTS.landlords)
+export const product  = computed(() => getProduct(_productType.value) || PRODUCTS.landlords)
+export const isAdmin  = computed(() => _isAdmin.value)
 
 export function setProductType(type) {
   // Subdomain / ?vertical= context wins — don't let the DB value override it.
@@ -44,6 +46,8 @@ export function setProductType(type) {
     _productType.value = type
   }
 }
+
+export function setIsAdmin(val) { _isAdmin.value = !!val }
 
 export function isPinned()      { return _pinned }
 export function pinnedVertical() { return _pinned ? _productType.value : null }

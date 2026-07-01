@@ -58,7 +58,9 @@ class BillingController
                 Account::setStripeCustomer($accountId, $customerId);
             }
 
-            $appUrl = Env::get('APP_URL', 'http://localhost:8080');
+            $host = $_SERVER['HTTP_HOST'] ?? parse_url(Env::get('APP_URL', 'http://localhost:8080'), PHP_URL_HOST);
+            $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+            $appUrl = $scheme . '://' . $host;
 
             // Create checkout session with metadata to track plan
             $session = $this->stripe->checkout->sessions->create([
@@ -84,7 +86,7 @@ class BillingController
                     'plan' => $plan,
                     'account_id' => (string) $accountId,
                 ],
-                'success_url' => $appUrl . '/billing?success=true',
+                'success_url' => $appUrl . '/billing?success=true&session_id={CHECKOUT_SESSION_ID}',
                 'cancel_url' => $appUrl . '/billing?canceled=true',
             ]);
 
@@ -92,6 +94,27 @@ class BillingController
         } catch (\Exception $e) {
             http_response_code(500);
             Response::json(['error' => 'Failed to create checkout session: ' . $e->getMessage()]);
+        }
+    }
+
+    public function verifySession(array $params): void
+    {
+        $sessionId = $_GET['session_id'] ?? '';
+        if (!$sessionId) {
+            http_response_code(400);
+            Response::json(['error' => 'Missing session_id']);
+            return;
+        }
+
+        try {
+            $session = $this->stripe->checkout->sessions->retrieve($sessionId);
+            if ($session->payment_status === 'paid' || $session->status === 'complete') {
+                $this->handleCheckoutCompleted($session);
+            }
+            Response::json(['ok' => true]);
+        } catch (\Exception $e) {
+            http_response_code(500);
+            Response::json(['error' => $e->getMessage()]);
         }
     }
 
@@ -144,22 +167,21 @@ class BillingController
                 return;
             }
 
-            // Use plan from session metadata if available
-            $plan = $session->metadata['plan'] ?? null;
+            $plan       = $session->metadata['plan'] ?? null;
+            $accountId  = isset($session->metadata['account_id']) ? (int) $session->metadata['account_id'] : null;
 
-            // Find account by stripe_customer_id and get user email
-            $account = DB::fetchOne(
-                'SELECT a.id, u.email FROM accounts a
-                 JOIN users u ON a.id = u.account_id
-                 WHERE a.stripe_customer_id = ? LIMIT 1',
-                [$customerId]
-            );
-
-            if (!$account) {
+            if (!$accountId) {
                 return;
             }
 
-            $accountId = $account['id'];
+            // Get user email for confirmation email
+            $account = DB::fetchOne(
+                'SELECT u.email FROM users u
+                 LEFT JOIN user_accounts ua ON ua.user_id = u.id
+                 WHERE u.account_id = ? OR ua.account_id = ?
+                 LIMIT 1',
+                [$accountId, $accountId]
+            );
 
             // If plan not in metadata, try to extract from subscription
             if (!$plan) {

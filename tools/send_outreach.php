@@ -103,7 +103,7 @@ You enter your tenants and due dates once. From that point on, QuietNotify autom
 
 No more awkward "just a reminder" texts. No more chasing. It runs in the background and handles it for you.
 
-Free trial at https://getquietnotify.com - takes about 10 minutes to set up.
+Free trial at https://getquietnotify.com?utm_source=outreach&utm_campaign=landlord - takes about 10 minutes to set up.
 
 - Oren
 
@@ -114,19 +114,19 @@ TEXT,
     ],
 
     'hairdresser' => [
-        'subject' => 'Stop losing money to no-shows',
+        'subject' => 'Empty chairs cost you money — this fixes it',
         'text'    => <<<TEXT
 Hi,
 
-A no-show isn't just annoying - it's a chunk of your day gone with nothing to show for it. And most of the time, the client just forgot. They didn't mean to blow you off. They needed a reminder and nobody sent one.
+An empty chair is the worst thing in a salon. And most of the time it's not because the client cancelled — it's because they forgot, and nobody reminded them.
 
-I built QuietNotify to fix exactly that.
+I built QuietNotify specifically for salons and stylists to fix that.
 
-You book the appointment like you normally would. QuietNotify automatically reaches out to your client the day before and the morning of - by email, by text, or both, whichever works best for them. They show up, they're on time, and your schedule stays full. You don't have to remember to send anything. It just happens.
+You book the appointment like you normally would. QuietNotify automatically texts or emails your client the day before and the morning of — so they show up, they're on time, and your chair stays filled. You don't touch a thing. It just runs in the background.
 
-Beyond no-shows, it keeps your whole client base engaged. Clients who hear from you regularly come back more often. QuietNotify handles that follow-up automatically so you can focus on what you're actually good at.
+It also brings clients back. Regulars who haven't booked in a while get a nudge. New clients get a follow-up. Your calendar fills itself and you spend your time doing what you're actually good at — not chasing bookings.
 
-Free trial at https://getquietnotify.com - you can be set up in 5 minutes.
+Free trial at https://getquietnotify.com?utm_source=outreach&utm_campaign=hairdresser - takes about 5 minutes to set up.
 
 - Oren
 
@@ -145,11 +145,11 @@ If you've ever driven 45 minutes to a job and nobody answered the door, you know
 
 I built QuietNotify to make that stop happening.
 
-You schedule the job. QuietNotify automatically contacts your customer the day before and the morning of the appointment - by text, by email, or both - so they're home, they're ready, and the job goes smoothly. No phone tag. No "can you remind them?" texts to whoever booked it. It's handled.
+You schedule the job. QuietNotify automatically contacts your customer the day before and the morning of the appointment - by text, by email, or both - so they're home, they're ready, and the job goes smoothly. No more calling to confirm. No more hoping they remembered. It's handled automatically.
 
 It also keeps your whole customer base organized. Nothing falls through the cracks, and you always have a clear picture of what's coming up.
 
-Free trial at https://getquietnotify.com - setup takes about 5 minutes.
+Free trial at https://getquietnotify.com?utm_source=outreach&utm_campaign=tradesperson - setup takes about 5 minutes.
 
 - Oren
 
@@ -205,16 +205,23 @@ while ($row = fgetcsv($fh, 0, ',', '"', '\\')) {
 
     $emailList = array_filter(array_map('trim', explode(',', $r['emails'])));
     foreach ($emailList as $email) {
-        $email = strtolower($email);
+        $email = strtolower(urldecode($email));
+        $email = trim($email);
         // Skip placeholders and invalid addresses
         if (str_contains($email, 'user@domain')) continue;
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) continue;
-        // Skip known non-human / error-tracking domains
-        $blockedDomains = ['sentry.io', 'wixpress.com', 'example.com', 'test.com', 'mailinator.com'];
+        // Skip known non-human / placeholder domains
+        $blockedDomains = ['sentry.io', 'wixpress.com', 'example.com', 'test.com', 'mailinator.com', 'godaddy.com', 'secureserver.net'];
+        $blockedPrefixes = ['filler@', 'noreply@', 'no-reply@', 'donotreply@', 'webmaster@'];
         $domain = substr($email, strrpos($email, '@') + 1);
         $blocked = false;
         foreach ($blockedDomains as $bd) {
             if ($domain === $bd || str_ends_with($domain, '.' . $bd)) { $blocked = true; break; }
+        }
+        if (!$blocked) {
+            foreach ($blockedPrefixes as $bp) {
+                if (str_starts_with($email, $bp)) { $blocked = true; break; }
+            }
         }
         if ($blocked) continue;
 
@@ -289,7 +296,7 @@ foreach ($leads as $lead) {
         $mail->SMTPAuth   = true;
         $mail->Username   = $mailCfg['user'];
         $mail->Password   = $mailCfg['pass'];
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+        $mail->SMTPSecure = $mailCfg['port'] === 465 ? PHPMailer::ENCRYPTION_SMTPS : PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = $mailCfg['port'];
 
         $mail->CharSet = 'UTF-8';

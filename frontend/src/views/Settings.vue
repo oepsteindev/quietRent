@@ -188,7 +188,54 @@
         </template>
       </section>
 
+      <!-- ── Danger zone ──────────────────────────────────────── -->
+      <section class="mt-12">
+        <h2 class="text-base font-bold text-red-600 mb-1">Danger zone</h2>
+        <p class="text-sm text-slate-500 mb-4">Permanently delete your account and all data. This cannot be undone.</p>
+        <div class="bg-white rounded-xl border border-red-200 shadow-sm p-6">
+          <button
+            @click="showDeleteModal = true"
+            class="px-4 py-2 bg-red-600 hover:bg-red-700 text-white text-sm font-medium rounded-lg transition-colors"
+          >
+            Delete my account
+          </button>
+        </div>
+      </section>
+
     </template>
+  </div>
+
+  <!-- Delete confirmation modal -->
+  <div v-if="showDeleteModal" class="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
+    <div class="bg-white rounded-xl shadow-xl max-w-md w-full p-6">
+      <h2 class="text-lg font-bold text-slate-900 mb-2">Delete account</h2>
+      <p class="text-sm text-slate-500 mb-4">
+        This will permanently delete your account, all your data, and cancel any active subscription.
+        Enter your password to confirm.
+      </p>
+      <input
+        v-model="deletePassword"
+        type="password"
+        placeholder="Your password"
+        class="w-full px-3 py-2.5 border border-slate-200 rounded-lg text-sm mb-3 focus:outline-none focus:ring-2 focus:ring-red-500"
+      />
+      <p v-if="deleteError" class="text-sm text-red-600 mb-3">{{ deleteError }}</p>
+      <div class="flex gap-3 justify-end">
+        <button
+          @click="showDeleteModal = false; deletePassword = ''; deleteError = ''"
+          class="px-4 py-2 text-sm text-slate-600 hover:text-slate-800 border border-slate-200 rounded-lg transition-colors"
+        >
+          Cancel
+        </button>
+        <button
+          @click="confirmDelete"
+          :disabled="deleting || !deletePassword"
+          class="px-4 py-2 text-sm bg-red-600 hover:bg-red-700 text-white rounded-lg disabled:opacity-50 transition-colors"
+        >
+          {{ deleting ? 'Deleting…' : 'Delete permanently' }}
+        </button>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -205,6 +252,11 @@ const paymentLink  = ref('')
 const contactPhone = ref('')
 const disclaimer   = ref('')
 const accountSaved = ref(false)
+
+const showDeleteModal = ref(false)
+const deletePassword  = ref('')
+const deleteError     = ref('')
+const deleting        = ref(false)
 
 const isHairdresser = computed(() => product.value.id === 'hairdressers')
 const isTradesman   = computed(() => product.value.id === 'tradesmen')
@@ -300,6 +352,18 @@ async function saveJobRule(rule) {
   })
   rule._saved = true
   setTimeout(() => { rule._saved = false }, 2000)
+}
+
+async function confirmDelete() {
+  deleting.value = true
+  deleteError.value = ''
+  try {
+    await post('/api/account/delete', { password: deletePassword.value })
+    window.location.href = '/login'
+  } catch (e) {
+    deleteError.value = e.message || 'Incorrect password.'
+    deleting.value = false
+  }
 }
 
 onMounted(load)
